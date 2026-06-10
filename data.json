@@ -1,0 +1,127 @@
+{
+  "date": "2026-06-10",
+  "date_display": "2026년 6월 10일",
+  "indices_us": [
+    {"name": "DOW JONES", "value": "50,872.11", "change_pct": 0.17},
+    {"name": "S&P 500",   "value": "7,386.65",  "change_pct": -0.26},
+    {"name": "NASDAQ",    "value": "25,678.82", "change_pct": -0.97}
+  ],
+  "indices_extra": [
+    {"name": "필라델피아 반도체 (SOX)", "value": "12,100.00", "change_pct": -0.5,  "note": "추정 — NVDA 보합·AVGO 하락 반영"},
+    {"name": "MSCI 한국 (EWY)",        "value": "187.25",    "change_pct": -2.5,  "note": "추정 — iShares NAV $187.2452 기준"},
+    {"name": "MSCI 신흥국 (EEM)",      "value": "53.40",     "change_pct": -1.2,  "note": "추정 — 한국·신흥국 동반 약세"},
+    {"name": "코스피200 야간선물",      "value": "-",         "change_pct": -0.5,  "note": "추정 — 미국장 혼조 마감 반영"}
+  ],
+  "heatmap": [
+    {
+      "sector": "반도체",
+      "stocks": [
+        {"ticker": "NVDA", "weight": 35, "change_pct": -0.22},
+        {"ticker": "AVGO", "weight": 25, "change_pct": -1.5},
+        {"ticker": "TSM",  "weight": 20, "change_pct": 2.8},
+        {"ticker": "AMD",  "weight": 15, "change_pct": 5.14},
+        {"ticker": "INTC", "weight": 5,  "change_pct": 11.19}
+      ]
+    },
+    {
+      "sector": "대형기술주",
+      "stocks": [
+        {"ticker": "AAPL",  "weight": 30, "change_pct": -0.3},
+        {"ticker": "MSFT",  "weight": 28, "change_pct": 0.1},
+        {"ticker": "GOOGL", "weight": 22, "change_pct": 1.2},
+        {"ticker": "META",  "weight": 12, "change_pct": -0.5},
+        {"ticker": "AMZN",  "weight": 8,  "change_pct": 0.2}
+      ]
+    },
+    {
+      "sector": "자동차",
+      "stocks": [
+        {"ticker": "TSLA", "weight": 50, "change_pct": -3.0},
+        {"ticker": "GM",   "weight": 20, "change_pct": -1.0},
+        {"ticker": "F",    "weight": 15, "change_pct": -0.8},
+        {"ticker": "RIVN", "weight": 15, "change_pct": -2.0}
+      ]
+    },
+    {
+      "sector": "2차전지",
+      "stocks": [
+        {"ticker": "373220", "weight": 35, "change_pct": -4.0},
+        {"ticker": "006400", "weight": 30, "change_pct": -3.5},
+        {"ticker": "ALB",    "weight": 20, "change_pct": -1.5},
+        {"ticker": "QNGY",   "weight": 15, "change_pct": -2.5}
+      ]
+    },
+    {
+      "sector": "소프트웨어",
+      "stocks": [
+        {"ticker": "ORCL", "weight": 22, "change_pct": -4.61},
+        {"ticker": "CRM",  "weight": 22, "change_pct": -0.8},
+        {"ticker": "NOW",  "weight": 18, "change_pct": 0.5},
+        {"ticker": "PLTR", "weight": 12, "change_pct": 2.5},
+        {"ticker": "SNOW", "weight": 10, "change_pct": -1.0}
+      ]
+    }
+  ],
+  "movers_up": [
+    {"name_kr": "인텔",           "ticker": "INTC", "change_pct": 11.19, "reason": "구글이 2028년 TPU 칩 300만 개 이상 위탁 제조 공식 확정, TSMC 공급 부족 반사 수혜"},
+    {"name_kr": "AMD",            "ticker": "AMD",  "change_pct": 5.14,  "reason": "AI 가속기 수요 전망 강세 및 반도체 섹터 내 순환 매수 유입"},
+    {"name_kr": "대만적체회로",   "ticker": "TSM",  "change_pct": 2.8,   "reason": "2나노 웨이퍼 AI 서버 수요 급증으로 생산 용량 부족 지속, YTD +31%"},
+    {"name_kr": "Autozi인터넷기술","ticker": "AZI",  "change_pct": 224.8, "reason": "OpenAI S-1 기밀 제출 소식에 AI 테마 저유동 종목 투기적 매수 폭발"},
+    {"name_kr": "CHAI",           "ticker": "CHAI", "change_pct": 189.0, "reason": "OpenAI IPO 연관 테마 기대감에 단기 투기 매수 급등"}
+  ],
+  "movers_down": [
+    {"name_kr": "테슬라",   "ticker": "TSLA", "change_pct": -3.0,  "reason": "미·이란 긴장 재점화(호르무즈 해협 아파치 헬기 격추)로 위험 회피 심리 강화"},
+    {"name_kr": "오라클",   "ticker": "ORCL", "change_pct": -4.61, "reason": "FY4Q 실적 발표(6/10 장 마감 후) 앞두고 기대치 하회 우려 및 투자자 관망"},
+    {"name_kr": "마이크론", "ticker": "MU",   "change_pct": -2.0,  "reason": "반도체 섹터 순환 매도 지속, NVDA·AVGO 동반 약세 영향"},
+    {"name_kr": "텍손홀딩스","ticker": "NPT", "change_pct": -47.1, "reason": "전일 합병 발표 트리플 랠리 이후 기관 대규모 차익 실현 매물 출회"}
+  ],
+  "themes": [
+    {"name": "반도체",    "tag": "혼조",  "comment": "INTC +11%·AMD +5% 급등했으나 NVDA·AVGO·MU 하락, Intel Google 수주로 섹터 내 주도주 교체 신호"},
+    {"name": "자동차",    "tag": "약세",  "comment": "미·이란 긴장 고조로 위험 회피 심리 확산, TSLA -3% 주도 EV 섹터 전반 하락"},
+    {"name": "2차전지",   "tag": "약세",  "comment": "KOSPI 급락으로 LG에너지솔루션·삼성SDI 동반 약세, 리튬 가격 하락 및 EV 수요 불확실성"},
+    {"name": "대형기술주","tag": "혼조",  "comment": "GOOGL 소폭 반등했으나 AAPL·META 약보합, 기술주에서 전통주로 순환매 지속"},
+    {"name": "소프트웨어","tag": "약세",  "comment": "ORCL FY4Q 실적 불확실성에 -4.6% 급락, CRM도 부진하나 NOW·PLTR은 AI 수요로 소폭 상승"},
+    {"name": "양자컴퓨터","tag": "고변동","comment": "IonQ·RGTI·QBTS Q1 실적 서프라이즈 후 강세 전망 유지, 극단적 주가매출비율로 단기 변동성 상존"},
+    {"name": "비트코인",  "tag": "중립",  "comment": "$62,639 수준에서 안정화, 지난주 $60K 이탈 공포 완화됐으나 위험 회피 무드로 강한 반등 제한"}
+  ],
+  "macro": {
+    "ust10y":  "4.57% — 연준의 6월 금리 동결 기대 반영, 인플레이션 우려로 하락 제한",
+    "fed":     "현 정책금리 3.50~3.75% 동결 유지 (4월 FOMC 3연속 동결), 6월 16~17일 다음 회의 예정; 시장 컨센서스는 동결, Warsh 기자회견 점도표·9월 인하 가능성 주목",
+    "usdkrw":  "달러당 약 1,525원 — 지난주 1,560원(2009년 3월 이후 최저) 터치 이후 당국(기재부·한은·금융위·금감원) 공조 개입으로 반등, 변동성 예의 주시",
+    "wti":     "배럴당 약 $88.0 — 미·이란 휴전 협상 소식에 3.5% 하락; Brent $91.50 근방, 대형 공급 차질 없으나 중동 지정학 리스크로 하단 지지",
+    "kospi":   "6월 8일(월) KOSPI -8.29%·KOSDAQ 서킷브레이커 발동 후 6월 9일 기술적 반등 시도; YTD +75% 수준 유지, 삼성전자·SK하이닉스 등 반도체 대형주 약세"
+  },
+  "schedule": {
+    "today": [
+      "미국 CPI (5월, 전년비 예상 +4.2%) — 오전 8:30 ET 발표",
+      "오라클(ORCL) FY4Q 2026 실적 발표 — 장 마감 후"
+    ],
+    "this_week": [
+      "6월 10일(수): 미국 소비자물가지수(CPI) 5월 발표",
+      "6월 11일(목): 미국 PPI (생산자물가), 신규 실업수당 청구 건수",
+      "6월 13일(금): SpaceX IPO 상장 추진 (밸류에이션 약 1.8조 달러 추정)",
+      "6월 16~17일: FOMC 회의 — 금리·점도표·의장 기자회견"
+    ],
+    "this_month": [
+      "6월 16~17일: FOMC 통화정책 결정 (동결 전망, 9월 인하 시그널 여부 주목)",
+      "6월 중: OpenAI·Anthropic S-1 기밀 제출 후 IPO 로드쇼 준비 본격화",
+      "6월 중: 미국 소매판매·산업생산 지표 발표",
+      "6월 말: 미국 2분기 GDP 속보치 발표 예정"
+    ]
+  },
+  "disclaimer": "본 리포트는 공개 뉴스 기반 자동 요약으로 투자 자문이 아닙니다. 일부 미확보 수치는 '추정'으로 표기됩니다.",
+  "sources": [
+    {"title": "Yahoo Finance — Stock Market Today June 9 2026 Live Updates", "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-june-9-dow-sp-500-nasdaq-rise-ai-225640870.html"},
+    {"title": "TheStreet — Stock Market Today June 9 2026 (Nasdaq, S&P 500)", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-09-2026"},
+    {"title": "CNBC — S&P 500 and Nasdaq close lower as chip stock rebound fails (June 8)", "url": "https://www.cnbc.com/2026/06/08/stock-market-today-live-updates.html"},
+    {"title": "CNBC — Korea's stock market has doubled in 2026 (Goldman Sachs)", "url": "https://www.cnbc.com/2026/06/03/the-kospi-is-up-100percent-in-2026-goldman-sachs-still-see-more-upside.html"},
+    {"title": "247WallSt — Korean Stock Market Crashed Sunday Night", "url": "https://247wallst.com/investing/2026/06/08/the-korean-stock-market-just-crashed-sunday-night-will-the-nasdaq-follow-tomorrow/"},
+    {"title": "Kalkine — South Korea Stock Market Crash 2026: KOSDAQ Circuit Breaker", "url": "https://kalkine.com/news/general-news/south-korea-stock-market-crash-2026-kosdaq-8-plunge-triggers-circuit-breaker-amid-semiconductor-rout"},
+    {"title": "Fortune — Bitcoin price June 9 2026", "url": "https://fortune.com/article/price-of-bitcoin-06-09-2026/"},
+    {"title": "Yahoo Finance — Bitcoin and Ethereum prices today June 9 2026", "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-june-9-2026-values-stabilize-as-investors-may-seek-alternatives-114631191.html"},
+    {"title": "TradingKey — Intel INTC Google TPU Chip Order Analysis", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261953175-google-tpu-ai-chip-intel-tsm-nvidia-nvda-gpu-stock-tradingkey"},
+    {"title": "TradingKey — Oracle ORCL Down 4.61% on June 9", "url": "https://www.tradingkey.com/news/market-movers/261956255-market-movers-orcl-20260609"},
+    {"title": "FedReserve — FOMC Meeting Calendar & April 2026 Statement", "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"},
+    {"title": "iShares — EWY MSCI South Korea ETF NAV", "url": "https://www.ishares.com/us/products/239681/ishares-msci-south-korea-capped-etf"}
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "date": "2026-06-10",
+  "date_display": "2026년 6월 10일",
+  "indices_us": [
+    {"name": "DOW JONES", "value": "50,786.01", "change_pct": -0.16},
+    {"name": "S&P 500", "value": "7,405.73", "change_pct": 0.30},
+    {"name": "NASDAQ", "value": "25,929.66", "change_pct": 0.86}
+  ],
+  "indices_extra": [
+    {"name": "필라델피아 반도체 (SOX)", "value": "약 13,200p", "change_pct": 5.61, "note": "추정"},
+    {"name": "MSCI 한국 (EWY)", "value": "$176.03", "change_pct": -2.0, "note": "KOSPI -8.37% 반영"},
+    {"name": "MSCI 신흥국 (EEM)", "value": "약 $64", "change_pct": -1.5, "note": "추정·아시아 약세"},
+    {"name": "코스피200 야간선물", "value": "-6.26%", "change_pct": -6.26, "note": "사이드카 발동"}
+  ],
+  "heatmap": [
+    {"sector": "반도체", "stocks": [
+      {"ticker": "NVDA", "weight": 30, "change_pct": 3.1},
+      {"ticker": "TSM", "weight": 18, "change_pct": 4.2},
+      {"ticker": "AVGO", "weight": 14, "change_pct": 2.0},
+      {"ticker": "MU", "weight": 8, "change_pct": 10.0},
+      {"ticker": "AMD", "weight": 7, "change_pct": 1.2}
+    ]},
+    {"sector": "대형기술주", "stocks": [
+      {"ticker": "AAPL", "weight": 28, "change_pct": 0.4},
+      {"ticker": "MSFT", "weight": 26, "change_pct": 0.9},
+      {"ticker": "GOOGL", "weight": 18, "change_pct": -0.3},
+      {"ticker": "AMZN", "weight": 16, "change_pct": 1.1},
+      {"ticker": "META", "weight": 12, "change_pct": -0.8}
+    ]},
+    {"sector": "자동차", "stocks": [
+      {"ticker": "TSLA", "weight": 20, "change_pct": -1.2},
+      {"ticker": "TM", "weight": 8, "change_pct": 0.2}
+    ]},
+    {"sector": "2차전지", "stocks": [
+      {"ticker": "ALB", "weight": 5, "change_pct": -2.1}
+    ]},
+    {"sector": "소프트웨어", "stocks": [
+      {"ticker": "ORCL", "weight": 10, "change_pct": 1.4},
+      {"ticker": "CRM", "weight": 9, "change_pct": 0.6}
+    ]}
+  ],
+  "movers_up": [
+    {"name_kr": "마이크론", "ticker": "MU", "change_pct": 10.0, "reason": "메모리 업황 회복 기대 + 낙폭 과대 반등"},
+    {"name_kr": "TSMC", "ticker": "TSM", "change_pct": 4.2, "reason": "AI 파운드리 수요 강세"},
+    {"name_kr": "엔비디아", "ticker": "NVDA", "change_pct": 3.1, "reason": "데이터센터 GPU 주문 견조"}
+  ],
+  "movers_down": [
+    {"name_kr": "알버말", "ticker": "ALB", "change_pct": -2.1, "reason": "리튬 가격 약세 지속"},
+    {"name_kr": "테슬라", "ticker": "TSLA", "change_pct": -1.2, "reason": "인도량 둔화 우려"},
+    {"name_kr": "메타", "ticker": "META", "change_pct": -0.8, "reason": "광고 성장 둔화 경계"}
+  ],
+  "themes": [
+    {"name": "반도체", "tag": "강세", "comment": "AI·메모리 수요로 강한 반등"},
+    {"name": "자동차", "tag": "약세", "comment": "전기차 수요 둔화 부담"},
+    {"name": "2차전지", "tag": "약세", "comment": "리튬·소재 가격 약세 지속"},
+    {"name": "대형기술주", "tag": "혼조", "comment": "종목별 차별화, 지수는 보합권"},
+    {"name": "소프트웨어", "tag": "중립", "comment": "실적 시즌 관망세"},
+    {"name": "양자컴퓨터", "tag": "고변동", "comment": "테마성 급등락 지속"},
+    {"name": "비트코인", "tag": "강세", "comment": "위험선호 회복에 반등"}
+  ],
+  "macro": {
+    "ust10y": "미 10년물 국채금리 4.18% (소폭 하락)",
+    "fed": "FOMC 위원 발언 매파·비둘기 혼재, 금리인하 기대 후퇴",
+    "usdkrw": "원/달러 1,395원 (강달러 지속)",
+    "wti": "WTI 유가 $72.40 (수요 우려 완화)",
+    "kospi": "KOSPI 전일 -8.37%, 사이드카 발동 후 진정 시도"
+  },
+  "schedule": {
+    "today": ["미국 5월 CPI 발표 (21:30 KST)", "ECB 라가르드 연설"],
+    "this_week": ["FOMC 회의 (수)", "미국 소매판매 (목)", "선물·옵션 동시만기 (금)"],
+    "this_month": ["엔비디아 실적 발표", "한국 수출입 동향", "미국 PCE 물가지수"]
+  },
+  "disclaimer": "본 리포트는 공개 뉴스 기반 자동 요약으로 투자 자문이 아닙니다. 일부 미확보 수치는 '추정'으로 표기됩니다.",
+  "sources": [
+    {"title": "Yahoo Finance", "url": "https://finance.yahoo.com"},
+    {"title": "CNBC Markets", "url": "https://www.cnbc.com/markets/"}
+  ]
+}

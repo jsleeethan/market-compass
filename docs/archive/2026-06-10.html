@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ko"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>🧭 마켓 나침반 · 2026년 6월 10일</title>
+<meta name="description" content="마켓 나침반 — 매일 오전 7시 자동 생성 모닝 마켓 브리핑 (2026년 6월 10일)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@500;600;700&family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--up:#1ed98a;--down:#ff5468;--neutral:#f0b24a;--bg:#0a0c10;--panel:#12151c;
+--panel2:#171b24;--line:#232936;--text:#e8edf5;--muted:#8a93a6;--mono:'JetBrains Mono',monospace;}
+*{box-sizing:border-box;}
+body{margin:0;background:radial-gradient(1200px 600px at 50% -200px,#16203a 0%,var(--bg) 60%);
+color:var(--text);font-family:'Noto Sans KR','Inter',sans-serif;line-height:1.55;
+-webkit-font-smoothing:antialiased;}
+.wrap{max-width:1140px;margin:0 auto;padding:24px 18px 60px;}
+.hero{position:relative;border-radius:20px;padding:34px 32px;margin-bottom:26px;overflow:hidden;
+background:linear-gradient(120deg,#1b2a55 0%,#243b7a 40%,#1f6f6a 100%);
+box-shadow:0 20px 50px -20px rgba(0,0,0,.7);}
+.hero::after{content:"";position:absolute;inset:0;background:radial-gradient(600px 200px at 90% 0,rgba(255,255,255,.10),transparent);}
+.hero-top{display:flex;align-items:center;gap:14px;}
+.hero-ico{font-size:42px;filter:drop-shadow(0 4px 10px rgba(0,0,0,.4));}
+.hero-title{font-weight:800;font-size:30px;letter-spacing:-.5px;line-height:1.1;}
+.hero-title small{display:block;font-family:var(--mono);font-weight:600;font-size:13px;
+letter-spacing:4px;color:#cfe0ff;margin-top:4px;}
+.hero-meta{display:flex;justify-content:space-between;align-items:flex-end;margin-top:22px;flex-wrap:wrap;gap:10px;}
+.hero-date{font-size:18px;font-weight:700;}
+.tag{font-family:var(--mono);font-size:12px;font-weight:700;letter-spacing:2px;
+background:rgba(0,0,0,.28);border:1px solid rgba(255,255,255,.18);padding:6px 12px;border-radius:999px;}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+.card{background:linear-gradient(180deg,var(--panel),var(--panel2));border:1px solid var(--line);
+border-radius:16px;padding:20px 22px;margin-bottom:18px;position:relative;
+box-shadow:0 10px 30px -22px rgba(0,0,0,.9);}
+.card::before{content:"";position:absolute;left:0;top:16px;bottom:16px;width:4px;border-radius:4px;
+background:linear-gradient(180deg,var(--up),#2aa6ff);}
+.card.full{grid-column:1/-1;}
+h2.sec{font-size:15px;font-weight:800;letter-spacing:.5px;margin:0 0 14px;color:#fff;
+display:flex;align-items:center;gap:8px;}
+h2.sec .en{font-family:var(--mono);font-size:11px;color:var(--muted);font-weight:600;letter-spacing:2px;}
+.chip{font-family:var(--mono);font-weight:700;font-size:12.5px;padding:2px 8px;border-radius:7px;white-space:nowrap;}
+.chip.up{color:var(--up);background:rgba(30,217,138,.12);}
+.chip.down{color:var(--down);background:rgba(255,84,104,.12);}
+.chip.flat{color:var(--neutral);background:rgba(240,178,74,.12);}
+table.idx{width:100%;border-collapse:collapse;}
+table.idx td{padding:9px 4px;border-bottom:1px solid var(--line);vertical-align:middle;}
+table.idx tr:last-child td{border-bottom:none;}
+.idx-name{font-weight:600;font-size:14px;}
+.idx-name .note{display:block;font-size:11px;color:var(--muted);font-weight:500;margin-top:2px;}
+.idx-val{font-family:var(--mono);text-align:right;font-size:15px;font-weight:600;}
+.idx-chg{text-align:right;width:90px;}
+.treemap{width:100%;height:auto;border-radius:10px;display:block;}
+.tm-sector{fill:#aeb8cc;font:700 12px 'Noto Sans KR',sans-serif;}
+.tm-tic{fill:#fff;font:700 14px var(--mono);text-anchor:middle;dominant-baseline:middle;}
+.tm-tic.sm{font-size:10px;}
+.tm-pct{fill:rgba(255,255,255,.85);font:600 11px var(--mono);text-anchor:middle;dominant-baseline:middle;}
+.tm-cap{font-size:11.5px;color:var(--muted);margin-top:10px;}
+.tm-cap a{color:#7fb4ff;text-decoration:none;}
+.movers{display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+.movers-h{font-size:13px;margin:0 0 10px;font-weight:800;letter-spacing:.5px;}
+.movers-h.up{color:var(--up);}
+.movers-h.down{color:var(--down);}
+.mover{padding:10px 0;border-bottom:1px dashed var(--line);}
+.mover:last-child{border-bottom:none;}
+.mover-top{display:flex;justify-content:space-between;align-items:center;gap:8px;}
+.mover-name{font-weight:700;font-size:14px;}
+.mover-tic{font-family:var(--mono);font-size:11px;color:var(--muted);margin-left:6px;}
+.mover-reason{font-size:12.5px;color:#c3cbd9;margin-top:3px;}
+.themes{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}
+.theme-card{background:var(--panel2);border:1px solid var(--line);border-left:3px solid var(--bar);
+border-radius:11px;padding:12px 14px;transition:transform .15s ease,box-shadow .15s ease;}
+.theme-card:hover{transform:translateY(-2px);box-shadow:0 12px 24px -16px rgba(0,0,0,.8);}
+.theme-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:5px;}
+.theme-name{font-weight:700;font-size:14px;}
+.theme-tag{font-size:11px;font-weight:700;border:1px solid;padding:1px 8px;border-radius:999px;}
+.theme-comment{font-size:12.5px;color:#c3cbd9;}
+.macro{display:flex;flex-direction:column;gap:2px;}
+.macro-row{display:flex;gap:14px;padding:9px 2px;border-bottom:1px solid var(--line);align-items:baseline;}
+.macro-row:last-child{border-bottom:none;}
+.macro-label{flex:0 0 56px;font-weight:700;font-size:12px;color:var(--neutral);letter-spacing:1px;}
+.macro-text{font-size:13.5px;color:#dbe2ee;}
+.schedule{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+.sch-col h4{margin:0 0 8px;font-size:13px;font-weight:800;color:#fff;
+border-bottom:2px solid var(--line);padding-bottom:6px;}
+.sch-col ul{margin:0;padding-left:0;list-style:none;}
+.sch-col li{font-size:12.5px;color:#c8d0de;padding:5px 0 5px 14px;position:relative;}
+.sch-col li::before{content:"›";position:absolute;left:0;color:var(--neutral);}
+.sch-col li.muted{color:var(--muted);}
+.footer{margin-top:30px;text-align:center;color:var(--muted);font-size:12px;line-height:1.7;}
+.footer .sign{margin-top:10px;font-weight:700;color:#aeb8cc;}
+.footer a{color:#7fb4ff;text-decoration:none;}
+.footer .src{margin-top:6px;}
+@media(max-width:760px){.grid2,.movers,.schedule{grid-template-columns:1fr;}
+.hero-title{font-size:24px;}.wrap{padding:16px 12px 40px;}}
+</style>
+</head><body><div class="wrap">
+<header class="hero">
+  <div class="hero-top">
+    <div class="hero-ico">🧭</div>
+    <div class="hero-title">마켓 나침반<small>MARKET COMPASS</small></div>
+  </div>
+  <div class="hero-meta">
+    <div class="hero-date">2026년 6월 10일</div>
+    <div class="tag">DAILY · 07:00 KST</div>
+  </div>
+</header>
+<div class="grid2">
+  <section class="card"><h2 class="sec">미국 3대 지수 <span class="en">US INDICES</span></h2><table class="idx"><tr><td class="idx-name">DOW JONES</td><td class="idx-val">50,872.11</td><td class="idx-chg"><span class="chip up">▲ +0.17%</span></td></tr><tr><td class="idx-name">S&amp;P 500</td><td class="idx-val">7,386.65</td><td class="idx-chg"><span class="chip down">▼ -0.26%</span></td></tr><tr><td class="idx-name">NASDAQ</td><td class="idx-val">25,678.82</td><td class="idx-chg"><span class="chip down">▼ -0.97%</span></td></tr></table></section>
+  <section class="card"><h2 class="sec">반도체·한국·신흥국 <span class="en">SOX · KOREA · EM</span></h2><table class="idx"><tr><td class="idx-name">필라델피아 반도체 (SOX)<span class="note">추정 — NVDA 보합·AVGO 하락 반영</span></td><td class="idx-val">12,100.00</td><td class="idx-chg"><span class="chip down">▼ -0.50%</span></td></tr><tr><td class="idx-name">MSCI 한국 (EWY)<span class="note">추정 — iShares NAV $187.2452 기준</span></td><td class="idx-val">187.25</td><td class="idx-chg"><span class="chip down">▼ -2.50%</span></td></tr><tr><td class="idx-name">MSCI 신흥국 (EEM)<span class="note">추정 — 한국·신흥국 동반 약세</span></td><td class="idx-val">53.40</td><td class="idx-chg"><span class="chip down">▼ -1.20%</span></td></tr><tr><td class="idx-name">코스피200 야간선물<span class="note">추정 — 미국장 혼조 마감 반영</span></td><td class="idx-val">-</td><td class="idx-chg"><span class="chip down">▼ -0.50%</span></td></tr></table></section>
+</div>
+<section class="card full"><h2 class="sec">전체 시장 히트맵 <span class="en">MARKET HEATMAP</span></h2>
+<svg viewBox="0 0 1080 560" class="treemap" preserveAspectRatio="xMidYMid meet" role="img" aria-label="시장 히트맵"><rect x="0" y="0" width="1080" height="560" fill="#0a0c10"/><rect x="1.5" y="1.5" width="443.3" height="22.0" fill="#11151c"/><text x="8.5" y="16.5" class="tm-sector">반도체</text><rect x="3.0" y="25.0" width="152.1" height="252.0" rx="2" fill="#481b27"/><text x="79.1" y="149.0" class="tm-tic">NVDA</text><text x="79.1" y="164.0" class="tm-pct">-0.22%</text><rect x="158.1" y="25.0" width="196.5" height="138.7" rx="2" fill="#9c3545"/><text x="256.4" y="92.3" class="tm-tic">AVGO</text><text x="256.4" y="107.3" class="tm-pct">-1.50%</text><rect x="158.1" y="166.7" width="196.5" height="110.3" rx="2" fill="#1dce84"/><text x="256.4" y="219.8" class="tm-tic">TSM</text><text x="256.4" y="234.8" class="tm-pct">+2.80%</text><rect x="357.6" y="25.0" width="85.7" height="188.2" rx="2" fill="#1ed98a"/><text x="400.5" y="117.1" class="tm-tic">AMD</text><text x="400.5" y="132.1" class="tm-pct">+5.14%</text><rect x="357.6" y="216.2" width="85.7" height="60.8" rx="2" fill="#1ed98a"/><text x="400.5" y="244.6" class="tm-tic">INTC</text><text x="400.5" y="259.6" class="tm-pct">+11.19%</text><rect x="1.5" y="281.5" width="443.3" height="22.0" fill="#11151c"/><text x="8.5" y="296.5" class="tm-sector">대형기술주</text><rect x="3.0" y="305.0" width="130.0" height="252.0" rx="2" fill="#4e1c29"/><text x="68.0" y="429.0" class="tm-tic">AAPL</text><text x="68.0" y="444.0" class="tm-pct">-0.30%</text><rect x="136.0" y="305.0" width="218.6" height="139.8" rx="2" fill="#163f2d"/><text x="245.3" y="372.9" class="tm-tic">MSFT</text><text x="245.3" y="387.9" class="tm-pct">+0.10%</text><rect x="136.0" y="447.8" width="218.6" height="109.2" rx="2" fill="#197a50"/><text x="245.3" y="500.4" class="tm-tic">GOOGL</text><text x="245.3" y="515.4" class="tm-pct">+1.20%</text><rect x="357.6" y="305.0" width="85.7" height="150.0" rx="2" fill="#5b202e"/><text x="400.5" y="378.0" class="tm-tic">META</text><text x="400.5" y="393.0" class="tm-pct">-0.50%</text><rect x="357.6" y="458.0" width="85.7" height="99.0" rx="2" fill="#174530"/><text x="400.5" y="505.5" class="tm-tic">AMZN</text><text x="400.5" y="520.5" class="tm-pct">+0.20%</text><rect x="447.8" y="1.5" width="443.3" height="22.0" fill="#11151c"/><text x="454.8" y="16.5" class="tm-sector">자동차</text><rect x="449.3" y="25.0" width="218.6" height="252.0" rx="2" fill="#ff5468"/><text x="558.6" y="149.0" class="tm-tic">TSLA</text><text x="558.6" y="164.0" class="tm-pct">-3.00%</text><rect x="670.9" y="25.0" width="123.7" height="175.5" rx="2" fill="#7c2b39"/><text x="732.7" y="110.8" class="tm-tic">GM</text><text x="732.7" y="125.8" class="tm-pct">-1.00%</text><rect x="797.6" y="25.0" width="92.0" height="175.5" rx="2" fill="#6f2735"/><text x="843.6" y="110.8" class="tm-tic">F</text><text x="843.6" y="125.8" class="tm-pct">-0.80%</text><rect x="670.9" y="203.5" width="218.6" height="73.5" rx="2" fill="#bd3f51"/><text x="780.2" y="238.2" class="tm-tic">RIVN</text><text x="780.2" y="253.2" class="tm-pct">-2.00%</text><rect x="447.8" y="281.5" width="443.3" height="22.0" fill="#11151c"/><text x="454.8" y="296.5" class="tm-sector">2차전지</text><rect x="449.3" y="305.0" width="152.1" height="252.0" rx="2" fill="#ff5468"/><text x="525.4" y="429.0" class="tm-tic">373220</text><text x="525.4" y="444.0" class="tm-pct">-4.00%</text><rect x="604.4" y="305.0" width="130.0" height="252.0" rx="2" fill="#ff5468"/><text x="669.4" y="429.0" class="tm-tic">006400</text><text x="669.4" y="444.0" class="tm-pct">-3.50%</text><rect x="737.4" y="305.0" width="152.1" height="142.7" rx="2" fill="#9c3545"/><text x="813.5" y="374.4" class="tm-tic">ALB</text><text x="813.5" y="389.4" class="tm-pct">-1.50%</text><rect x="737.4" y="450.7" width="152.1" height="106.3" rx="2" fill="#de4a5c"/><text x="813.5" y="501.9" class="tm-tic">QNGY</text><text x="813.5" y="516.9" class="tm-pct">-2.50%</text><rect x="894.1" y="1.5" width="184.4" height="22.0" fill="#11151c"/><text x="901.1" y="16.5" class="tm-sector">소프트웨어</text><rect x="895.6" y="25.0" width="181.4" height="137.1" rx="2" fill="#ff5468"/><text x="986.3" y="91.6" class="tm-tic">ORCL</text><text x="986.3" y="106.6" class="tm-pct">-4.61%</text><rect x="895.6" y="165.1" width="181.4" height="137.1" rx="2" fill="#6f2735"/><text x="986.3" y="231.7" class="tm-tic">CRM</text><text x="986.3" y="246.7" class="tm-pct">-0.80%</text><rect x="895.6" y="305.2" width="181.4" height="111.6" rx="2" fill="#17543a"/><text x="986.3" y="359.1" class="tm-tic">NOW</text><text x="986.3" y="374.1" class="tm-pct">+0.50%</text><rect x="895.6" y="419.9" width="97.6" height="137.1" rx="2" fill="#1dbe7a"/><text x="944.4" y="486.4" class="tm-tic">PLTR</text><text x="944.4" y="501.4" class="tm-pct">+2.50%</text><rect x="996.2" y="419.9" width="80.8" height="137.1" rx="2" fill="#7c2b39"/><text x="1036.6" y="486.4" class="tm-tic">SNOW</text><text x="1036.6" y="501.4" class="tm-pct">-1.00%</text></svg>
+<div class="tm-cap">시총 가중 트리맵 · 녹색=상승 / 적색=하락 · 라이브: <a href="https://finviz.com/map.ashx" target="_blank" rel="noopener">finviz.com/map</a></div>
+</section>
+<section class="card full"><h2 class="sec">주요 종목 <span class="en">TOP MOVERS</span></h2>
+<div class="movers"><div class="movers-col"><h3 class="movers-h up">🔼 상승</h3><div class="mover"><div class="mover-top"><span class="mover-name">인텔<span class="mover-tic">INTC</span></span><span class="chip up">▲ +11.19%</span></div><div class="mover-reason">구글이 2028년 TPU 칩 300만 개 이상 위탁 제조 공식 확정, TSMC 공급 부족 반사 수혜</div></div><div class="mover"><div class="mover-top"><span class="mover-name">AMD<span class="mover-tic">AMD</span></span><span class="chip up">▲ +5.14%</span></div><div class="mover-reason">AI 가속기 수요 전망 강세 및 반도체 섹터 내 순환 매수 유입</div></div><div class="mover"><div class="mover-top"><span class="mover-name">대만적체회로<span class="mover-tic">TSM</span></span><span class="chip up">▲ +2.80%</span></div><div class="mover-reason">2나노 웨이퍼 AI 서버 수요 급증으로 생산 용량 부족 지속, YTD +31%</div></div><div class="mover"><div class="mover-top"><span class="mover-name">Autozi인터넷기술<span class="mover-tic">AZI</span></span><span class="chip up">▲ +224.80%</span></div><div class="mover-reason">OpenAI S-1 기밀 제출 소식에 AI 테마 저유동 종목 투기적 매수 폭발</div></div><div class="mover"><div class="mover-top"><span class="mover-name">CHAI<span class="mover-tic">CHAI</span></span><span class="chip up">▲ +189.00%</span></div><div class="mover-reason">OpenAI IPO 연관 테마 기대감에 단기 투기 매수 급등</div></div></div><div class="movers-col"><h3 class="movers-h down">🔽 하락</h3><div class="mover"><div class="mover-top"><span class="mover-name">테슬라<span class="mover-tic">TSLA</span></span><span class="chip down">▼ -3.00%</span></div><div class="mover-reason">미·이란 긴장 재점화(호르무즈 해협 아파치 헬기 격추)로 위험 회피 심리 강화</div></div><div class="mover"><div class="mover-top"><span class="mover-name">오라클<span class="mover-tic">ORCL</span></span><span class="chip down">▼ -4.61%</span></div><div class="mover-reason">FY4Q 실적 발표(6/10 장 마감 후) 앞두고 기대치 하회 우려 및 투자자 관망</div></div><div class="mover"><div class="mover-top"><span class="mover-name">마이크론<span class="mover-tic">MU</span></span><span class="chip down">▼ -2.00%</span></div><div class="mover-reason">반도체 섹터 순환 매도 지속, NVDA·AVGO 동반 약세 영향</div></div><div class="mover"><div class="mover-top"><span class="mover-name">텍손홀딩스<span class="mover-tic">NPT</span></span><span class="chip down">▼ -47.10%</span></div><div class="mover-reason">전일 합병 발표 트리플 랠리 이후 기관 대규모 차익 실현 매물 출회</div></div></div></div></section>
+<section class="card full"><h2 class="sec">테마별 섹터 코멘트 <span class="en">7 THEMES</span></h2>
+<div class="themes"><div class="theme-card" style="--bar:#f0b24a"><div class="theme-head"><span class="theme-name">반도체</span><span class="theme-tag" style="color:#f0b24a;border-color:#f0b24a">혼조</span></div><div class="theme-comment">INTC +11%·AMD +5% 급등했으나 NVDA·AVGO·MU 하락, Intel Google 수주로 섹터 내 주도주 교체 신호</div></div><div class="theme-card" style="--bar:#ff5468"><div class="theme-head"><span class="theme-name">자동차</span><span class="theme-tag" style="color:#ff5468;border-color:#ff5468">약세</span></div><div class="theme-comment">미·이란 긴장 고조로 위험 회피 심리 확산, TSLA -3% 주도 EV 섹터 전반 하락</div></div><div class="theme-card" style="--bar:#ff5468"><div class="theme-head"><span class="theme-name">2차전지</span><span class="theme-tag" style="color:#ff5468;border-color:#ff5468">약세</span></div><div class="theme-comment">KOSPI 급락으로 LG에너지솔루션·삼성SDI 동반 약세, 리튬 가격 하락 및 EV 수요 불확실성</div></div><div class="theme-card" style="--bar:#f0b24a"><div class="theme-head"><span class="theme-name">대형기술주</span><span class="theme-tag" style="color:#f0b24a;border-color:#f0b24a">혼조</span></div><div class="theme-comment">GOOGL 소폭 반등했으나 AAPL·META 약보합, 기술주에서 전통주로 순환매 지속</div></div><div class="theme-card" style="--bar:#ff5468"><div class="theme-head"><span class="theme-name">소프트웨어</span><span class="theme-tag" style="color:#ff5468;border-color:#ff5468">약세</span></div><div class="theme-comment">ORCL FY4Q 실적 불확실성에 -4.6% 급락, CRM도 부진하나 NOW·PLTR은 AI 수요로 소폭 상승</div></div><div class="theme-card" style="--bar:#f0b24a"><div class="theme-head"><span class="theme-name">양자컴퓨터</span><span class="theme-tag" style="color:#f0b24a;border-color:#f0b24a">고변동</span></div><div class="theme-comment">IonQ·RGTI·QBTS Q1 실적 서프라이즈 후 강세 전망 유지, 극단적 주가매출비율로 단기 변동성 상존</div></div><div class="theme-card" style="--bar:#f0b24a"><div class="theme-head"><span class="theme-name">비트코인</span><span class="theme-tag" style="color:#f0b24a;border-color:#f0b24a">중립</span></div><div class="theme-comment">$62,639 수준에서 안정화, 지난주 $60K 이탈 공포 완화됐으나 위험 회피 무드로 강한 반등 제한</div></div></div></section>
+<section class="card full"><h2 class="sec">경제 · 금리 · 환율 <span class="en">MACRO</span></h2>
+<div class="macro"><div class="macro-row"><span class="macro-label">금리</span><span class="macro-text">4.57% — 연준의 6월 금리 동결 기대 반영, 인플레이션 우려로 하락 제한</span></div><div class="macro-row"><span class="macro-label">연준</span><span class="macro-text">현 정책금리 3.50~3.75% 동결 유지 (4월 FOMC 3연속 동결), 6월 16~17일 다음 회의 예정; 시장 컨센서스는 동결, Warsh 기자회견 점도표·9월 인하 가능성 주목</span></div><div class="macro-row"><span class="macro-label">환율</span><span class="macro-text">달러당 약 1,525원 — 지난주 1,560원(2009년 3월 이후 최저) 터치 이후 당국(기재부·한은·금융위·금감원) 공조 개입으로 반등, 변동성 예의 주시</span></div><div class="macro-row"><span class="macro-label">유가</span><span class="macro-text">배럴당 약 $88.0 — 미·이란 휴전 협상 소식에 3.5% 하락; Brent $91.50 근방, 대형 공급 차질 없으나 중동 지정학 리스크로 하단 지지</span></div><div class="macro-row"><span class="macro-label">코스피</span><span class="macro-text">6월 8일(월) KOSPI -8.29%·KOSDAQ 서킷브레이커 발동 후 6월 9일 기술적 반등 시도; YTD +75% 수준 유지, 삼성전자·SK하이닉스 등 반도체 대형주 약세</span></div></div></section>
+<section class="card full"><h2 class="sec">주목할 일정 <span class="en">CALENDAR</span></h2>
+<div class="schedule"><div class="sch-col"><h4>오늘</h4><ul><li>미국 CPI (5월, 전년비 예상 +4.2%) — 오전 8:30 ET 발표</li><li>오라클(ORCL) FY4Q 2026 실적 발표 — 장 마감 후</li></ul></div><div class="sch-col"><h4>이번 주</h4><ul><li>6월 10일(수): 미국 소비자물가지수(CPI) 5월 발표</li><li>6월 11일(목): 미국 PPI (생산자물가), 신규 실업수당 청구 건수</li><li>6월 13일(금): SpaceX IPO 상장 추진 (밸류에이션 약 1.8조 달러 추정)</li><li>6월 16~17일: FOMC 회의 — 금리·점도표·의장 기자회견</li></ul></div><div class="sch-col"><h4>이번 달</h4><ul><li>6월 16~17일: FOMC 통화정책 결정 (동결 전망, 9월 인하 시그널 여부 주목)</li><li>6월 중: OpenAI·Anthropic S-1 기밀 제출 후 IPO 로드쇼 준비 본격화</li><li>6월 중: 미국 소매판매·산업생산 지표 발표</li><li>6월 말: 미국 2분기 GDP 속보치 발표 예정</li></ul></div></div></section>
+<footer class="footer">
+  <div>본 리포트는 공개 뉴스 기반 자동 요약으로 투자 자문이 아닙니다. 일부 미확보 수치는 &#x27;추정&#x27;으로 표기됩니다.</div>
+  <div class="src">출처: <a href="https://finance.yahoo.com/markets/live/stock-market-today-tuesday-june-9-dow-sp-500-nasdaq-rise-ai-225640870.html" target="_blank" rel="noopener">Yahoo Finance — Stock Market Today June 9 2026 Live Updates</a> · <a href="https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-09-2026" target="_blank" rel="noopener">TheStreet — Stock Market Today June 9 2026 (Nasdaq, S&amp;P 500)</a> · <a href="https://www.cnbc.com/2026/06/08/stock-market-today-live-updates.html" target="_blank" rel="noopener">CNBC — S&amp;P 500 and Nasdaq close lower as chip stock rebound fails (June 8)</a> · <a href="https://www.cnbc.com/2026/06/03/the-kospi-is-up-100percent-in-2026-goldman-sachs-still-see-more-upside.html" target="_blank" rel="noopener">CNBC — Korea&#x27;s stock market has doubled in 2026 (Goldman Sachs)</a> · <a href="https://247wallst.com/investing/2026/06/08/the-korean-stock-market-just-crashed-sunday-night-will-the-nasdaq-follow-tomorrow/" target="_blank" rel="noopener">247WallSt — Korean Stock Market Crashed Sunday Night</a> · <a href="https://kalkine.com/news/general-news/south-korea-stock-market-crash-2026-kosdaq-8-plunge-triggers-circuit-breaker-amid-semiconductor-rout" target="_blank" rel="noopener">Kalkine — South Korea Stock Market Crash 2026: KOSDAQ Circuit Breaker</a> · <a href="https://fortune.com/article/price-of-bitcoin-06-09-2026/" target="_blank" rel="noopener">Fortune — Bitcoin price June 9 2026</a> · <a href="https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-june-9-2026-values-stabilize-as-investors-may-seek-alternatives-114631191.html" target="_blank" rel="noopener">Yahoo Finance — Bitcoin and Ethereum prices today June 9 2026</a> · <a href="https://www.tradingkey.com/analysis/stocks/us-stocks/261953175-google-tpu-ai-chip-intel-tsm-nvidia-nvda-gpu-stock-tradingkey" target="_blank" rel="noopener">TradingKey — Intel INTC Google TPU Chip Order Analysis</a> · <a href="https://www.tradingkey.com/news/market-movers/261956255-market-movers-orcl-20260609" target="_blank" rel="noopener">TradingKey — Oracle ORCL Down 4.61% on June 9</a> · <a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" target="_blank" rel="noopener">FedReserve — FOMC Meeting Calendar &amp; April 2026 Statement</a> · <a href="https://www.ishares.com/us/products/239681/ishares-msci-south-korea-capped-etf" target="_blank" rel="noopener">iShares — EWY MSCI South Korea ETF NAV</a></div>
+  <div class="sign">🧭 마켓 나침반 · 매일 오전 7시 자동 생성</div>
+</footer></div></body></html>
