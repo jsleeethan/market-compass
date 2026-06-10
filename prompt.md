@@ -46,13 +46,13 @@
     {"name": "양자컴퓨터","tag": "고변동","comment": "..."},
     {"name": "비트코인", "tag": "강세", "comment": "..."}
   ],
-  "macro": {
-    "ust10y": "미 10년물 국채금리 ...",
-    "fed": "연준/FOMC ...",
-    "usdkrw": "원/달러 ...",
-    "wti": "WTI 유가 ...",
-    "kospi": "KOSPI ..."
-  },
+  "macro": [                                    // 5개 카드. dir 은 up/down/neu 중 하나(좌측 색 바·delta 색)
+    {"emoji": "🏦", "label": "미 10년물 국채금리", "value": "4.18%",   "delta": "▲ +3bp",   "dir": "up",   "text": "한 줄 코멘트"},
+    {"emoji": "🪙", "label": "연준 · FOMC",      "value": "동결 유력", "delta": "3.75~4.00%","dir": "neu",  "text": "..."},
+    {"emoji": "💱", "label": "원/달러 환율",      "value": "1,395원",  "delta": "▲ 강달러",  "dir": "down", "text": "..."},
+    {"emoji": "🛢️", "label": "WTI 유가",        "value": "$72.40",   "delta": "▲ +1.2%",  "dir": "up",   "text": "..."},
+    {"emoji": "📉", "label": "코스피 동향",       "value": "-8.37%",   "delta": "사이드카",  "dir": "down", "text": "..."}
+  ],
   "schedule": {
     "today":      ["오늘 일정 ..."],
     "this_week":  ["이번 주 일정 ..."],
