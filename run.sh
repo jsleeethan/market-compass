@@ -30,7 +30,7 @@ git pull --quiet --rebase 2>/dev/null || true
 PROMPT="오늘 날짜(KST): ${DATE_ISO}.
 data.json 의 \"date\" 는 정확히 \"${DATE_ISO}\", \"date_display\" 는 \"${DATE_DISP}\" 로 채워라.
 
-$(cat "$REPO/prompt.md")"
+$(cat "$REPO/src/prompt.md")"
 
 echo "--- generating data.json via headless Claude Code (sonnet) ---"
 timeout 900 "$CLAUDE_BIN" -p "$PROMPT" \
@@ -45,7 +45,7 @@ echo "claude exit: $?"
 # data.json 검증 (유효 JSON + 오늘 날짜)
 if ! python3 -c "
 import json,sys
-d=json.load(open('data.json',encoding='utf-8'))
+d=json.load(open('data/data.json',encoding='utf-8'))
 assert d.get('date')=='${DATE_ISO}', 'date mismatch: %r' % d.get('date')
 assert d.get('indices_us'), 'missing indices_us'
 print('data.json OK (%d themes, %d movers_up)' % (len(d.get('themes',[])), len(d.get('movers_up',[]))))
@@ -55,11 +55,11 @@ print('data.json OK (%d themes, %d movers_up)' % (len(d.get('themes',[])), len(d
   exit 1
 fi
 
-echo "--- patching exact quotes from Yahoo (비치명적) ---"
-python3 fetch_quotes.py data.json || echo "WARN: 야후 정량 보정 실패 — 생성값으로 진행"
+echo "--- patching exact quotes from Finnhub (비치명적) ---"
+python3 src/fetch_quotes.py data/data.json || echo "WARN: Finnhub 정량 보정 실패 — 생성값으로 진행"
 
 echo "--- building HTML ---"
-python3 build_report.py data.json || { echo "ERROR: build 실패"; exit 1; }
+python3 src/build_report.py data/data.json || { echo "ERROR: build 실패"; exit 1; }
 
 echo "--- publishing ---"
 git add -A

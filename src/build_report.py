@@ -18,9 +18,10 @@ import html
 import glob
 import datetime
 
-ROOT = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # repo root (src/ 의 부모)
 DOCS = os.path.join(ROOT, "docs")
 ARCHIVE = os.path.join(DOCS, "archive")
+DATA = os.path.join(ROOT, "data")
 
 WEEK = ["월", "화", "수", "목", "금", "토", "일"]
 THEME_ICON = {
@@ -665,7 +666,7 @@ def build_archive_index():
 def main():
     src = sys.argv[1] if len(sys.argv) > 1 else None
     if not src:
-        src = "data.json" if os.path.exists(os.path.join(ROOT, "data.json")) else "sample_data.json"
+        src = os.path.join(DATA, "data.json") if os.path.exists(os.path.join(DATA, "data.json")) else os.path.join(DATA, "sample_data.json")
     src_path = src if os.path.isabs(src) else os.path.join(ROOT, src)
     with open(src_path, encoding="utf-8") as f:
         data = json.load(f)

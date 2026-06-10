@@ -29,7 +29,8 @@ import urllib.request
 import urllib.parse
 import urllib.error
 
-ROOT = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # repo root (src/ 의 부모)
+DATA = os.path.join(ROOT, "data")
 UA = "market-compass/1.0"
 
 # 지수 이름 -> [(finnhub 심볼, patch_value)]  patch_value=True 면 value 도 덮어씀(실심볼/실ETF)
@@ -108,7 +109,7 @@ def fmt_val(x, dollar=False):
 
 
 def main():
-    src = sys.argv[1] if len(sys.argv) > 1 else "data.json"
+    src = sys.argv[1] if len(sys.argv) > 1 else os.path.join(DATA, "data.json")
     path = src if os.path.isabs(src) else os.path.join(ROOT, src)
     with open(path, encoding="utf-8") as f:
         d = json.load(f)
