@@ -8,6 +8,12 @@ set -uo pipefail
 cd "$(dirname "$0")" || exit 1
 REPO="$(pwd)"
 LOG="$REPO/run.log"
+
+# cron 최소 환경 대비: PATH 보강 (claude 는 node, git/gh/python3 는 /usr/bin)
+export PATH="$HOME/.local/bin:/usr/local/bin:/usr/bin:/bin"
+for d in "$HOME"/.nvm/versions/node/*/bin; do [ -d "$d" ] && PATH="$d:$PATH"; done
+export PATH
+
 exec >>"$LOG" 2>&1
 
 echo "===== $(date '+%F %T %Z') :: run start ====="
