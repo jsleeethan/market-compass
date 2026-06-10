@@ -55,6 +55,9 @@ print('data.json OK (%d themes, %d movers_up)' % (len(d.get('themes',[])), len(d
   exit 1
 fi
 
+echo "--- patching exact quotes from Yahoo (비치명적) ---"
+python3 fetch_quotes.py data.json || echo "WARN: 야후 정량 보정 실패 — 생성값으로 진행"
+
 echo "--- building HTML ---"
 python3 build_report.py data.json || { echo "ERROR: build 실패"; exit 1; }
 

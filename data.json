@@ -2,85 +2,272 @@
   "date": "2026-06-10",
   "date_display": "2026년 6월 10일",
   "indices_us": [
-    {"name": "DOW JONES", "value": "50,872.11", "change_pct": 0.17},
-    {"name": "S&P 500",   "value": "7,386.65",  "change_pct": -0.26},
-    {"name": "NASDAQ",    "value": "25,678.82", "change_pct": -0.97}
+    {
+      "name": "DOW JONES",
+      "value": "50,872.11",
+      "change_pct": 0.1
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,386.65",
+      "change_pct": -0.29
+    },
+    {
+      "name": "NASDAQ",
+      "value": "25,678.82",
+      "change_pct": -0.96
+    }
   ],
   "indices_extra": [
-    {"name": "필라델피아 반도체 (SOX)", "value": "12,700",  "change_pct": -2.3,  "note": "추정 — 장중 13,143 개장 후 12,376까지 급락, 종가 부분 회복"},
-    {"name": "MSCI 한국 (EWY)",        "value": "52.10",   "change_pct": -1.2,  "note": "추정"},
-    {"name": "MSCI 신흥국 (EEM)",      "value": "43.45",   "change_pct": -0.8,  "note": "추정"},
-    {"name": "코스피200 야간선물",      "value": "361.0",   "change_pct": -1.1,  "note": "추정"}
+    {
+      "name": "필라델피아 반도체 (SOX)",
+      "value": "12,700",
+      "change_pct": -1.63,
+      "note": "추정 — 장중 13,143 개장 후 12,376까지 급락, 종가 부분 회복"
+    },
+    {
+      "name": "MSCI 한국 (EWY)",
+      "value": "$184.05",
+      "change_pct": -0.86,
+      "note": ""
+    },
+    {
+      "name": "MSCI 신흥국 (EEM)",
+      "value": "$65.82",
+      "change_pct": 0.11,
+      "note": ""
+    },
+    {
+      "name": "코스피200 야간선물",
+      "value": "361.0",
+      "change_pct": -1.1,
+      "note": "추정"
+    }
   ],
   "heatmap": [
     {
       "sector": "반도체",
       "stocks": [
-        {"ticker": "NVDA",  "weight": 30, "change_pct": -2.0},
-        {"ticker": "AMD",   "weight": 15, "change_pct": -2.5},
-        {"ticker": "AVGO",  "weight": 18, "change_pct": -2.2},
-        {"ticker": "QCOM",  "weight": 10, "change_pct": 0.85},
-        {"ticker": "MU",    "weight": 8,  "change_pct": -2.3}
+        {
+          "ticker": "NVDA",
+          "weight": 30,
+          "change_pct": -0.22
+        },
+        {
+          "ticker": "AMD",
+          "weight": 15,
+          "change_pct": -3.02
+        },
+        {
+          "ticker": "AVGO",
+          "weight": 18,
+          "change_pct": -1.12
+        },
+        {
+          "ticker": "QCOM",
+          "weight": 10,
+          "change_pct": -5.67
+        },
+        {
+          "ticker": "MU",
+          "weight": 8,
+          "change_pct": -1.41
+        }
       ]
     },
     {
       "sector": "대형기술주",
       "stocks": [
-        {"ticker": "AAPL",  "weight": 28, "change_pct": -3.8},
-        {"ticker": "MSFT",  "weight": 22, "change_pct": -1.8},
-        {"ticker": "GOOG",  "weight": 15, "change_pct": -1.5},
-        {"ticker": "META",  "weight": 12, "change_pct": -2.0},
-        {"ticker": "AMZN",  "weight": 14, "change_pct": -1.2}
+        {
+          "ticker": "AAPL",
+          "weight": 28,
+          "change_pct": -3.64
+        },
+        {
+          "ticker": "MSFT",
+          "weight": 22,
+          "change_pct": -2.02
+        },
+        {
+          "ticker": "GOOG",
+          "weight": 15,
+          "change_pct": 0.31
+        },
+        {
+          "ticker": "META",
+          "weight": 12,
+          "change_pct": -0.14
+        },
+        {
+          "ticker": "AMZN",
+          "weight": 14,
+          "change_pct": -0.42
+        }
       ]
     },
     {
       "sector": "자동차",
       "stocks": [
-        {"ticker": "TSLA",  "weight": 30, "change_pct": -0.5},
-        {"ticker": "GM",    "weight": 12, "change_pct": 0.3},
-        {"ticker": "F",     "weight": 10, "change_pct": 0.2},
-        {"ticker": "RIVN",  "weight": 6,  "change_pct": -1.0}
+        {
+          "ticker": "TSLA",
+          "weight": 30,
+          "change_pct": -3.0
+        },
+        {
+          "ticker": "GM",
+          "weight": 12,
+          "change_pct": -0.01
+        },
+        {
+          "ticker": "F",
+          "weight": 10,
+          "change_pct": -0.33
+        },
+        {
+          "ticker": "RIVN",
+          "weight": 6,
+          "change_pct": -6.59
+        }
       ]
     },
     {
       "sector": "2차전지",
       "stocks": [
-        {"ticker": "ALB",   "weight": 12, "change_pct": -1.2},
-        {"ticker": "ENPH",  "weight": 10, "change_pct": -1.5},
-        {"ticker": "QS",    "weight": 6,  "change_pct": -2.1},
-        {"ticker": "PLUG",  "weight": 6,  "change_pct": -2.0},
-        {"ticker": "LAC",   "weight": 5,  "change_pct": -1.8}
+        {
+          "ticker": "ALB",
+          "weight": 12,
+          "change_pct": 1.97
+        },
+        {
+          "ticker": "ENPH",
+          "weight": 10,
+          "change_pct": -5.92
+        },
+        {
+          "ticker": "QS",
+          "weight": 6,
+          "change_pct": -4.44
+        },
+        {
+          "ticker": "PLUG",
+          "weight": 6,
+          "change_pct": -8.78
+        },
+        {
+          "ticker": "LAC",
+          "weight": 5,
+          "change_pct": -4.82
+        }
       ]
     },
     {
       "sector": "소프트웨어",
       "stocks": [
-        {"ticker": "CRM",   "weight": 14, "change_pct": -1.2},
-        {"ticker": "NOW",   "weight": 10, "change_pct": -0.8},
-        {"ticker": "ORCL",  "weight": 12, "change_pct": -0.5},
-        {"ticker": "ADBE",  "weight": 10, "change_pct": -1.5}
+        {
+          "ticker": "CRM",
+          "weight": 14,
+          "change_pct": -3.94
+        },
+        {
+          "ticker": "NOW",
+          "weight": 10,
+          "change_pct": -6.32
+        },
+        {
+          "ticker": "ORCL",
+          "weight": 12,
+          "change_pct": -2.84
+        },
+        {
+          "ticker": "ADBE",
+          "weight": 10,
+          "change_pct": -2.9
+        }
       ]
     }
   ],
   "movers_up": [
-    {"name_kr": "퀄컴",       "ticker": "QCOM", "change_pct": 0.85, "reason": "AI 모바일칩 수요 견조, 반도체 섹터 내 상대적 강세"},
-    {"name_kr": "록히드마틴", "ticker": "LMT",  "change_pct": 1.5,  "reason": "트럼프 이란 타격 재언급으로 방산주 수혜 매수"},
-    {"name_kr": "엑슨모빌",   "ticker": "XOM",  "change_pct": 0.9,  "reason": "중동 지정학 리스크 재부각, 에너지주 헤지 매수"}
+    {
+      "name_kr": "록히드마틴",
+      "ticker": "LMT",
+      "change_pct": 1.93,
+      "reason": "트럼프 이란 타격 재언급으로 방산주 수혜 매수"
+    }
   ],
   "movers_down": [
-    {"name_kr": "애플",           "ticker": "AAPL", "change_pct": -3.8, "reason": "WWDC 2026 AI 기능 기대 미충족, 사상고점($317) 대비 실망 매도 급증"},
-    {"name_kr": "엔비디아",       "ticker": "NVDA", "change_pct": -2.0, "reason": "반도체 섹터 전반 약세, 위험회피 분위기 속 칩 반등 재차 무위"},
-    {"name_kr": "메타 플랫폼스",  "ticker": "META", "change_pct": -2.0, "reason": "빅테크 전반 매도세, AI 밸류에이션 재평가 압력 지속"},
-    {"name_kr": "마이크로소프트", "ticker": "MSFT", "change_pct": -1.8, "reason": "기술주 섹터 -2% 동반 하락, 금리 고공·성장주 매물 출회"}
+    {
+      "name_kr": "퀄컴",
+      "ticker": "QCOM",
+      "change_pct": -5.67,
+      "reason": ""
+    },
+    {
+      "name_kr": "애플",
+      "ticker": "AAPL",
+      "change_pct": -3.64,
+      "reason": "WWDC 2026 AI 기능 기대 미충족, 사상고점($317) 대비 실망 매도 급증"
+    },
+    {
+      "name_kr": "마이크로소프트",
+      "ticker": "MSFT",
+      "change_pct": -2.02,
+      "reason": "기술주 섹터 -2% 동반 하락, 금리 고공·성장주 매물 출회"
+    },
+    {
+      "name_kr": "엑슨모빌",
+      "ticker": "XOM",
+      "change_pct": -1.87,
+      "reason": ""
+    },
+    {
+      "name_kr": "엔비디아",
+      "ticker": "NVDA",
+      "change_pct": -0.22,
+      "reason": "반도체 섹터 전반 약세, 위험회피 분위기 속 칩 반등 재차 무위"
+    },
+    {
+      "name_kr": "메타 플랫폼스",
+      "ticker": "META",
+      "change_pct": -0.14,
+      "reason": "빅테크 전반 매도세, AI 밸류에이션 재평가 압력 지속"
+    }
   ],
   "themes": [
-    {"name": "반도체",     "tag": "약세",   "comment": "칩 반등 시도 재차 무산 — SOX 장중 급락, NVDA·AMD·AVGO 동반 하락"},
-    {"name": "자동차",     "tag": "혼조",   "comment": "TSLA 소폭 하락 보합, 밸류 로테이션 속 GM·F 방어적 매수 유입"},
-    {"name": "2차전지",    "tag": "약세",   "comment": "리튬·배터리 소재주 전반 약세, 위험회피 환경서 매수 심리 위축"},
-    {"name": "대형기술주", "tag": "약세",   "comment": "S&P500 기술섹터 -2%, AAPL WWDC 실망과 트럼프 이란 발언 이중 충격"},
-    {"name": "소프트웨어", "tag": "혼조",   "comment": "클라우드·SaaS 일부 방어적 움직임, 전반 기술주 약세에 동반 조정"},
-    {"name": "양자컴퓨터", "tag": "고변동", "comment": "매크로 쇼크 속 고베타 테마주 급등락, IONQ·RGTI 변동성 극대화"},
-    {"name": "비트코인",   "tag": "혼조",   "comment": "BTC $62,639 보합 — $60k 지지 확인 후 $63k 박스권 횡보, 저점 다지기"}
+    {
+      "name": "반도체",
+      "tag": "약세",
+      "comment": "칩 반등 시도 재차 무산 — SOX 장중 급락, NVDA·AMD·AVGO 동반 하락"
+    },
+    {
+      "name": "자동차",
+      "tag": "혼조",
+      "comment": "TSLA 소폭 하락 보합, 밸류 로테이션 속 GM·F 방어적 매수 유입"
+    },
+    {
+      "name": "2차전지",
+      "tag": "약세",
+      "comment": "리튬·배터리 소재주 전반 약세, 위험회피 환경서 매수 심리 위축"
+    },
+    {
+      "name": "대형기술주",
+      "tag": "약세",
+      "comment": "S&P500 기술섹터 -2%, AAPL WWDC 실망과 트럼프 이란 발언 이중 충격"
+    },
+    {
+      "name": "소프트웨어",
+      "tag": "혼조",
+      "comment": "클라우드·SaaS 일부 방어적 움직임, 전반 기술주 약세에 동반 조정"
+    },
+    {
+      "name": "양자컴퓨터",
+      "tag": "고변동",
+      "comment": "매크로 쇼크 속 고베타 테마주 급등락, IONQ·RGTI 변동성 극대화"
+    },
+    {
+      "name": "비트코인",
+      "tag": "혼조",
+      "comment": "BTC $62,639 보합 — $60k 지지 확인 후 $63k 박스권 횡보, 저점 다지기"
+    }
   ],
   "macro": [
     {
@@ -144,13 +331,42 @@
   },
   "disclaimer": "본 리포트는 공개 뉴스 기반 자동 요약으로 투자 자문이 아닙니다. 일부 미확보 수치는 '추정'으로 표기됩니다.",
   "sources": [
-    {"title": "TheStreet — Stock Market Today June 9 2026", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-09-2026"},
-    {"title": "Yahoo Finance — Stock Market Today June 9 (US-Iran tensions)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-june-9-dow-sp-500-nasdaq-rise-ai-225640870.html"},
-    {"title": "CNBC — S&P 500 and Nasdaq close lower as chip stock rebound fails", "url": "https://www.cnbc.com/2026/06/08/stock-market-today-live-updates.html"},
-    {"title": "TechTimes — Apple Stock Slips After WWDC 2026", "url": "https://www.techtimes.com/articles/318097/20260609/apple-stock-slips-after-wwdc-2026-wall-street-splits-between-400-bull-case-215-floor.htm"},
-    {"title": "Yahoo Finance — Bitcoin prices today June 9 2026", "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-june-9-2026-values-stabilize-as-investors-may-seek-alternatives-114631191.html"},
-    {"title": "Kiplinger — Economic Calendar week of June 8-12 2026", "url": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"},
-    {"title": "Federal Reserve — FOMC Statement April 29 2026", "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm"},
-    {"title": "ExchangeRates.org.uk — USD/KRW 2026 (1,527.16 on June 9)", "url": "https://www.exchangerates.org.uk/USD-KRW-spot-exchange-rates-history-2026.html"}
-  ]
+    {
+      "title": "TheStreet — Stock Market Today June 9 2026",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-09-2026"
+    },
+    {
+      "title": "Yahoo Finance — Stock Market Today June 9 (US-Iran tensions)",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-june-9-dow-sp-500-nasdaq-rise-ai-225640870.html"
+    },
+    {
+      "title": "CNBC — S&P 500 and Nasdaq close lower as chip stock rebound fails",
+      "url": "https://www.cnbc.com/2026/06/08/stock-market-today-live-updates.html"
+    },
+    {
+      "title": "TechTimes — Apple Stock Slips After WWDC 2026",
+      "url": "https://www.techtimes.com/articles/318097/20260609/apple-stock-slips-after-wwdc-2026-wall-street-splits-between-400-bull-case-215-floor.htm"
+    },
+    {
+      "title": "Yahoo Finance — Bitcoin prices today June 9 2026",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-june-9-2026-values-stabilize-as-investors-may-seek-alternatives-114631191.html"
+    },
+    {
+      "title": "Kiplinger — Economic Calendar week of June 8-12 2026",
+      "url": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"
+    },
+    {
+      "title": "Federal Reserve — FOMC Statement April 29 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm"
+    },
+    {
+      "title": "ExchangeRates.org.uk — USD/KRW 2026 (1,527.16 on June 9)",
+      "url": "https://www.exchangerates.org.uk/USD-KRW-spot-exchange-rates-history-2026.html"
+    },
+    {
+      "title": "Finnhub (정규장 종가)",
+      "url": "https://finnhub.io"
+    }
+  ],
+  "price_source": "finnhub"
 }

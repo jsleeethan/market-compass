@@ -362,10 +362,11 @@ def render_mover_col(items, direction):
     rows = []
     for m in items or []:
         cp = m.get("change_pct", 0)
+        reason = str(m.get("reason", "") or "").strip()
+        why = '<div class="mv-why">{}</div>'.format(esc(reason)) if reason else ""
         rows.append("""<div class="mv-row"><span class="mv-pc">{p}</span>
-<div class="mv-body"><div class="mv-name">{nm} <span class="tk">{tk}</span></div>
-<div class="mv-why">{why}</div></div></div>""".format(
-            p=esc(fmt_pct(cp)), nm=esc(m.get("name_kr", "")), tk=esc(m.get("ticker", "")), why=esc(m.get("reason", ""))))
+<div class="mv-body"><div class="mv-name">{nm} <span class="tk">{tk}</span></div>{why}</div></div>""".format(
+            p=esc(fmt_pct(cp)), nm=esc(m.get("name_kr", "")), tk=esc(m.get("ticker", "")), why=why))
     return """<div class="mv-col mv-{d}"><div class="mv-hd"><span class="ic">{ic}</span> {t} <span class="en">{en}</span></div>
 {rows}</div>""".format(d=direction, ic=ic, t=title, en=en, rows="".join(rows))
 

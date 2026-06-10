@@ -4,3 +4,7 @@ __pycache__/
 .DS_Store
 # 루트의 떠돌이 HTML(워크플로우 에이전트 산출물 등) 차단 — 발행물은 docs/ 에만 둔다
 /*.html
+# 시크릿 (절대 커밋 금지)
+finnhub.key
+.env
+*.key
