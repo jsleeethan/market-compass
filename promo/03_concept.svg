@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" font-family="'Helvetica Neue',Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0e131b"/><stop offset="1" stop-color="#0a0e14"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="560" fill="url(#bg3)"/>
+
+  <text x="60" y="78" fill="#f4f7fb" font-size="38" font-weight="800" font-family="Georgia,serif">핵심 아이디어 — 역할을 나눈다</text>
+  <text x="60" y="112" fill="#7d8da0" font-size="19">잘하는 건 AI에게, 정확해야 하는 건 시세 API에게</text>
+
+  <!-- card A: AI -->
+  <rect x="60" y="158" width="500" height="332" rx="18" fill="#0c1119" stroke="#26303d" stroke-width="1.5"/>
+  <rect x="60" y="158" width="6" height="332" rx="3" fill="#6c8cff"/>
+  <text x="96" y="214" fill="#6c8cff" font-size="16" font-weight="800" letter-spacing="2">생성 · 비결정적</text>
+  <text x="96" y="256" fill="#eef3f8" font-size="30" font-weight="800" font-family="Georgia,serif">AI (Claude)</text>
+  <g fill="#c4d0dc" font-size="19">
+    <text x="96" y="312">✓ 시장 서술 · 맥락 해석</text>
+    <text x="96" y="350">✓ 주목 종목 선정 · 등락 이유</text>
+    <text x="96" y="388">✓ 7개 테마 코멘트</text>
+  </g>
+  <text x="96" y="438" fill="#ff7a8a" font-size="17">✗ 정확한 종가 % 는 약함 (부호가 틀리기도)</text>
+  <rect x="96" y="452" width="428" height="2" fill="#1c2632"/>
+  <text x="96" y="478" fill="#7d8da0" font-size="15">→ 그래서 숫자는 그대로 믿지 않는다</text>
+
+  <!-- card B: API -->
+  <rect x="640" y="158" width="500" height="332" rx="18" fill="#0c1119" stroke="#26303d" stroke-width="1.5"/>
+  <rect x="640" y="158" width="6" height="332" rx="3" fill="#1ed98a"/>
+  <text x="676" y="214" fill="#1ed98a" font-size="16" font-weight="800" letter-spacing="2">정확화 · 결정적</text>
+  <text x="676" y="256" fill="#eef3f8" font-size="30" font-weight="800" font-family="Georgia,serif">시세 API (Finnhub)</text>
+  <g fill="#c4d0dc" font-size="19">
+    <text x="676" y="312">✓ 실제 정규장 종가로 등락률 덮어쓰기</text>
+    <text x="676" y="350">✓ 부호 뒤집힘 → 이유 교정 · 재배치</text>
+    <text x="676" y="388">✓ 무료 티어로 충분</text>
+  </g>
+  <text x="676" y="438" fill="#8595a6" font-size="17">실패해도 비치명적 — 생성값으로 발행</text>
+  <rect x="676" y="452" width="428" height="2" fill="#1c2632"/>
+  <text x="676" y="478" fill="#7d8da0" font-size="15">→ 최종 리포트의 숫자는 신뢰할 수 있다</text>
+
+  <!-- plus -->
+  <circle cx="600" cy="324" r="26" fill="#11161f" stroke="#2a3340"/>
+  <text x="600" y="334" fill="#9fb0c0" font-size="30" font-weight="700" text-anchor="middle">+</text>
+</svg>

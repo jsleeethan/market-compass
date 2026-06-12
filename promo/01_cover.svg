@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Helvetica Neue',Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.55" stop-color="#11161f"/>
+      <stop offset="1" stop-color="#0a0e14"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.28" r="0.5">
+      <stop offset="0" stop-color="#1ed98a" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#1ed98a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="needle" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1ed98a"/>
+      <stop offset="1" stop-color="#15b87a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- top tag -->
+  <rect x="80" y="86" width="232" height="38" rx="19" fill="none" stroke="#2a3340" stroke-width="1"/>
+  <circle cx="106" cy="105" r="4" fill="#1ed98a"/>
+  <text x="124" y="111" fill="#9fb0c0" font-size="17" letter-spacing="2" font-weight="600">DAILY · 07:00 KST · AUTO</text>
+
+  <!-- title -->
+  <text x="78" y="250" fill="#f4f7fb" font-size="104" font-weight="800" letter-spacing="-2" font-family="Georgia,'Times New Roman',serif">마켓 나침반</text>
+  <text x="84" y="312" fill="#7d8da0" font-size="34" letter-spacing="10" font-weight="600">MARKET&#160;&#160;COMPASS</text>
+
+  <!-- subtitle -->
+  <text x="84" y="392" fill="#c4d0dc" font-size="29" font-weight="500">매일 아침, 미국·글로벌 증시 브리핑이</text>
+  <text x="84" y="434" fill="#c4d0dc" font-size="29" font-weight="500">스스로 만들어져 웹에 올라온다</text>
+
+  <!-- pipeline chips -->
+  <g font-size="20" font-weight="600">
+    <rect x="84"  y="486" width="150" height="48" rx="10" fill="#161d28" stroke="#2a3340"/>
+    <text x="159" y="516" fill="#9fb0c0" text-anchor="middle">AI 생성</text>
+    <text x="248" y="516" fill="#46566a" text-anchor="middle">→</text>
+    <rect x="270" y="486" width="178" height="48" rx="10" fill="#161d28" stroke="#2a3340"/>
+    <text x="359" y="516" fill="#9fb0c0" text-anchor="middle">시세 정량보정</text>
+    <text x="462" y="516" fill="#46566a" text-anchor="middle">→</text>
+    <rect x="484" y="486" width="150" height="48" rx="10" fill="#161d28" stroke="#2a3340"/>
+    <text x="559" y="516" fill="#9fb0c0" text-anchor="middle">HTML 빌드</text>
+    <text x="648" y="516" fill="#46566a" text-anchor="middle">→</text>
+    <rect x="670" y="486" width="196" height="48" rx="10" fill="#13241c" stroke="#1ed98a" stroke-opacity="0.5"/>
+    <text x="768" y="516" fill="#1ed98a" text-anchor="middle">GitHub Pages</text>
+  </g>
+
+  <!-- compass -->
+  <g transform="translate(980,250)">
+    <circle r="150" fill="#0c1218" stroke="#222c38" stroke-width="2"/>
+    <circle r="150" fill="none" stroke="#1ed98a" stroke-width="2" stroke-opacity="0.25" stroke-dasharray="3 9"/>
+    <circle r="118" fill="none" stroke="#1b2430" stroke-width="1"/>
+    <g fill="#5a6a7c" font-size="22" font-weight="700" text-anchor="middle">
+      <text x="0" y="-92">N</text><text x="98" y="8">E</text>
+      <text x="0" y="108">S</text><text x="-98" y="8">W</text>
+    </g>
+    <!-- needle -->
+    <polygon points="0,-104 22,0 0,18 -22,0" fill="url(#needle)"/>
+    <polygon points="0,104 22,0 0,-18 -22,0" fill="#3a4555"/>
+    <circle r="12" fill="#0c1218" stroke="#1ed98a" stroke-width="2.5"/>
+  </g>
+</svg>
