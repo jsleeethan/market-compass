@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-13",
-  "date_display": "2026년 6월 13일",
+  "date": "2026-06-14",
+  "date_display": "2026년 6월 14일",
   "indices_us": [
     {
       "name": "DOW JONES",
@@ -21,27 +21,27 @@
   "indices_extra": [
     {
       "name": "필라델피아 반도체 (SOX)",
-      "value": "5,720",
+      "value": "13,237",
       "change_pct": 1.59,
-      "note": "추정 - 나스닥 소폭 상승 연동, 지난주 급락 이후 완만 회복 중"
+      "note": "추정"
     },
     {
       "name": "MSCI 한국 (EWY)",
       "value": "$197.45",
       "change_pct": -0.75,
-      "note": "- 반도체 업종 약세 및 한국 특이 요인 반영 가능"
+      "note": ""
     },
     {
       "name": "MSCI 신흥국 (EEM)",
       "value": "$67.88",
       "change_pct": 0.56,
-      "note": "- 이란 지정학 완화에 EM 소폭 반등"
+      "note": ""
     },
     {
       "name": "코스피200 야간선물",
-      "value": "425.50",
-      "change_pct": 1.66,
-      "note": "추정 - 미 증시 3일 연속 상승 반영"
+      "value": "360.10",
+      "change_pct": 0.35,
+      "note": "추정"
     }
   ],
   "heatmap": [
@@ -55,7 +55,7 @@
         },
         {
           "ticker": "AVGO",
-          "weight": 22,
+          "weight": 20,
           "change_pct": -0.91
         },
         {
@@ -64,14 +64,14 @@
           "change_pct": 4.73
         },
         {
-          "ticker": "TSM",
+          "ticker": "MU",
           "weight": 12,
-          "change_pct": 0.68
+          "change_pct": -1.43
         },
         {
-          "ticker": "MU",
-          "weight": 10,
-          "change_pct": -1.43
+          "ticker": "INTC",
+          "weight": 8,
+          "change_pct": 6.51
         }
       ]
     },
@@ -80,27 +80,27 @@
       "stocks": [
         {
           "ticker": "AAPL",
-          "weight": 28,
+          "weight": 30,
           "change_pct": -1.52
         },
         {
           "ticker": "MSFT",
-          "weight": 26,
+          "weight": 28,
           "change_pct": 0.1
         },
         {
           "ticker": "AMZN",
-          "weight": 22,
+          "weight": 20,
           "change_pct": -1.23
         },
         {
           "ticker": "META",
-          "weight": 18,
+          "weight": 14,
           "change_pct": -0.26
         },
         {
           "ticker": "GOOGL",
-          "weight": 20,
+          "weight": 12,
           "change_pct": 0.53
         }
       ]
@@ -110,23 +110,23 @@
       "stocks": [
         {
           "ticker": "TSLA",
-          "weight": 30,
+          "weight": 28,
           "change_pct": 1.82
         },
         {
-          "ticker": "RIVN",
-          "weight": 8,
-          "change_pct": 7.85
-        },
-        {
           "ticker": "GM",
-          "weight": 15,
+          "weight": 12,
           "change_pct": 0.8
         },
         {
           "ticker": "F",
-          "weight": 12,
+          "weight": 10,
           "change_pct": 0.88
+        },
+        {
+          "ticker": "RIVN",
+          "weight": 6,
+          "change_pct": 7.85
         }
       ]
     },
@@ -135,23 +135,18 @@
       "stocks": [
         {
           "ticker": "ALB",
-          "weight": 20,
+          "weight": 18,
           "change_pct": 7.14
-        },
-        {
-          "ticker": "SQM",
-          "weight": 15,
-          "change_pct": 4.57
         },
         {
           "ticker": "LTHM",
           "weight": 12,
-          "change_pct": 0.3
+          "change_pct": -0.5
         },
         {
-          "ticker": "QS",
+          "ticker": "LAC",
           "weight": 8,
-          "change_pct": -1.94
+          "change_pct": 3.17
         }
       ]
     },
@@ -160,22 +155,22 @@
       "stocks": [
         {
           "ticker": "ORCL",
-          "weight": 20,
+          "weight": 22,
           "change_pct": 0.02
         },
         {
           "ticker": "CRM",
-          "weight": 15,
+          "weight": 16,
           "change_pct": -0.34
         },
         {
-          "ticker": "SNOW",
-          "weight": 8,
-          "change_pct": -3.17
+          "ticker": "NOW",
+          "weight": 14,
+          "change_pct": -0.9
         },
         {
           "ticker": "ADBE",
-          "weight": 18,
+          "weight": 12,
           "change_pct": -6.75
         }
       ]
@@ -183,65 +178,47 @@
   ],
   "movers_up": [
     {
-      "name_kr": "스페이스엑스",
+      "name_kr": "스페이스X",
       "ticker": "SPCX",
-      "change_pct": 19.0,
-      "reason": "나스닥 IPO 첫날 상장가 $150 대비 19% 급등, 일론 머스크 우주기업 상장 흥행"
+      "change_pct": 19.2,
+      "reason": "역대 최대 규모 IPO($1.75조 밸류) 나스닥 데뷔, 공모가 $135 대비 19% 급등 마감"
     },
     {
-      "name_kr": "리비안",
-      "ticker": "RIVN",
-      "change_pct": 7.85,
-      "reason": "테슬라 강세 동반 상승, EV 섹터 전반 투자심리 개선"
+      "name_kr": "알베마를",
+      "ticker": "ALB",
+      "change_pct": 7.14,
+      "reason": ""
     },
     {
       "name_kr": "마이크로스트래티지",
       "ticker": "MSTR",
       "change_pct": 3.18,
-      "reason": "비트코인 $63,500 안착, 이란 긴장 완화로 위험자산 선호 강화"
-    },
-    {
-      "name_kr": "옥시덴탈",
-      "ticker": "OXY",
-      "change_pct": 1.93,
       "reason": ""
     },
     {
       "name_kr": "테슬라",
       "ticker": "TSLA",
       "change_pct": 1.82,
-      "reason": "미·이란 평화협상 기대감에 리스크온 심리 강화, 전기차 수요 회복 기대"
-    },
-    {
-      "name_kr": "쉐브론",
-      "ticker": "CVX",
-      "change_pct": 0.75,
       "reason": ""
     },
     {
-      "name_kr": "엑슨모빌",
-      "ticker": "XOM",
-      "change_pct": 0.28,
-      "reason": ""
+      "name_kr": "엔비디아",
+      "ticker": "NVDA",
+      "change_pct": 0.16,
+      "reason": "칩 쇼크 이후 반등세, AI 데이터센터 수요 낙관론 재부각"
+    },
+    {
+      "name_kr": "오라클",
+      "ticker": "ORCL",
+      "change_pct": 0.02,
+      "reason": "AI 클라우드 인프라 수요 확대 기대감 지속, 엔터프라이즈 SaaS 강세 흐름 동참"
     }
   ],
   "movers_down": [
     {
-      "name_kr": "어도비",
-      "ticker": "ADBE",
-      "change_pct": -6.75,
-      "reason": "실적 발표 후 시간외 -5%, AI 경쟁 심화로 매출 성장 둔화 우려"
-    },
-    {
-      "name_kr": "레나",
-      "ticker": "LEN",
-      "change_pct": -4.9,
-      "reason": "신규 주택 주문·인도 전망 하향 발표, 고금리 장기화에 주택 수요 냉각 신호"
-    },
-    {
-      "name_kr": "코인베이스",
-      "ticker": "COIN",
-      "change_pct": -0.41,
+      "name_kr": "마이크론",
+      "ticker": "MU",
+      "change_pct": -1.43,
       "reason": ""
     }
   ],
@@ -249,129 +226,130 @@
     {
       "name": "반도체",
       "tag": "혼조",
-      "comment": "지난주 SOXX 10% 폭락 이후 소폭 회복세, NVDA·AMD 완만히 반등 중이나 브로드컴발 AI 쇼크 여파 지속"
+      "comment": "6월 초 AVGO 어닝 쇼크발 $1.3조 급락 후 저가매수 유입 회복 중; 단기 반등이나 추세 전환 확신 부족"
     },
     {
       "name": "자동차",
-      "tag": "강세",
-      "comment": "테슬라 +4.65% 주도, 미·이란 긴장 완화 리스크온 심리에 EV 섹터 전반 동반 강세"
+      "tag": "약세",
+      "comment": "테슬라 EV 판매 부진·경쟁 심화 우려 지속, 전통 완성차도 금리 장기화 속 소비 둔화 압박"
     },
     {
       "name": "2차전지",
-      "tag": "중립",
-      "comment": "리튬 시장 공급 과잉→수급 균형 전환 기대감, 알베말·SQM 등 리튬주 소폭 반등"
+      "tag": "약세",
+      "comment": "리튬·니켈 스팟 약세 장기화, 미국 EV 세제 혜택 불확실성으로 소재주 전반 하방 압력"
     },
     {
       "name": "대형기술주",
       "tag": "강세",
-      "comment": "SpaceX IPO 흥행에 빅테크 센티멘트 개선, 나스닥 3일 연속 상승 지속"
+      "comment": "스페이스X 역대 최대 IPO가 리스크온 심리 촉진; AAPL·MSFT 안정적 상승세 유지"
     },
     {
       "name": "소프트웨어",
-      "tag": "혼조",
-      "comment": "어도비 실적 실망 -5%로 섹터 발목, ORCL·SNOW 등은 AI 수요 기대에 소폭 강세"
+      "tag": "강세",
+      "comment": "AI 도입 가속화로 엔터프라이즈 SaaS(오라클·서비스나우 등) 수요 구조적 성장 지속"
     },
     {
       "name": "양자컴퓨터",
       "tag": "중립",
-      "comment": "특별 촉매 부재, 시장 전체 분위기에 연동된 횡보세 지속"
+      "comment": "6월 중 특별한 촉매 부재, 지난달 하이프 진정 후 관망세 유지"
     },
     {
       "name": "비트코인",
-      "tag": "강세",
-      "comment": "트럼프 이란 종전 선언 이후 $63,500 안착, 위험자산 선호 강화로 전일 대비 +3.4%"
+      "tag": "약세",
+      "comment": "주간 현물 ETF $16.7억 순유출로 하락 압력 지속, BTC $63,000 부근 등락하며 박스권"
     }
   ],
   "macro": [
     {
       "emoji": "🏦",
       "label": "미 10년물 국채금리",
-      "value": "4.48%",
-      "delta": "▼ -5bp",
-      "dir": "down",
-      "text": "이란 평화협상 기대와 WTI 급락으로 인플레 우려 완화, 채권 매수세 유입 (전일 4.53% 대비)"
+      "value": "4.47%",
+      "delta": "▲ +2bp",
+      "dir": "up",
+      "text": "5월 CPI +4.2%(yoy)로 인플레 재점화 우려, 연내 인하 기대 후퇴하며 금리 고공 유지"
     },
     {
       "emoji": "🪙",
       "label": "연준 · FOMC",
-      "value": "동결 예상",
+      "value": "동결 유력",
       "delta": "3.50~3.75%",
       "dir": "neu",
-      "text": "6/16~17 FOMC 회의 예정, 시장 금리동결 확률 99% 이상 반영 중. 5월 CPI 4.2%로 긴축 여지 유지"
+      "text": "6/16~17 FOMC 예정, 시장 99.4% 동결 예상; 물가 안정 확인 전까지 인하 타진 어려움"
     },
     {
       "emoji": "💱",
       "label": "원/달러 환율",
       "value": "1,518원",
-      "delta": "▼ -9.9원",
-      "dir": "up",
-      "text": "이란 지정학 리스크 완화로 신흥국 통화 회복, 전일 1,527원 대비 원화 소폭 강세"
+      "delta": "▼ 달러 강세",
+      "dir": "down",
+      "text": "달러인덱스 강세 지속으로 원화 약세 압력, 수입 물가 상승 우려 상존"
     },
     {
       "emoji": "🛢️",
       "label": "WTI 유가",
-      "value": "$83.50",
-      "delta": "▼ -4.2%",
-      "dir": "down",
-      "text": "미·이란 핵협상 타결 기대로 원유 공급 증가 우려 부각, 8주 만에 최저치 기록"
+      "value": "$84.88",
+      "delta": "▲ 중동 리스크",
+      "dir": "up",
+      "text": "미-이란 평화 협상 기대에도 지정학적 불확실성 잔존, WTI 80달러대 고공 유지"
     },
     {
-      "emoji": "📈",
+      "emoji": "📊",
       "label": "코스피 동향",
-      "value": "+1.66%",
-      "delta": "야간선물 기준",
-      "dir": "up",
-      "text": "미 증시 3일 연속 강세에 코스피200 야간선물 동반 상승, 현물 시장 추가 상승 기대"
+      "value": "8,160선",
+      "delta": "▼ 반도체 쇼크",
+      "dir": "down",
+      "text": "6월 초 글로벌 반도체 급락 여파로 코스피 5.5% 하락 후 점진적 회복; 삼성전자·SK하이닉스 반등 여부 주목"
     }
   ],
   "schedule": {
     "today": [
-      "美 5월 PPI(생산자물가지수) 발표",
-      "美 주간 신규 실업수당 청구건수 발표",
-      "어도비(ADBE) 시간외 급락 후 프리마켓 동향 주시"
+      "6월 14일(일) — 주요 경제지표 없음 (미국·한국 시장 휴장)"
     ],
     "this_week": [
-      "6/16(월): 뉴욕 연준 제조업지수 발표",
-      "6/16~17: FOMC 정례회의 (금리 동결 유력)",
-      "6/17(화): 美 연방준비제도 금리 결정 발표 및 파월 의장 기자회견",
-      "6/17: SEP(경제전망 요약) 공개 — 연말 금리 경로 주목"
+      "6월 16일(월) — 뉴욕 엠파이어스테이트 제조업 지수 (6월)",
+      "6월 17일(화) — FOMC 금리 결정 발표 (오후 2시 ET), 파월 의장 기자회견, 미국 소매판매 (5월)",
+      "6월 18일(수) — 미국 주택착공·건축허가 (5월), 산업생산 지수",
+      "6월 19일(목) — 신규 실업수당 청구건수, 필라델피아 연준 제조업 지수"
     ],
     "this_month": [
-      "6/12: 美 5월 CPI 발표 완료 (YoY 4.2% 확인)",
-      "6/12: SpaceX(SPCX) 나스닥 상장 — 첫날 +19% 마감",
-      "6/16~17: FOMC 회의 및 금리 결정 (이달 최대 이벤트)",
-      "6월 중: 미·이란 핵협상 최종 타결 여부 모니터링"
+      "6월 16~17일 — FOMC 정례회의 (금리 동결 99% 예상, 기준금리 3.50~3.75%)",
+      "6월 중순 이후 — 미-이란 평화 협상 추이 지속 관찰 (유가·지정학 핵심 변수)",
+      "6월 말 — 미국 PCE 물가 지수 및 2분기 GDP 선행 추정치 발표 예정"
     ]
   },
   "disclaimer": "본 리포트는 공개 뉴스 기반 자동 요약으로 투자 자문이 아닙니다. 일부 미확보 수치는 '추정'으로 표기됩니다.",
   "sources": [
     {
-      "title": "TheStreet - Stock Market Today June 12 2026",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026"
+      "title": "Trading Economics — US Stock Market",
+      "url": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
-      "title": "24/7 Wall St - Stock Market Live June 12 2026",
-      "url": "https://247wallst.com/investing/2026/06/12/stock-market-live-june-12-2026-sp-500-spy-green-on-end-of-war-hopes/"
+      "title": "CNBC — SpaceX IPO June 12 2026",
+      "url": "https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html"
     },
     {
-      "title": "Yahoo Finance - Bitcoin & Crypto June 12 2026",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-june-12-2026-prices-rebound-this-morning-after-trump-claims-war-has-ended-115949042.html"
+      "title": "Intellectia AI — Semiconductor Selloff June 2026",
+      "url": "https://intellectia.ai/blog/semiconductor-stocks-selloff-june-2026"
     },
     {
-      "title": "Polymarket - Fed Decision June 2026",
-      "url": "https://polymarket.com/event/fed-decision-in-june-825"
+      "title": "Bitcoin Foundation — Crypto ETF Outflows June 2026",
+      "url": "https://bitcoinfoundation.org/news/crypto-etfs-news/crypto-etfs-june/"
     },
     {
-      "title": "Intellectia AI - Chip Stocks Rebound June 2026",
-      "url": "https://intellectia.ai/blog/chip-stocks-rebound-investment-strategy-june-2026"
+      "title": "catacal.com — FOMC Meeting June 2026",
+      "url": "https://www.catacal.com/fomc-meeting/2026-06"
     },
     {
-      "title": "LatestLY - Bitcoin Price Today June 12 2026",
+      "title": "LatestLY — Bitcoin Price June 12 2026",
       "url": "https://www.latestly.com/business/bitcoin-price-today-june-12-2026-btc-price-holds-near-usd-63458-amid-liquidity-shift-ahead-of-spacex-listing-7469755.html/amp"
     },
     {
-      "title": "CNBC - Stock Market News June 12 2026",
-      "url": "https://www.cnbc.com/2026/06/11/stock-market-today-live-updates.html"
+      "title": "Federal Reserve — H.10 Foreign Exchange Rates",
+      "url": "https://www.federalreserve.gov/releases/h10/hist/dat00_ko.htm"
+    },
+    {
+      "title": "Yahoo Finance — SpaceX IPO",
+      "url": "https://finance.yahoo.com/markets/stocks/article/spacex-sets-135-ipo-price-ahead-of-friday-nasdaq-debut-101955774.html"
     },
     {
       "title": "Finnhub (정규장 종가)",
