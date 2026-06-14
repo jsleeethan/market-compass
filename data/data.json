@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-14",
-  "date_display": "2026년 6월 14일",
+  "date": "2026-06-15",
+  "date_display": "2026년 6월 15일",
   "indices_us": [
     {
       "name": "DOW JONES",
@@ -87,6 +87,11 @@
           "ticker": "MSFT",
           "weight": 28,
           "change_pct": 0.1
+        },
+        {
+          "ticker": "SPCX",
+          "weight": 25,
+          "change_pct": 19.2
         },
         {
           "ticker": "AMZN",
@@ -184,69 +189,75 @@
       "reason": "역대 최대 규모 IPO($1.75조 밸류) 나스닥 데뷔, 공모가 $135 대비 19% 급등 마감"
     },
     {
+      "name_kr": "리비안",
+      "ticker": "RIVN",
+      "change_pct": 7.85,
+      "reason": "머스크 테마 동반 상승 및 전기차 인프라 확대 기대감에 강세"
+    },
+    {
       "name_kr": "알베마를",
       "ticker": "ALB",
       "change_pct": 7.14,
-      "reason": ""
+      "reason": "리튬 스팟 반등 및 EV 배터리 소재 수요 회복 기대감에 7% 강세"
+    },
+    {
+      "name_kr": "인텔",
+      "ticker": "INTC",
+      "change_pct": 6.51,
+      "reason": "파운드리 수주 회복 기대 및 저가 매수세 유입으로 반등"
     },
     {
       "name_kr": "마이크로스트래티지",
       "ticker": "MSTR",
       "change_pct": 3.18,
-      "reason": ""
-    },
-    {
-      "name_kr": "테슬라",
-      "ticker": "TSLA",
-      "change_pct": 1.82,
-      "reason": ""
-    },
-    {
-      "name_kr": "엔비디아",
-      "ticker": "NVDA",
-      "change_pct": 0.16,
-      "reason": "칩 쇼크 이후 반등세, AI 데이터센터 수요 낙관론 재부각"
-    },
-    {
-      "name_kr": "오라클",
-      "ticker": "ORCL",
-      "change_pct": 0.02,
-      "reason": "AI 클라우드 인프라 수요 확대 기대감 지속, 엔터프라이즈 SaaS 강세 흐름 동참"
+      "reason": "비트코인 $63,000 지지선 확인 후 레버리지 BTC 보유 전략 매력 재부각"
     }
   ],
   "movers_down": [
     {
+      "name_kr": "어도비",
+      "ticker": "ADBE",
+      "change_pct": -6.75,
+      "reason": "분기 가이던스 실망, AI 경쟁 심화로 크리에이티브 소프트웨어 점유율 위협 부각"
+    },
+    {
+      "name_kr": "울프스피드",
+      "ticker": "WOLF",
+      "change_pct": -5.27,
+      "reason": "탄화규소 전력반도체 수요 부진 지속, 재무 악화 우려로 급락"
+    },
+    {
       "name_kr": "마이크론",
       "ticker": "MU",
       "change_pct": -1.43,
-      "reason": ""
+      "reason": "HBM 공급 과잉 우려 재부각, 단기 재고 조정 압력"
     }
   ],
   "themes": [
     {
       "name": "반도체",
       "tag": "혼조",
-      "comment": "6월 초 AVGO 어닝 쇼크발 $1.3조 급락 후 저가매수 유입 회복 중; 단기 반등이나 추세 전환 확신 부족"
+      "comment": "INTC +6.5%·AMD +4.7% 강세, AVGO·MU 소폭 약세; 6월 초 충격 후 종목별 차별화 진행"
     },
     {
       "name": "자동차",
-      "tag": "약세",
-      "comment": "테슬라 EV 판매 부진·경쟁 심화 우려 지속, 전통 완성차도 금리 장기화 속 소비 둔화 압박"
+      "tag": "강세",
+      "comment": "머스크의 스페이스X IPO 성공 후 테슬라 리더십 재부각, RIVN +7.9%로 전기차 섹터 동반 상승"
     },
     {
       "name": "2차전지",
-      "tag": "약세",
-      "comment": "리튬·니켈 스팟 약세 장기화, 미국 EV 세제 혜택 불확실성으로 소재주 전반 하방 압력"
+      "tag": "혼조",
+      "comment": "ALB +7.1%·LAC +3.2% 리튬 소재주 반등, LTHM 소폭 약세; 구조적 수요 불확실성 상존"
     },
     {
       "name": "대형기술주",
-      "tag": "강세",
-      "comment": "스페이스X 역대 최대 IPO가 리스크온 심리 촉진; AAPL·MSFT 안정적 상승세 유지"
+      "tag": "혼조",
+      "comment": "스페이스X IPO 리스크온 분위기 속 AAPL -1.5%·AMZN -1.2% 약세, MSFT·GOOGL 보합 엇갈림"
     },
     {
       "name": "소프트웨어",
-      "tag": "강세",
-      "comment": "AI 도입 가속화로 엔터프라이즈 SaaS(오라클·서비스나우 등) 수요 구조적 성장 지속"
+      "tag": "약세",
+      "comment": "ADBE -6.8% 급락으로 섹터 전반 심리 악화, AI 경쟁 심화로 전통 소프트웨어 밸류에이션 재점검"
     },
     {
       "name": "양자컴퓨터",
@@ -256,17 +267,17 @@
     {
       "name": "비트코인",
       "tag": "약세",
-      "comment": "주간 현물 ETF $16.7억 순유출로 하락 압력 지속, BTC $63,000 부근 등락하며 박스권"
+      "comment": "현물 ETF 순유출 지속, BTC $63,000~64,000 박스권 등락; 스페이스X IPO로 위험자산 자금 이탈"
     }
   ],
   "macro": [
     {
       "emoji": "🏦",
       "label": "미 10년물 국채금리",
-      "value": "4.47%",
-      "delta": "▲ +2bp",
-      "dir": "up",
-      "text": "5월 CPI +4.2%(yoy)로 인플레 재점화 우려, 연내 인하 기대 후퇴하며 금리 고공 유지"
+      "value": "4.48%",
+      "delta": "→ 보합",
+      "dir": "neu",
+      "text": "미-이란 평화협상 기대로 전일 -10bp 급락 후 4.48%에서 안정화; FOMC 주간 진입으로 관망"
     },
     {
       "emoji": "🪙",
@@ -274,7 +285,7 @@
       "value": "동결 유력",
       "delta": "3.50~3.75%",
       "dir": "neu",
-      "text": "6/16~17 FOMC 예정, 시장 99.4% 동결 예상; 물가 안정 확인 전까지 인하 타진 어려움"
+      "text": "이번 주 6/17~18 FOMC 예정, 결정 발표 6/18(수) 오후 2시 ET; 시장 99% 이상 동결 예상"
     },
     {
       "emoji": "💱",
@@ -282,74 +293,72 @@
       "value": "1,518원",
       "delta": "▼ 달러 강세",
       "dir": "down",
-      "text": "달러인덱스 강세 지속으로 원화 약세 압력, 수입 물가 상승 우려 상존"
+      "text": "달러인덱스 강세 기조 유지, 이란 평화협상 기대에도 원화 약세 지속; 수입 물가 상승 압력 상존"
     },
     {
       "emoji": "🛢️",
       "label": "WTI 유가",
-      "value": "$84.88",
-      "delta": "▲ 중동 리스크",
-      "dir": "up",
-      "text": "미-이란 평화 협상 기대에도 지정학적 불확실성 잔존, WTI 80달러대 고공 유지"
+      "value": "$83.60",
+      "delta": "▼ -4.2%",
+      "dir": "down",
+      "text": "미-이란 평화협상 '이번 주말 합의' 기대에 WTI 4% 이상 급락, 8주 만에 최저 수준"
     },
     {
       "emoji": "📊",
       "label": "코스피 동향",
-      "value": "8,160선",
-      "delta": "▼ 반도체 쇼크",
+      "value": "7,800선",
+      "delta": "▼ 반도체 쇼크 후 회복",
       "dir": "down",
-      "text": "6월 초 글로벌 반도체 급락 여파로 코스피 5.5% 하락 후 점진적 회복; 삼성전자·SK하이닉스 반등 여부 주목"
+      "text": "6/8 서킷브레이커 발동(-8.37%, 7,477선) 후 점진적 회복 중; 오늘 장 삼성전자·SK하이닉스 반등 지속 여부 주목"
     }
   ],
   "schedule": {
     "today": [
-      "6월 14일(일) — 주요 경제지표 없음 (미국·한국 시장 휴장)"
+      "6월 15일(월) — 주요 경제지표 없음, FOMC 주간 시작 (금리 결정 6/18 수요일 예정)",
+      "이란 핵협상 주말 합의 여부 및 스페이스X 상장 첫 월요일 시장 반응 주목"
     ],
     "this_week": [
       "6월 16일(월) — 뉴욕 엠파이어스테이트 제조업 지수 (6월)",
-      "6월 17일(화) — FOMC 금리 결정 발표 (오후 2시 ET), 파월 의장 기자회견, 미국 소매판매 (5월)",
-      "6월 18일(수) — 미국 주택착공·건축허가 (5월), 산업생산 지수",
-      "6월 19일(목) — 신규 실업수당 청구건수, 필라델피아 연준 제조업 지수"
+      "6월 17일(화) — 미국 소매판매 (5월), 수입·수출 물가지수, NAHB 주택시장 지수",
+      "6월 18일(수) — FOMC 금리 결정 발표 (오후 2시 ET) 및 파월 의장 기자회견, MBA 주담대, 주택착공·건축허가, EIA 원유재고",
+      "6월 19일(목) — 준틴스(Juneteenth) 연방공휴일 (미국 주식시장 휴장)",
+      "6월 20일(금) — 필라델피아 연준 제조업 지수, CB 경기선행지수"
     ],
     "this_month": [
-      "6월 16~17일 — FOMC 정례회의 (금리 동결 99% 예상, 기준금리 3.50~3.75%)",
-      "6월 중순 이후 — 미-이란 평화 협상 추이 지속 관찰 (유가·지정학 핵심 변수)",
+      "6월 18일(수) — FOMC 정례회의 금리 결정 (동결 유력, 기준금리 3.50~3.75%)",
+      "6월 중순 이후 — 미-이란 평화협상 최종 합의 여부 지속 관찰 (유가·지정학 핵심 변수)",
       "6월 말 — 미국 PCE 물가 지수 및 2분기 GDP 선행 추정치 발표 예정"
     ]
   },
   "disclaimer": "본 리포트는 공개 뉴스 기반 자동 요약으로 투자 자문이 아닙니다. 일부 미확보 수치는 '추정'으로 표기됩니다.",
   "sources": [
     {
-      "title": "Trading Economics — US Stock Market",
-      "url": "https://tradingeconomics.com/united-states/stock-market"
-    },
-    {
       "title": "CNBC — SpaceX IPO June 12 2026",
       "url": "https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html"
     },
     {
-      "title": "Intellectia AI — Semiconductor Selloff June 2026",
-      "url": "https://intellectia.ai/blog/semiconductor-stocks-selloff-june-2026"
-    },
-    {
-      "title": "Bitcoin Foundation — Crypto ETF Outflows June 2026",
-      "url": "https://bitcoinfoundation.org/news/crypto-etfs-news/crypto-etfs-june/"
-    },
-    {
-      "title": "catacal.com — FOMC Meeting June 2026",
-      "url": "https://www.catacal.com/fomc-meeting/2026-06"
+      "title": "Yahoo Finance — SpaceX IPO Live Updates",
+      "url": "https://finance.yahoo.com/markets/live/spacex-ipo-live-updates-elon-musks-spacex-set-to-make-record-debut-as-dow-sp-500-nasdaq-rise-230015961.html"
     },
     {
       "title": "LatestLY — Bitcoin Price June 12 2026",
       "url": "https://www.latestly.com/business/bitcoin-price-today-june-12-2026-btc-price-holds-near-usd-63458-amid-liquidity-shift-ahead-of-spacex-listing-7469755.html/amp"
     },
     {
-      "title": "Federal Reserve — H.10 Foreign Exchange Rates",
+      "title": "EBC Financial — KOSPI Crash Korea Trading Halt June 2026",
+      "url": "https://www.ebc.com/forex/kospi-crash-korea-trading-halt-ai-june-2026"
+    },
+    {
+      "title": "Federal Reserve — H.10 Foreign Exchange Rates (USD/KRW)",
       "url": "https://www.federalreserve.gov/releases/h10/hist/dat00_ko.htm"
     },
     {
-      "title": "Yahoo Finance — SpaceX IPO",
-      "url": "https://finance.yahoo.com/markets/stocks/article/spacex-sets-135-ipo-price-ahead-of-friday-nasdaq-debut-101955774.html"
+      "title": "FXStreet — Week Ahead Preview June 15-20 2026",
+      "url": "https://www.fxstreet.com/analysis/forecasting-the-upcoming-week-the-fed-is-broadly-expected-to-keep-rates-unchanged-202506131727"
+    },
+    {
+      "title": "Trading Economics — US 10-Year Treasury Yield",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
     },
     {
       "title": "Finnhub (정규장 종가)",
