@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-20",
-  "date_display": "2026년 6월 20일",
+  "date": "2026-06-21",
+  "date_display": "2026년 6월 21일",
   "indices_us": [
     {
       "name": "DOW JONES",
@@ -21,25 +21,27 @@
   "indices_extra": [
     {
       "name": "필라델피아 반도체 (SOX)",
-      "value": "14,376.34",
-      "change_pct": 6.62
+      "value": "14,341.78",
+      "change_pct": 6.62,
+      "note": "사상 최고치 경신, 전 30개 구성 종목 상승"
     },
     {
       "name": "MSCI 한국 (EWY)",
       "value": "$219.20",
-      "change_pct": 6.89
+      "change_pct": 6.89,
+      "note": "NAV 기준 $218.03, 반도체 급등 직접 수혜"
     },
     {
       "name": "MSCI 신흥국 (EEM)",
       "value": "$70.79",
       "change_pct": 3.25,
-      "note": "- 장중 스냅샷 기준, 종가 미확정"
+      "note": "— 이란 지정학 완화·글로벌 반도체 강세 반영, 정확한 종가 미확인"
     },
     {
       "name": "코스피200 야간선물",
-      "value": "-",
-      "change_pct": 0.2,
-      "note": "추정 - 6/19 미국 Juneteenth 휴장으로 야간선물 거래량·변동 극히 제한"
+      "value": "추정",
+      "change_pct": 2.8,
+      "note": "추정 — SOX +6.42%·EWY +6.57% 반영, 정확한 값 미확인"
     }
   ],
   "heatmap": [
@@ -48,18 +50,8 @@
       "stocks": [
         {
           "ticker": "NVDA",
-          "weight": 30,
+          "weight": 35,
           "change_pct": 2.95
-        },
-        {
-          "ticker": "INTC",
-          "weight": 15,
-          "change_pct": 10.64
-        },
-        {
-          "ticker": "AMD",
-          "weight": 12,
-          "change_pct": 4.86
         },
         {
           "ticker": "AVGO",
@@ -67,9 +59,24 @@
           "change_pct": 4.7
         },
         {
+          "ticker": "TSM",
+          "weight": 20,
+          "change_pct": 6.94
+        },
+        {
+          "ticker": "INTC",
+          "weight": 12,
+          "change_pct": 10.64
+        },
+        {
           "ticker": "MU",
           "weight": 10,
           "change_pct": 8.7
+        },
+        {
+          "ticker": "SNDK",
+          "weight": 5,
+          "change_pct": 11.54
         }
       ]
     },
@@ -78,28 +85,28 @@
       "stocks": [
         {
           "ticker": "AAPL",
-          "weight": 28,
+          "weight": 30,
           "change_pct": 0.7
         },
         {
-          "ticker": "MSFT",
-          "weight": 25,
-          "change_pct": 0.13
-        },
-        {
           "ticker": "AMZN",
-          "weight": 20,
+          "weight": 25,
           "change_pct": 2.9
         },
         {
           "ticker": "GOOGL",
-          "weight": 18,
+          "weight": 20,
           "change_pct": 1.17
         },
         {
           "ticker": "META",
           "weight": 15,
           "change_pct": 1.7
+        },
+        {
+          "ticker": "MSFT",
+          "weight": 10,
+          "change_pct": 0.13
         }
       ]
     },
@@ -108,22 +115,22 @@
       "stocks": [
         {
           "ticker": "TSLA",
-          "weight": 30,
+          "weight": 55,
           "change_pct": 1.04
         },
         {
           "ticker": "GM",
-          "weight": 10,
+          "weight": 20,
           "change_pct": -0.36
         },
         {
           "ticker": "F",
-          "weight": 8,
+          "weight": 15,
           "change_pct": 0.72
         },
         {
           "ticker": "RIVN",
-          "weight": 6,
+          "weight": 10,
           "change_pct": 1.6
         }
       ]
@@ -133,18 +140,28 @@
       "stocks": [
         {
           "ticker": "ALB",
-          "weight": 12,
+          "weight": 35,
           "change_pct": -3.73
         },
         {
-          "ticker": "LTHM",
-          "weight": 10,
-          "change_pct": 0.4
+          "ticker": "LAC",
+          "weight": 20,
+          "change_pct": -1.13
         },
         {
-          "ticker": "LAC",
-          "weight": 7,
-          "change_pct": -1.13
+          "ticker": "QS",
+          "weight": 20,
+          "change_pct": 16.52
+        },
+        {
+          "ticker": "LTHM",
+          "weight": 15,
+          "change_pct": -0.3
+        },
+        {
+          "ticker": "FREY",
+          "weight": 10,
+          "change_pct": 0.2
         }
       ]
     },
@@ -152,121 +169,126 @@
       "sector": "소프트웨어",
       "stocks": [
         {
+          "ticker": "MSFT",
+          "weight": 35,
+          "change_pct": 0.13
+        },
+        {
           "ticker": "ORCL",
-          "weight": 15,
+          "weight": 20,
           "change_pct": 0.41
         },
         {
           "ticker": "CRM",
-          "weight": 12,
+          "weight": 20,
           "change_pct": -2.09
+        },
+        {
+          "ticker": "CRWD",
+          "weight": 15,
+          "change_pct": 0.28
         },
         {
           "ticker": "NOW",
           "weight": 10,
           "change_pct": -0.46
-        },
-        {
-          "ticker": "ADBE",
-          "weight": 9,
-          "change_pct": -0.57
         }
       ]
     }
   ],
   "movers_up": [
     {
+      "name_kr": "샌디스크",
+      "ticker": "SNDK",
+      "change_pct": 11.54,
+      "reason": "반도체 섹터 전반 급등 수혜, 낸드플래시 가격 회복 기대감 동반 상승"
+    },
+    {
       "name_kr": "인텔",
       "ticker": "INTC",
       "change_pct": 10.64,
-      "reason": "트럼프 대통령, 인텔이 애플 칩을 미국 내 생산한다고 공식 확인"
+      "reason": "트럼프 대통령, 애플-인텔 미국 내 칩 설계 파트너십 발표로 급등"
     },
     {
-      "name_kr": "마이크론 테크놀로지",
+      "name_kr": "마이크론",
       "ticker": "MU",
       "change_pct": 8.7,
-      "reason": "이란 협정으로 글로벌 공급망 리스크 완화, 메모리 업황 개선 기대"
+      "reason": "SOX 사상 최고치 경신 동조, 반도체 슈퍼사이클 재개 기대"
     },
     {
-      "name_kr": "어드밴스드 마이크로 디바이시스",
-      "ticker": "AMD",
-      "change_pct": 4.86,
-      "reason": "이란 봉쇄 해제로 반도체 섹터 전반 강세, SOX +6.67% 동반 수혜"
+      "name_kr": "TSMC",
+      "ticker": "TSM",
+      "change_pct": 6.94,
+      "reason": "애플-인텔 미국 내 칩 파트너십의 핵심 제조 파트너로 수혜 부각"
     },
     {
       "name_kr": "브로드컴",
       "ticker": "AVGO",
       "change_pct": 4.7,
-      "reason": "반도체 업황 반등 국면에서 AI 네트워킹 수요 재부각"
+      "reason": "AI 데이터센터 네트워크 칩 수요 증가 전망 강화"
     },
     {
       "name_kr": "엔비디아",
       "ticker": "NVDA",
       "change_pct": 2.95,
-      "reason": "미-이란 잠정 합의로 AI 칩 공급망 우려 완화, SOX 급등 수혜"
+      "reason": "AI 수요 지속 강세 및 SOX 사상 최고가 동반 상승"
     },
     {
-      "name_kr": "아이쉐어즈 러셀2000",
-      "ticker": "IWM",
-      "change_pct": 1.97,
+      "name_kr": "메타",
+      "ticker": "META",
+      "change_pct": 1.7,
+      "reason": ""
+    },
+    {
+      "name_kr": "마이크로소프트",
+      "ticker": "MSFT",
+      "change_pct": 0.13,
       "reason": ""
     }
   ],
   "movers_down": [
     {
-      "name_kr": "마이크로스트래티지",
-      "ticker": "MSTR",
-      "change_pct": -3.46,
-      "reason": "FOMC 점도표 매파 전환(9인 2026 인상 지지) → BTC -1.29%, 비트코인 연동 약세"
-    },
-    {
-      "name_kr": "쉐브론",
-      "ticker": "CVX",
-      "change_pct": -2.22,
-      "reason": "호르무즈 해협 재개통 소식에 원유 프리미엄 소멸, 배당주 매도세"
-    },
-    {
-      "name_kr": "엑손모빌",
-      "ticker": "XOM",
-      "change_pct": -2.08,
-      "reason": "미-이란 합의로 이란 원유 공급 재개 기대 → WTI 급락, 에너지주 전반 약세"
+      "name_kr": "스페이스X",
+      "ticker": "SPCX",
+      "change_pct": -3.56,
+      "reason": "미국의 이란 해상 봉쇄 해제로 위성통신 긴급 수요 약화 우려"
     }
   ],
   "themes": [
     {
       "name": "반도체",
       "tag": "강세",
-      "comment": "SOX +6.67% 급등, 이란 봉쇄 해제로 공급망 우려 완화 + 인텔 애플 칩 생산 발표로 섹터 전반 강한 매수세"
+      "comment": "SOX +6.42% 사상 최고치, 애플-인텔 미국 내 칩 파트너십이 섹터 전반 급등 촉매로 작용"
     },
     {
       "name": "자동차",
       "tag": "중립",
-      "comment": "유가 하락은 비용 측면 긍정, 전기차 수요 불확실성 및 관세 리스크 잔존으로 뚜렷한 방향성 부재"
+      "comment": "테슬라 +1.04% 소폭 반등, 전기차 수요 회복 기대 vs. 이란 지정학 완화 수혜 제한적"
     },
     {
       "name": "2차전지",
-      "tag": "혼조",
-      "comment": "이란 합의발 공급망 안정 기대로 소폭 반등, 중국 업체 저가 공세 및 리튬 공급 과잉 우려 여전"
+      "tag": "약세",
+      "comment": "리튬 가격 하락세 지속, 배터리 공급 과잉 우려로 관련주 전반 부진"
     },
     {
       "name": "대형기술주",
-      "tag": "강세",
-      "comment": "나스닥 +1.91%, 이란 지정학 리스크 완화와 AI 인프라 수요 지속으로 빅테크 동반 상승"
+      "tag": "혼조",
+      "comment": "아마존·엔비디아 강세, 메타·마이크로소프트 소폭 약세 — 반도체로 수급 집중"
     },
     {
       "name": "소프트웨어",
       "tag": "중립",
-      "comment": "나스닥 상승에 동참하나 FOMC 점도표 매파 전환으로 장기금리 상승 우려 → 고밸류 성장주 일부 눌림"
+      "comment": "마이크로소프트 보합(-0.08%), AI 비용 증가 대비 수익화 속도 관망세 지속"
     },
     {
       "name": "양자컴퓨터",
       "tag": "고변동",
-      "comment": "S&P 켄쇼 양자컴퓨팅 지수 연초 대비 +69.3%(5월 말 기준), IonQ·Rigetti 등 주요 종목 변동성 극히 높음"
+      "comment": "상용화 일정 불확실성 속 테마주 고변동 유지, 이번 주 주요 촉매 없이 혼조"
     },
     {
       "name": "비트코인",
       "tag": "약세",
-      "comment": "FOMC 점도표에서 9명이 2026년 추가 금리 인상 지지 → 위험자산 회피 심리에 BTC -1.29% 하락"
+      "comment": "Warsh 연준 매파적 점도표(2026년 인상 가능성) 충격으로 BTC -1.29%, $63,908 약세"
     }
   ],
   "macro": [
@@ -274,104 +296,86 @@
       "emoji": "🏦",
       "label": "미 10년물 국채금리",
       "value": "4.49%",
-      "delta": "▲ +4bp",
+      "delta": "▲ 상승",
       "dir": "up",
-      "text": "FOMC 점도표 매파 전환(9인 2026 추가 인상 지지)에 10년물 금리 상승 압력 재차 부각"
+      "text": "Warsh 연준의 매파적 점도표(2026년 말 금리 중간값 3.8%) 반영, 2년물 스파이크 동조"
     },
     {
       "emoji": "🪙",
       "label": "연준 · FOMC",
-      "value": "동결",
-      "delta": "3.50~3.75%",
+      "value": "3.50~3.75% 동결",
+      "delta": "Warsh 첫 회의",
       "dir": "neu",
-      "text": "6/17-18 회의에서 만장일치 동결(케빈 워시 신임 의장 첫 회의), 단 점도표는 인상 쪽으로 반전 — 시장은 단기 동결·하반기 인상 경계"
+      "text": "신임 Warsh 의장 첫 FOMC서 금리 동결 결정, 점도표는 2026년 내 1회 인상 시사해 매파적 충격"
     },
     {
       "emoji": "💱",
       "label": "원/달러 환율",
-      "value": "1,530.55원",
-      "delta": "▼ -7.8원",
+      "value": "1,530원",
+      "delta": "▲ 강달러",
       "dir": "down",
-      "text": "미-이란 잠정 합의 체결로 지정학 리스크 완화 → 달러 약세·원화 강세, KOSPI 사상 최고권 동반"
+      "text": "Warsh 매파 기조에 달러 강세, USD/KRW 장중 1,539원 고점 기록 후 소폭 반납"
     },
     {
       "emoji": "🛢️",
       "label": "WTI 유가",
-      "value": "$76.00",
-      "delta": "▼ -3~4%",
-      "dir": "down",
-      "text": "미-이란이 호르무즈 해협 재개통 MOU 체결, 이란 원유 공급 재개 기대에 WTI 급락 — 에너지 섹터 전반 약세"
+      "value": "$77.33",
+      "delta": "▲ +0.96%",
+      "dir": "up",
+      "text": "미국의 이란 해상 봉쇄 해제로 공급 확대 기대, 지정학 불확실성 해소에 반등"
     },
     {
       "emoji": "📈",
       "label": "코스피 동향",
-      "value": "9,064",
-      "delta": "▲ +2.25%",
+      "value": "+2.25%",
+      "delta": "▲ 반도체 견인",
       "dir": "up",
-      "text": "이란 협정·반도체 강세(EWY +6.57%) 수혜로 코스피 9,000선 안착, 사상 최고 수준 유지 — 6/20 강보합 출발 전망"
+      "text": "삼성전자·SK하이닉스 중심 반도체주 급등, 미-이란 지정학 완화 수혜로 장 중 강세"
     }
   ],
   "schedule": {
     "today": [
-      "미국 증시 정상 운영 재개 (6/19 Juneteenth 연휴 이후 첫 거래일)",
-      "미국 주요 경제지표 발표 없음 (데이터 공백일)",
-      "미-이란 잠정 합의 후속 협상 동향 모니터링"
+      "미국 시장 휴장 (주말 — 6월 19일 준틴스 연휴 후 이어지는 주말)",
+      "글로벌 가상자산 시장 변동 모니터링 (비트코인 $63,900대 지지선 주시)"
     ],
     "this_week": [
-      "6/17-18: FOMC 정례회의 완료 — 금리 동결, 점도표 매파 반전 충격",
-      "6/18: 2026 Q2 트리플 위칭 데이 (선물·옵션·개별주식옵션 동시 만기)",
-      "6/18: 미-이란 호르무즈 해협 재개통 잠정 MOU 체결 (유가 급락 촉매)",
-      "6/19: Juneteenth 연방 공휴일 — 미국 증시 휴장",
-      "6/20: 미국 증시 재개 (오늘)"
+      "6월 22일(월): 미국 주식시장 재개장, Warsh 연준 의장 첫 공개 발언 예정",
+      "6월 23일(화): 미국 소비자신뢰지수(6월) 발표 예정",
+      "6월 24일(수): 미국 신규주택판매(5월) 발표",
+      "6월 25일(목): 미국 주간 실업수당 청구건수, 1분기 GDP 최종치 발표",
+      "6월 26일(금): 미국 PCE 물가지수(5월) 발표 — 연준 선호 인플레이션 지표"
     ],
     "this_month": [
-      "6/17-18: FOMC 회의 (완료) — 동결·매파 점도표 확인",
-      "6/18: 트리플 위칭 데이 (완료)",
-      "6/30: 2026년 2분기 마감 — 리밸런싱 수급 주의",
-      "7/2(목): 미국 비농업 고용지표(NFP) 발표 예정 (다음 달 핵심 이벤트)"
+      "6월 17일(수): FOMC — Warsh 신임 의장 첫 금리결정, 3.50~3.75% 동결, 매파적 점도표",
+      "6월 19일(목): 준틴스(Juneteenth) 공휴일 — 미국 주식·채권시장 휴장",
+      "6월 30일(화): 2분기(Q2) 마지막 거래일 — 기관 분기 말 리밸런싱 주시"
     ]
   },
-  "disclaimer": "본 리포트는 공개 뉴스 기반 자동 요약으로 투자 자문이 아닙니다. 일부 미확보 수치는 '추정'으로 표기됩니다. 6월 19일은 미국 Juneteenth 연방 공휴일로, 전일 미국 마감 기준은 6월 18일(목) 데이터입니다.",
+  "disclaimer": "본 리포트는 공개 뉴스 기반 자동 요약으로 투자 자문이 아닙니다. 일부 미확보 수치는 '추정'으로 표기됩니다.",
   "sources": [
+    {
+      "title": "TradingKey - US Stock Close June 18 2026 (SOX, INTC, SNDK, MU)",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261976890-us-stock-close-nasdaq-sp500-dowjones-philadelphia-semiconductor-spacex-intel-tradingkey"
+    },
     {
       "title": "TheStreet - Stock Market Today June 18 2026",
       "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-18-2026"
     },
     {
-      "title": "CNBC - Fed interest rate decision June 2026",
-      "url": "https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html"
-    },
-    {
-      "title": "StockTitan - Fed Rate Decision June 17 2026",
-      "url": "https://www.stocktitan.net/articles/fed-rate-decision-june-17-2026"
-    },
-    {
-      "title": "Yahoo Finance - Bitcoin prices June 18 2026",
+      "title": "Yahoo Finance - Bitcoin and Ethereum prices June 18 2026",
       "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-june-18-2026-prices-sliding-despite-iran-peace-deal-115022443.html"
     },
     {
-      "title": "Globe and Mail - Stock Market Today June 18 Intel Surges",
-      "url": "https://www.theglobeandmail.com/investing/markets/stocks/NVDA-Q/pressreleases/2542238/stock-market-today-june-18-intel-surges-as-market-gains-on-u-s-iran-agreement/"
+      "title": "NBC News - Federal Reserve Kevin Warsh holds rates steady",
+      "url": "https://www.nbcnews.com/business/economy/inflation-kevin-warsh-fed-fomc-meeting-rcna350411"
     },
     {
-      "title": "iShares MSCI South Korea ETF (EWY)",
+      "title": "CNBC - Treasury yields ahead of Fed decision",
+      "url": "https://www.cnbc.com/amp/2026/06/17/treasury-yields-investors-await-warsh-fed-decision.html"
+    },
+    {
+      "title": "iShares - EWY NAV June 18 2026",
       "url": "https://www.ishares.com/us/products/239681/ishares-msci-south-korea-capped-etf"
-    },
-    {
-      "title": "Nasdaq OMX - SOX Historical Data",
-      "url": "https://indexes.nasdaqomx.com/Index/History/SOX"
-    },
-    {
-      "title": "FRED - 10-Year Treasury Yield",
-      "url": "https://fred.stlouisfed.org/series/DGS10"
-    },
-    {
-      "title": "Trading Economics - South Korea KOSPI",
-      "url": "https://tradingeconomics.com/south-korea/stock-market"
-    },
-    {
-      "title": "Trading Economics - USD/KRW",
-      "url": "https://tradingeconomics.com/south-korea/currency"
     },
     {
       "title": "Finnhub (정규장 종가)",
