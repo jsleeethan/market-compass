@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-27",
-  "date_display": "2026년 6월 27일",
+  "date": "2026-06-28",
+  "date_display": "2026년 6월 28일",
   "indices_us": [
     {
       "name": "DOW JONES",
@@ -21,27 +21,27 @@
   "indices_extra": [
     {
       "name": "필라델피아 반도체 (SOX)",
-      "value": "13,941",
+      "value": "12,683.41",
       "change_pct": -5.64,
-      "note": "추정 — MU +15% 급등 상쇄 불구 AMD·INTC 급락 반영"
+      "note": "추정 (6/24 기준 13,139.68에서 MU·INTC 급락 반영)"
     },
     {
       "name": "MSCI 한국 (EWY)",
       "value": "$197.28",
       "change_pct": -3.77,
-      "note": "— 반도체·IT 비중 높아 글로벌 섹터 약세 동조"
+      "note": ""
     },
     {
       "name": "MSCI 신흥국 (EEM)",
       "value": "$67.19",
       "change_pct": -1.13,
-      "note": "— 달러 강세·기술주 매도 영향"
+      "note": ""
     },
     {
       "name": "코스피200 야간선물",
-      "value": "추정",
-      "change_pct": -1.2,
-      "note": "추정 — 애플 공급망 충격, 국내 반도체株 우려"
+      "value": "미확인",
+      "change_pct": -0.35,
+      "note": "추정 (미국 장 소폭 하락 반영, 실제값 확인 필요)"
     }
   ],
   "heatmap": [
@@ -69,9 +69,9 @@
           "change_pct": -6.69
         },
         {
-          "ticker": "QCOM",
-          "weight": 12,
-          "change_pct": -7.57
+          "ticker": "AVGO",
+          "weight": 10,
+          "change_pct": -3.67
         },
         {
           "ticker": "INTC",
@@ -85,28 +85,28 @@
       "stocks": [
         {
           "ticker": "AAPL",
-          "weight": 28,
+          "weight": 30,
           "change_pct": 3.14
         },
         {
           "ticker": "MSFT",
-          "weight": 25,
+          "weight": 28,
           "change_pct": 5.71
         },
         {
           "ticker": "AMZN",
-          "weight": 20,
+          "weight": 22,
           "change_pct": 2.5
-        },
-        {
-          "ticker": "META",
-          "weight": 15,
-          "change_pct": 1.36
         },
         {
           "ticker": "GOOGL",
           "weight": 18,
           "change_pct": -1.84
+        },
+        {
+          "ticker": "META",
+          "weight": 15,
+          "change_pct": 1.36
         }
       ]
     },
@@ -115,7 +115,7 @@
       "stocks": [
         {
           "ticker": "TSLA",
-          "weight": 25,
+          "weight": 35,
           "change_pct": 1.22
         },
         {
@@ -130,7 +130,7 @@
         },
         {
           "ticker": "RIVN",
-          "weight": 5,
+          "weight": 8,
           "change_pct": 5.18
         }
       ]
@@ -139,19 +139,29 @@
       "sector": "2차전지",
       "stocks": [
         {
-          "ticker": "QS",
-          "weight": 5,
-          "change_pct": 0.42
+          "ticker": "ALB",
+          "weight": 18,
+          "change_pct": -5.21
         },
         {
-          "ticker": "SLDP",
-          "weight": 3,
-          "change_pct": -0.38
+          "ticker": "SQM",
+          "weight": 12,
+          "change_pct": -2.08
         },
         {
-          "ticker": "ABTC",
-          "weight": 3,
-          "change_pct": 1.73
+          "ticker": "BYDDY",
+          "weight": 15,
+          "change_pct": -3.1
+        },
+        {
+          "ticker": "CHPT",
+          "weight": 8,
+          "change_pct": 5.29
+        },
+        {
+          "ticker": "LTHM",
+          "weight": 8,
+          "change_pct": -1.0
         }
       ]
     },
@@ -159,29 +169,58 @@
       "sector": "소프트웨어",
       "stocks": [
         {
+          "ticker": "PANW",
+          "weight": 18,
+          "change_pct": 3.79
+        },
+        {
           "ticker": "CRM",
-          "weight": 12,
+          "weight": 20,
           "change_pct": 5.45
         },
         {
           "ticker": "ORCL",
-          "weight": 10,
+          "weight": 18,
           "change_pct": -2.58
         },
         {
-          "ticker": "ADBE",
-          "weight": 8,
-          "change_pct": 4.82
+          "ticker": "SNOW",
+          "weight": 10,
+          "change_pct": 9.64
         },
         {
-          "ticker": "NOW",
-          "weight": 8,
-          "change_pct": 9.85
+          "ticker": "UBER",
+          "weight": 12,
+          "change_pct": 5.47
         }
       ]
     }
   ],
   "movers_up": [
+    {
+      "name_kr": "모더나",
+      "ticker": "MRNA",
+      "change_pct": 12.59,
+      "reason": "임상 파이프라인 진전 발표로 기대감 급등"
+    },
+    {
+      "name_kr": "우버",
+      "ticker": "UBER",
+      "change_pct": 5.47,
+      "reason": "자율주행 로보택시 사업 확장 계획 발표"
+    },
+    {
+      "name_kr": "애브비",
+      "ticker": "ABBV",
+      "change_pct": 4.2,
+      "reason": "Apogee 신약 FDA 승인 획득으로 파이프라인 가치 부각"
+    },
+    {
+      "name_kr": "팔로알토 네트웍스",
+      "ticker": "PANW",
+      "change_pct": 3.79,
+      "reason": "사이버보안 수요 증가 및 플랫폼 전환 가속화 기대"
+    },
     {
       "name_kr": "애플",
       "ticker": "AAPL",
@@ -189,192 +228,175 @@
       "reason": ""
     },
     {
-      "name_kr": "메타",
-      "ticker": "META",
-      "change_pct": 1.36,
-      "reason": ""
+      "name_kr": "테슬라",
+      "ticker": "TSLA",
+      "change_pct": 1.22,
+      "reason": "반도체 섹터 하락 속에서도 자율주행 모멘텀으로 상대적 강세"
     }
   ],
   "movers_down": [
     {
-      "name_kr": "퀄컴",
-      "ticker": "QCOM",
-      "change_pct": -7.57,
-      "reason": ""
-    },
-    {
       "name_kr": "마이크론",
       "ticker": "MU",
       "change_pct": -6.69,
-      "reason": ""
+      "reason": "강한 Q3 실적(매출 $41.5B) 발표 후 차익실현 매물 출회"
     },
     {
       "name_kr": "인텔",
       "ticker": "INTC",
       "change_pct": -3.42,
-      "reason": "메모리 위기 심화·AI 칩 경쟁력 약화 우려로 반도체 섹터 동반 급락"
-    },
-    {
-      "name_kr": "아이온큐",
-      "ticker": "IONQ",
-      "change_pct": -2.47,
-      "reason": ""
+      "reason": "반도체 섹터 전반 약세 동조 및 경쟁 심화 우려"
     },
     {
       "name_kr": "AMD",
       "ticker": "AMD",
       "change_pct": -2.06,
-      "reason": "스마트폰 수요 급감·AI 칩 아웃룩 하향에 섹터 전반 매도세 확산"
+      "reason": "AI 가속기 시장 경쟁 격화 우려로 섹터 하락 동조"
     },
     {
       "name_kr": "엔비디아",
       "ticker": "NVDA",
       "change_pct": -1.64,
-      "reason": "OpenAI IPO 연기 보도로 AI 투자 심리 위축, 대형 AI 수혜주 동반 조정"
+      "reason": "반도체 주간 낙폭(-7.9%) 부담으로 기술적 되돌림"
     }
   ],
   "themes": [
     {
       "name": "반도체",
-      "tag": "혼조",
-      "comment": "마이크론 +15% 급등 vs AMD·인텔 -6~-8% 급락 — AI 메모리 강세·레거시 칩 약세 극명한 양극화"
+      "tag": "약세",
+      "comment": "PHLX 반도체지수 주간 -7.9%, 마이크론 호실적에도 섹터 전반 차익실현 압박 지속"
     },
     {
       "name": "자동차",
-      "tag": "약세",
-      "comment": "글로벌 기술주 투자심리 위축 속 전기차 수요 불확실성 지속, 테슬라 조정권 머물러"
+      "tag": "혼조",
+      "comment": "테슬라 +1.22% 반도체 낙폭 대비 선방, 전통 완성차는 소폭 하락"
     },
     {
       "name": "2차전지",
       "tag": "약세",
-      "comment": "리튬 가격 전년비 2배 상승에도 EV 전방 수요 불투명, 배터리 업체 전반 약세"
+      "comment": "기술주 동반 약세 및 리튬·소재 가격 불안으로 배터리 관련주 소폭 하락"
     },
     {
       "name": "대형기술주",
-      "tag": "약세",
-      "comment": "애플 -6.6% 충격·OpenAI IPO 연기 보도로 AI 버블 논란 재점화, 마이크로소프트·메타 약세장 진입"
+      "tag": "혼조",
+      "comment": "애플 가격 인상 발표 충격(전일 -6%)에 S&P500 빅테크 섹터 전반적 하방 압력"
     },
     {
       "name": "소프트웨어",
-      "tag": "약세",
-      "comment": "OpenAI IPO 2027년 연기 검토 보도, AI SaaS 밸류에이션 재검토 분위기 확산"
+      "tag": "중립",
+      "comment": "팔로알토·우버 등 개별 모멘텀은 강하나 나스닥 약세 분위기에 제한적 상승"
     },
     {
       "name": "양자컴퓨터",
       "tag": "고변동",
-      "comment": "내부자 2년 누적 8.57억 달러 매도 경보에도 IonQ Q1 매출 755% 급성장으로 고변동 지속"
+      "comment": "광범위 기술주 매도세 속 양자 테마도 변동성 확대, 개별 뉴스 따른 급등락 반복"
     },
     {
       "name": "비트코인",
       "tag": "약세",
-      "comment": "글로벌 기술주 매도 동조 및 BTC ETF 자금 유출 지속, $62,700대 지지선 테스트 중"
+      "comment": "월초 $73,674 대비 약 -13%, $64,000선 공방 중 위험자산 선호 심리 위축"
     }
   ],
   "macro": [
     {
       "emoji": "🏦",
       "label": "미 10년물 국채금리",
-      "value": "4.40%",
-      "delta": "▼ -9bp",
+      "value": "4.39%",
+      "delta": "▼ -7bp (주간)",
       "dir": "down",
-      "text": "미·이란 협상 진전 기대로 위험 선호 회복, 10년물 금리 4.40% 수준으로 하락"
+      "text": "이란 평화협상 진전·유가 하락으로 인플레 기대 완화, 국채 수요 증가해 금리 하락"
     },
     {
       "emoji": "🪙",
       "label": "연준 · FOMC",
-      "value": "3.50~3.75%",
-      "delta": "동결 유지",
+      "value": "동결 유지",
+      "delta": "3.75~4.00%",
       "dir": "neu",
-      "text": "6월 17일 워시 신임 의장 첫 회의 만장일치 동결, 연내 1회 추가 인상 시장 반영 중"
+      "text": "6/16~17 회의에서 동결, 다음 회의 7/28~29 예정. PCE 4.1% 수준에서 추가 인하 신중 기조"
     },
     {
       "emoji": "💱",
       "label": "원/달러 환율",
-      "value": "1,561원",
-      "delta": "▲ 달러 강세",
+      "value": "1,543원",
+      "delta": "▲ 원화 약세",
       "dir": "down",
-      "text": "중동 불안 완화에도 AI 경기 우려·달러 수요 지속, 원화 1,560원대 약세 유지 (추정)"
+      "text": "코스피 -5.81% 급락·외국인 순매도 확대로 원화 약세 지속, 장중 1,549원 고점 기록"
     },
     {
       "emoji": "🛢️",
       "label": "WTI 유가",
-      "value": "$69.40",
-      "delta": "▼ -3.51%",
+      "value": "$62.84",
+      "delta": "▼ -3.5%",
       "dir": "down",
-      "text": "미·이란 합의 진전·호르무즈 해협 운항 재개로 공급 우려 완화, 70달러 하회"
+      "text": "미·이란 평화협상 진전으로 페르시아만 수출 75% 회복, 유가 '전쟁 전 수준'으로 급락"
     },
     {
       "emoji": "📉",
       "label": "코스피 동향",
-      "value": "약세 전망",
-      "delta": "반도체 우려",
+      "value": "8,411.21",
+      "delta": "▼ -5.81%",
       "dir": "down",
-      "text": "애플 공급망 충격·AMD·인텔 급락으로 삼성전자·SK하이닉스 동반 하락 압력 예상 (추정)"
+      "text": "글로벌 반도체 매도세가 한국 증시 직격, 삼성전자·SK하이닉스 8% 이상 폭락"
     }
   ],
   "schedule": {
     "today": [
-      "미국 PCE 인플레이션 지수 발표 (5월, 연준 선호 물가 지표) — 전월비·전년비 모두 시장 주목",
-      "미국 개인소득 및 개인소비지출 발표 (5월)",
-      "미시간대 소비자심리지수 확정치 (6월) — 기대인플레이션 반영 여부 관건"
+      "6/28(일): 미국·국내 시장 휴장(주말)",
+      "아시아 주요 지표 발표 없음"
     ],
     "this_week": [
-      "6/24 (화) S&P/케이스실러 주택가격지수, 소비자신뢰지수",
-      "6/25 (수) ADP 민간고용보고서, 1Q26 GDP 확정치",
-      "6/26 (목) 신규 실업수당 청구건수, 잠정주택매매지수",
-      "6/27 (금) PCE 인플레이션·개인소득소비지출·미시간대 소비자심리지수 확정치"
+      "6/29(월): 미국 소비자신뢰지수, S&P/케이스-쉴러 주택가격지수",
+      "6/30(화): 분기말(Q2) 포트폴리오 리밸런싱 주의, 미국 PCE 물가지수(5월), 시카고 PMI",
+      "7/1(수): 미국 ISM 제조업 PMI, 건설지출",
+      "7/2(목): ADP 민간고용보고서, 주간 실업급여 청구건수, 미국 무역수지, NFP 조기 발표 가능성",
+      "7/3(금): 미국 독립기념일 대체공휴일 — 뉴욕 증시 휴장"
     ],
     "this_month": [
-      "6/8 OpenAI, IPO 비공개 신청서 제출 (후에 2027년 연기 검토 보도)",
-      "6/17 FOMC 금리 결정 — 3.50~3.75% 만장일치 동결 (Kevin Warsh 의장 첫 회의)",
-      "6/24 마이크론(MU) 3Q26 실적 발표 — 어닝 서프라이즈, AI HBM 수요 강세 확인",
-      "6/26 애플, 메모리 부족으로 아이패드·맥북·Vision Pro 가격 인상 공식 발표",
-      "6/26 OpenAI, IPO 2027년으로 연기 검토 보도 (NYT) — AI 버블 논란 재점화",
-      "7/2 미국 6월 고용보고서 — 비농업 취업자 수·실업률 (7월 초 예정)",
-      "7/28~29 차기 FOMC 회의 (예정)"
+      "7/4(토): 미국 독립기념일(실제)",
+      "7/10(금): 미시간대 소비자심리지수(예비치)",
+      "7/15(수): 미국 CPI 소비자물가지수(6월)",
+      "7/16(목): 미국 소매판매, 주간 실업급여",
+      "7/23(목): 미국 S&P 글로벌 PMI 플래시",
+      "7/28~29(월~화): FOMC 연방공개시장위원회 정례회의 — 금리 동결 예상"
     ]
   },
   "disclaimer": "본 리포트는 공개 뉴스 기반 자동 요약으로 투자 자문이 아닙니다. 일부 미확보 수치는 '추정'으로 표기됩니다.",
   "sources": [
     {
-      "title": "TheStreet - Stock Market Today June 26 2026",
+      "title": "CNBC Stock Market Today (June 26, 2026)",
+      "url": "https://www.cnbc.com/2026/06/25/stock-market-today-live-updates.html"
+    },
+    {
+      "title": "TheStreet Market Today June 26, 2026",
       "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-26-2026"
     },
     {
-      "title": "Yahoo Finance - Tech Stocks Live: OpenAI IPO Delay",
-      "url": "https://finance.yahoo.com/technology/live/tech-stocks-live-tech-sells-off-as-openai-weighs-delaying-ipo-until-2027-143422690.html"
+      "title": "US Stock Market Today 27.06.2026 (ts2.tech)",
+      "url": "https://ts2.tech/en/stock-market-today-27-06-2026/"
     },
     {
-      "title": "CNBC - 10-year Treasury yield falls below 4.5% as oil falls",
-      "url": "https://www.cnbc.com/2026/06/24/treasury-yields-oil-falls-pre-war-levels.html"
+      "title": "TradingEconomics - US 10 Year Treasury",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
     },
     {
-      "title": "CNBC - Fed interest rate decision June 2026",
-      "url": "https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html"
+      "title": "TradingEconomics - WTI Crude Oil",
+      "url": "https://tradingeconomics.com/commodity/crude-oil"
     },
     {
-      "title": "Benzinga - OpenAI IPO Reportedly Delayed To 2027",
-      "url": "https://www.benzinga.com/markets/prediction-markets/26/06/60134108/openai-ipo-reportedly-delayed-to-2027-theres-no-rational-argument-for-1-trillion-valuation-says-gary-marcus"
+      "title": "Intellectia AI - Semiconductor Stocks Selloff June 2026",
+      "url": "https://intellectia.ai/blog/semiconductor-stocks-selloff-june-2026"
     },
     {
-      "title": "Fortune - Bitcoin Price June 26 2026",
-      "url": "https://fortune.com/article/price-of-bitcoin-06-26-2026/"
+      "title": "Fortune - Micron reversed the global tech selloff",
+      "url": "https://fortune.com/2026/06/25/why-did-stock-market-tech-selloff-stop-micron-technology/"
     },
     {
-      "title": "Motley Fool - Quantum Computing Stocks IonQ $857M Insider Sales",
-      "url": "https://www.fool.com/investing/2026/06/25/quantum-computing-stocks-ionq-857-million-wall-st/"
+      "title": "ExchangeRates.org.uk - USD/KRW 2026",
+      "url": "https://www.exchange-rates.org/exchange-rate-history/usd-krw-2026"
     },
     {
-      "title": "TradingKey - Apple AAPL Memory Crisis Price Hikes June 2026",
-      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261992971-apple-aapl-stock-analysis-memory-shortage-price-hikes-june-2026-tradingkey"
-    },
-    {
-      "title": "CNN Business - AI stocks melt down June 26 2026",
-      "url": "https://www.cnn.com/2026/06/26/investing/tech-stocks-nasdaq-kospi"
-    },
-    {
-      "title": "StockTitan - Fed Rate Decision June 17 2026 Dot Plot Flip",
-      "url": "https://www.stocktitan.net/articles/fed-rate-decision-june-17-2026"
+      "title": "StockAnalysis - EWY History",
+      "url": "https://stockanalysis.com/etf/ewy/history/"
     },
     {
       "title": "Finnhub (정규장 종가)",
