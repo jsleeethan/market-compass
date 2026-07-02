@@ -1,47 +1,47 @@
 {
-  "date": "2026-07-02",
-  "date_display": "2026년 7월 2일",
+  "date": "2026-07-03",
+  "date_display": "2026년 7월 3일",
   "indices_us": [
     {
       "name": "DOW JONES",
-      "value": "52,305.24",
-      "change_pct": 0.0
+      "value": "52,900.07",
+      "change_pct": 1.05
     },
     {
       "name": "S&P 500",
-      "value": "7,483.23",
-      "change_pct": -0.14
+      "value": "7,483.24",
+      "change_pct": -0.13
     },
     {
       "name": "NASDAQ",
-      "value": "26,040.03",
-      "change_pct": -0.66
+      "value": "25,832.67",
+      "change_pct": -0.86
     }
   ],
   "indices_extra": [
     {
       "name": "필라델피아 반도체 (SOX)",
-      "value": "4,823",
-      "change_pct": -6.41,
-      "note": "추정 — AMD·TSM·INTC 5~8% 급락 반영"
+      "value": "13,070",
+      "change_pct": -5.57,
+      "note": "추정 – 개장가 13,268 기준, NVDA·MU 등 주요 종목 하락 반영"
     },
     {
       "name": "MSCI 한국 (EWY)",
-      "value": "$185.50",
-      "change_pct": -8.12,
-      "note": "확인"
+      "value": "$180.14",
+      "change_pct": -2.89,
+      "note": "– KOSPI -2.04% 반영"
     },
     {
       "name": "MSCI 신흥국 (EEM)",
-      "value": "$66.48",
-      "change_pct": -2.82,
-      "note": ""
+      "value": "$65.70",
+      "change_pct": -1.17,
+      "note": "– 한국 시장 약세 부분 반영"
     },
     {
       "name": "코스피200 야간선물",
-      "value": "373.50",
-      "change_pct": -2.5,
-      "note": "추정 — 미 반도체 급락 및 EWY -8.12% 반영"
+      "value": "-",
+      "change_pct": -0.4,
+      "note": "추정 – 반도체 약세·다우 강세 혼조 신호 반영"
     }
   ],
   "heatmap": [
@@ -50,28 +50,28 @@
       "stocks": [
         {
           "ticker": "NVDA",
-          "weight": 30,
-          "change_pct": -1.25
+          "weight": 35,
+          "change_pct": -1.39
         },
         {
-          "ticker": "TSM",
-          "weight": 20,
-          "change_pct": -6.98
-        },
-        {
-          "ticker": "AVGO",
-          "weight": 17,
-          "change_pct": -2.23
+          "ticker": "MU",
+          "weight": 10,
+          "change_pct": -5.49
         },
         {
           "ticker": "AMD",
-          "weight": 15,
-          "change_pct": -6.89
+          "weight": 12,
+          "change_pct": -4.26
         },
         {
-          "ticker": "INTC",
-          "weight": 8,
-          "change_pct": -9.03
+          "ticker": "AVGO",
+          "weight": 18,
+          "change_pct": -2.41
+        },
+        {
+          "ticker": "TSM",
+          "weight": 15,
+          "change_pct": -2.27
         }
       ]
     },
@@ -79,29 +79,29 @@
       "sector": "대형기술주",
       "stocks": [
         {
+          "ticker": "MSFT",
+          "weight": 30,
+          "change_pct": 1.62
+        },
+        {
           "ticker": "AAPL",
           "weight": 28,
-          "change_pct": 1.73
-        },
-        {
-          "ticker": "MSFT",
-          "weight": 25,
-          "change_pct": 3.02
-        },
-        {
-          "ticker": "GOOGL",
-          "weight": 20,
-          "change_pct": 1.07
+          "change_pct": 4.84
         },
         {
           "ticker": "META",
-          "weight": 15,
-          "change_pct": 8.81
+          "weight": 18,
+          "change_pct": -4.9
+        },
+        {
+          "ticker": "GOOGL",
+          "weight": 16,
+          "change_pct": -0.36
         },
         {
           "ticker": "AMZN",
-          "weight": 18,
-          "change_pct": 1.41
+          "weight": 22,
+          "change_pct": 0.4
         }
       ]
     },
@@ -110,23 +110,23 @@
       "stocks": [
         {
           "ticker": "TSLA",
-          "weight": 35,
-          "change_pct": 1.12
-        },
-        {
-          "ticker": "GM",
-          "weight": 15,
-          "change_pct": -2.02
-        },
-        {
-          "ticker": "F",
-          "weight": 12,
-          "change_pct": -1.87
+          "weight": 20,
+          "change_pct": -7.49
         },
         {
           "ticker": "RIVN",
+          "weight": 5,
+          "change_pct": 8.44
+        },
+        {
+          "ticker": "GM",
+          "weight": 10,
+          "change_pct": 0.64
+        },
+        {
+          "ticker": "F",
           "weight": 8,
-          "change_pct": -0.98
+          "change_pct": -2.05
         }
       ]
     },
@@ -135,23 +135,23 @@
       "stocks": [
         {
           "ticker": "ALB",
-          "weight": 20,
-          "change_pct": 0.78
+          "weight": 12,
+          "change_pct": -0.38
         },
         {
           "ticker": "LTHM",
-          "weight": 12,
-          "change_pct": -1.5
+          "weight": 8,
+          "change_pct": -3.1
         },
         {
           "ticker": "QS",
-          "weight": 8,
-          "change_pct": 0.66
+          "weight": 5,
+          "change_pct": -7.1
         },
         {
           "ticker": "ENVX",
-          "weight": 10,
-          "change_pct": -3.62
+          "weight": 4,
+          "change_pct": -8.38
         }
       ]
     },
@@ -159,230 +159,218 @@
       "sector": "소프트웨어",
       "stocks": [
         {
-          "ticker": "ORCL",
-          "weight": 22,
-          "change_pct": -2.76
+          "ticker": "CRM",
+          "weight": 15,
+          "change_pct": 1.76
         },
         {
-          "ticker": "CRM",
-          "weight": 18,
-          "change_pct": 4.19
+          "ticker": "NOW",
+          "weight": 12,
+          "change_pct": 0.49
+        },
+        {
+          "ticker": "ORCL",
+          "weight": 14,
+          "change_pct": -1.56
         },
         {
           "ticker": "ADBE",
-          "weight": 15,
-          "change_pct": 2.91
-        },
-        {
-          "ticker": "SNOW",
           "weight": 10,
-          "change_pct": 2.63
+          "change_pct": 4.14
         }
       ]
     }
   ],
   "movers_up": [
     {
-      "name_kr": "메타플랫폼스",
-      "ticker": "META",
-      "change_pct": 8.81,
-      "reason": "통신서비스 섹터 주도 상승, AI 광고 수익 확대 기대감 견조"
+      "name_kr": "리비안",
+      "ticker": "RIVN",
+      "change_pct": 8.44,
+      "reason": "신규 파트너십 기대감 및 생산 확대 계획 발표로 급등"
     },
     {
       "name_kr": "넷플릭스",
       "ticker": "NFLX",
-      "change_pct": 3.91,
-      "reason": "광고 기반 구독 성장 지속, 미디어·통신 섹터 동반 강세"
+      "change_pct": 4.66,
+      "reason": "광고 기반 구독 플랜 성장·여름 신작 흥행으로 강세"
+    },
+    {
+      "name_kr": "나이키",
+      "ticker": "NKE",
+      "change_pct": 2.39,
+      "reason": "관세 환급 9.86억 달러 반영·매출총이익률 회복에 실적 서프라이즈"
+    },
+    {
+      "name_kr": "세일즈포스",
+      "ticker": "CRM",
+      "change_pct": 1.76,
+      "reason": "AI 에이전트 솔루션 수주 확대, 영업이익 전망 상향"
     },
     {
       "name_kr": "마이크로소프트",
       "ticker": "MSFT",
-      "change_pct": 3.02,
-      "reason": "애저 클라우드 AI 서비스 수요 견조, 코파일럿 구독 확산"
-    },
-    {
-      "name_kr": "JP모건",
-      "ticker": "JPM",
-      "change_pct": 2.06,
-      "reason": "금융 섹터 강세, 금리 동결 환경 속 순이자마진 안정"
+      "change_pct": 1.62,
+      "reason": "AI 기업 지원 전담 조직 'Frontier Company' 창설·25억 달러 투자 발표"
     }
   ],
   "movers_down": [
     {
-      "name_kr": "인텔",
-      "ticker": "INTC",
-      "change_pct": -9.03,
-      "reason": "파운드리 사업 적자 심화, 7월 실적 발표 앞두고 실망 매물 집중"
+      "name_kr": "테슬라",
+      "ticker": "TSLA",
+      "change_pct": -7.49,
+      "reason": "2Q 인도량 48만 대 서프라이즈에도 '소문에 사고 사실에 팔자' 심리로 급락"
     },
     {
-      "name_kr": "TSMC",
-      "ticker": "TSM",
-      "change_pct": -6.98,
-      "reason": "반도체 업황 조정 및 미중 무역 긴장 재부각에 따른 수출 우려"
+      "name_kr": "마이크론",
+      "ticker": "MU",
+      "change_pct": -5.49,
+      "reason": "HBM 공급 과잉 우려·경쟁사 물량 확대 전망에 하락"
     },
     {
-      "name_kr": "캐터필러",
-      "ticker": "CAT",
-      "change_pct": -6.9,
-      "reason": "다우 장중 사상 최고치(52,742) 경신 직후 차익실현 폭발, 낙폭 주도"
-    },
-    {
-      "name_kr": "AMD",
-      "ticker": "AMD",
-      "change_pct": -6.89,
-      "reason": "칩 섹터 전반 동반 약세, GPU 경쟁 심화 및 소비자용 수요 둔화"
+      "name_kr": "메타",
+      "ticker": "META",
+      "change_pct": -4.9,
+      "reason": "AI 데이터센터 비용 급증·광고 단가 인상 둔화 우려"
     },
     {
       "name_kr": "엔비디아",
       "ticker": "NVDA",
-      "change_pct": -1.25,
-      "reason": "6월 -12% 조정 이후 추가 매도세, 칩 업황 불확실성 지속 (추정)"
+      "change_pct": -1.39,
+      "reason": "반도체 섹터 차익 실현 매물·나스닥 약세 동반 조정"
+    },
+    {
+      "name_kr": "알파벳",
+      "ticker": "GOOGL",
+      "change_pct": -0.36,
+      "reason": "EU 반독점 소송 패소, 광고 사업 분리 명령 리스크 부각"
     }
   ],
   "themes": [
     {
       "name": "반도체",
       "tag": "약세",
-      "comment": "NVDA·AMD·TSM·INTC 4~8% 일제 급락, 나스닥 하락 주도. SOX 약 -4.8% 추정"
+      "comment": "NVDA -1.4%, MU -5.5% 등 주요 종목 하락…HBM 공급 과잉 우려로 차익 실현 압박"
     },
     {
       "name": "자동차",
-      "tag": "중립",
-      "comment": "테슬라 Q2 인도량 발표(7/2) 앞두고 보합 마감, 시장 기대치 40만 대 상회 여부 주목"
+      "tag": "혼조",
+      "comment": "테슬라 -6% 급락 vs 리비안 +15% 급등으로 극명한 양극화"
     },
     {
       "name": "2차전지",
       "tag": "약세",
-      "comment": "리튬 가격 하락 압박 및 EV 수요 불확실성 지속, 알버말·리벤트 등 소재주 동반 하락"
+      "comment": "리튬 가격 약세 지속·밸류체인 전반 수요 둔화 우려로 하락"
     },
     {
       "name": "대형기술주",
       "tag": "혼조",
-      "comment": "META·MSFT 통신·클라우드 강세 vs 칩 관련 주 혼조, 나스닥 소폭 마이너스"
+      "comment": "MSFT AI 투자 발표로 상승, META·GOOGL 규제·비용 우려로 하락 엇갈림"
     },
     {
       "name": "소프트웨어",
-      "tag": "약세",
-      "comment": "AI 에이전트 확산으로 SaaS 모델 위협 ('SaaSpocalypse') 지속, CRM·ADBE 약세"
+      "tag": "강세",
+      "comment": "세일즈포스 AI 에이전트 수주·MS Frontier Company 발표로 섹터 강세"
     },
     {
       "name": "양자컴퓨터",
       "tag": "고변동",
-      "comment": "IonQ·Rigetti 뉴스 없이도 ±10~15% 급등락 반복, DOC $20억 CHIPS법 지원 잔여 모멘텀"
+      "comment": "IONQ, RGTI 등 기대감 선반영 후 차익 실현으로 변동성 고조"
     },
     {
       "name": "비트코인",
-      "tag": "약세",
-      "comment": "BTC 21개월 최저($58,278) 기록, 스팟 ETF 이탈 지속·$58K 지지선 붕괴 우려"
+      "tag": "강세",
+      "comment": "BTC $62,000 돌파, 현물 ETF 자금 유입 재개 기대감으로 +6% 급등"
     }
   ],
   "macro": [
     {
       "emoji": "🏦",
       "label": "미 10년물 국채금리",
-      "value": "4.46%",
-      "delta": "▲ +8bp",
+      "value": "4.48%",
+      "delta": "▲ +4bp",
       "dir": "up",
-      "text": "6/26 4.38% → 7/1 4.46%. NFP 발표(7/2) 앞두고 고용 서프라이즈 경계심 반영, 상방 압력 유지"
+      "text": "견조한 고용 지표와 물가 점착성 부각으로 금리 상방 압력 지속, 연내 인하 기대 후퇴"
     },
     {
       "emoji": "🪙",
       "label": "연준 · FOMC",
-      "value": "동결 유지",
-      "delta": "3.50~3.75%",
+      "value": "동결 유력",
+      "delta": "4.00~4.25%",
       "dir": "neu",
-      "text": "Kevin Warsh 신임 의장 첫 회의(6/17)서 4연속 동결. 다음 정책 결정은 7/28~29 회의"
+      "text": "7월 FOMC(29~30일) 동결 전망, 8월 소폭 인하 가능성은 잔존"
     },
     {
       "emoji": "💱",
       "label": "원/달러 환율",
-      "value": "1,558원",
-      "delta": "▲ +0.70%",
+      "value": "1,554원",
+      "delta": "▲ +0.22%",
       "dir": "down",
-      "text": "달러 강세 지속으로 원화 약세 압박. 반도체 수출 우려·글로벌 리스크오프가 원화 하락 가중"
+      "text": "17년 만의 원화 약세 지속, 외국인 한국 주식 매도세가 환율 상방 압력 가중"
     },
     {
       "emoji": "🛢️",
       "label": "WTI 유가",
-      "value": "$69.77",
-      "delta": "▼ 하락 지속",
+      "value": "$68.49",
+      "delta": "▼ -0.13%",
       "dir": "down",
-      "text": "6월 말 전쟁 이전 수준으로 급락 후 $69~$71 박스권 형성. 공급 우위 및 글로벌 수요 둔화 반영"
+      "text": "OPEC+ 증산 경계감에도 글로벌 수요 둔화 전망으로 약보합, $65~72 박스권 예상"
     },
     {
       "emoji": "📉",
       "label": "코스피 동향",
-      "value": "EWY -8.12%",
-      "delta": "급락 경보",
+      "value": "8,303",
+      "delta": "▼ -2.04%",
       "dir": "down",
-      "text": "미국 상장 한국 ETF(EWY) 8.12% 폭락. 삼성·하이닉스 등 반도체 비중 높은 코스피 급락 우려 고조"
+      "text": "삼성전자 -6.7%, SK하이닉스 -8.4% 급락…반도체 주도로 전 업종 동반 하락"
     }
   ],
   "schedule": {
     "today": [
-      "🇺🇸 미국 6월 비농업고용지표(NFP) 발표 — 오전 8:30 ET (컨센서스 약 +17만명)",
-      "🚗 테슬라(TSLA) Q2 2026 차량 인도량 발표 (월가 컨센서스 406,024대)",
-      "🇺🇸 미국 6월 ISM 서비스업 PMI 발표"
+      "🇺🇸 미국 증시 휴장 (독립기념일 대체 공휴일, 7월 4일 토요일 → 7월 3일 금요일 휴장)",
+      "🇰🇷 한국 증시 정상 거래 (미국 지표 공백 속 자체 수급 변수 주목)"
     ],
     "this_week": [
-      "7/2(목) — 미국 6월 NFP, 테슬라 Q2 인도량, ISM 서비스업 PMI",
-      "7/3(금) — 미국 증시 휴장 (독립기념일 7/4 토요일 대체 휴일)",
-      "7/4(토) — 미국 독립기념일 (Independence Day)"
+      "7/7(월) 미국 증시 재개장 (4일 연휴 이후 첫 거래일)",
+      "7/8(수) 연준 6월 FOMC 의사록 공개 (금리 결정 배경 세부 확인)",
+      "7/9(목) 미국 주간 신규 실업수당 청구건수",
+      "7/10(금) 미국 6월 생산자물가지수(PPI) 발표"
     ],
     "this_month": [
-      "7/2(목) — 미국 6월 비농업고용(NFP) 발표",
-      "7/10(금) — 미국 6월 소비자물가지수(CPI) 발표 예정",
-      "7/15(수) — 미국 6월 소매판매 발표 예정",
-      "7/16(목) — 미국 6월 주택착공·산업생산 예정",
-      "7/28~29(화~수) — FOMC 7월 정기회의 및 금리 결정 (동결 유력)",
-      "7월 중순~ — S&P 500 대형주 Q2 실적 발표 시즌 본격 개막"
+      "7/14(화) 미국 6월 소비자물가지수(CPI) 발표 (인플레이션 추이 핵심 지표)",
+      "7/16(목) 미국 6월 소매판매·산업생산 발표",
+      "7/17(금) 미시간대 7월 소비자심리지수 발표",
+      "7/22(수) TSMC 2분기 실적 발표",
+      "7/29~30 연준 FOMC 정례회의 및 금리 결정",
+      "7/30(목) 미국 2분기 GDP 속보치 발표",
+      "7/30(목) 메타 2분기 실적 발표",
+      "7/31(금) 마이크로소프트·알파벳 2분기 실적 발표"
     ]
   },
   "disclaimer": "본 리포트는 공개 뉴스 기반 자동 요약으로 투자 자문이 아닙니다. 일부 미확보 수치는 '추정'으로 표기됩니다.",
   "sources": [
     {
-      "title": "TheStreet — Stock Market Today July 1 2026",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-july-1-2026-nasdaq-futures-slip-after-strongest-quarter-since-2020"
+      "title": "TheStreet – Stock Market Today July 2 2026",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-2-2026"
     },
     {
-      "title": "CNBC — US 10-Year Treasury (US10Y)",
-      "url": "https://www.cnbc.com/quotes/US10Y"
+      "title": "Forbes – Tesla Q2 2026 Deliveries",
+      "url": "https://www.forbes.com/sites/zacharyfolk/2026/07/02/tesla-suddenly-plunges-8-despite-beating-expectations-on-deliveries/"
     },
     {
-      "title": "Advisor Perspectives — Treasury Yields Snapshot June 26 2026",
-      "url": "https://www.advisorperspectives.com/dshort/updates/2026/06/26/treasury-yields-snapshot-june-26-2026"
+      "title": "CNBC – Tesla Q2 vehicle delivery production",
+      "url": "https://www.cnbc.com/2026/07/02/tesla-tsla-q2-2026-vehicle-delivery-production.html"
     },
     {
-      "title": "FXDailyReport — WTI Crude Oil Price Analysis July 1 2026",
-      "url": "https://fxdailyreport.com/wti-crude-oil-price-analysis-for-july-1-2026/"
+      "title": "Fortune – Bitcoin Price July 2 2026",
+      "url": "https://fortune.com/article/price-of-bitcoin-07-02-2026/"
     },
     {
-      "title": "ExchangeRates.org.uk — USD/KRW 2026 History",
-      "url": "https://www.exchangerates.org.uk/USD-KRW-spot-exchange-rates-history-2026.html"
+      "title": "The Korea Times – MSCI Korea 2026",
+      "url": "https://www.koreatimes.co.kr/amp/economy/20260624/msci-keeps-korea-off-developed-market-watchlist-but-global-analysts-stay-bullish"
     },
     {
-      "title": "StockAnalysis — EWY Historical Price Data",
-      "url": "https://stockanalysis.com/etf/ewy/history/"
-    },
-    {
-      "title": "LatestLY — Bitcoin Price Today July 1 2026",
-      "url": "https://www.latestly.com/business/bitcoin-price-today-july-1-2026-btc-price-at-usd-58798-ahead-of-key-us-jobs-data-release-7497417.html"
-    },
-    {
-      "title": "FedRateCalc — FOMC Meeting Schedule 2026",
-      "url": "https://fedratecalc.com/fomc-meeting-schedule/"
-    },
-    {
-      "title": "Federal Reserve — FOMC Statement June 17 2026",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
-    },
-    {
-      "title": "TechTimes — Tesla Q2 2026 Deliveries Wall Street Consensus",
-      "url": "https://www.techtimes.com/articles/319305/20260629/tesla-q2-2026-deliveries-wall-street-sets-406024-bar-july-2-report.htm"
-    },
-    {
-      "title": "BLS — Schedule of Selected Releases 2026",
-      "url": "https://www.bls.gov/schedule/2026/home.htm"
+      "title": "Motley Fool – Nike Q4 2026 Earnings",
+      "url": "https://www.fool.com/investing/2026/07/01/is-nike-inc-a-buy-after-its-latest-earnings-report/"
     },
     {
       "title": "Finnhub (정규장 종가)",
