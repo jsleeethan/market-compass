@@ -1,46 +1,46 @@
 {
-  "date": "2026-10-27",
-  "date_display": "2026년 10월 27일",
+  "date": "2026-10-31",
+  "date_display": "2026년 10월 31일",
   "indices_us": [
     {
       "name": "DOW JONES",
-      "value": "52,361.58",
-      "change_pct": 0.31
+      "value": "52,342.56",
+      "change_pct": -1.07
     },
     {
       "name": "S&P 500",
-      "value": "7,676.77",
-      "change_pct": 0.71
+      "value": "7,720.39",
+      "change_pct": -1.77
     },
     {
       "name": "NASDAQ",
-      "value": "26,169.38",
-      "change_pct": 0.87
+      "value": "26,184.72",
+      "change_pct": -2.84
     }
   ],
   "indices_extra": [
     {
       "name": "필라델피아 반도체 (SOX)",
-      "value": "11,120",
-      "change_pct": 2.85,
-      "note": "추정 (인텔 +5%·엔비디아·AMD +3% 기반)"
+      "value": "10,686.40",
+      "change_pct": -8.24
     },
     {
       "name": "MSCI 한국 (EWY)",
-      "value": "$152.72",
-      "change_pct": 0.97,
-      "note": "(코스피 하락 연동)"
+      "value": "$152.89",
+      "change_pct": -5.52,
+      "note": "(전일 $161.83 기준 -6.42% 계산)"
     },
     {
       "name": "MSCI 신흥국 (EEM)",
-      "value": "$61.82",
-      "change_pct": -0.31
+      "value": "$61.04",
+      "change_pct": -2.68,
+      "note": "(전일 $62.72 기준 -2.64% 계산)"
     },
     {
       "name": "코스피200 야간선물",
-      "value": "추정",
-      "change_pct": 0.7,
-      "note": "추정 (미국장 상승 반영 예상)"
+      "value": "353.2",
+      "change_pct": -4.2,
+      "note": "추정 (EWY -6.4% · SOX -7.2% 연동 반영)"
     }
   ],
   "heatmap": [
@@ -49,23 +49,28 @@
       "stocks": [
         {
           "ticker": "NVDA",
-          "weight": 35,
-          "change_pct": 2.39
+          "weight": 30,
+          "change_pct": -4.22
         },
         {
           "ticker": "AMD",
           "weight": 20,
-          "change_pct": 2.8
+          "change_pct": -10.88
+        },
+        {
+          "ticker": "TSM",
+          "weight": 20,
+          "change_pct": -5.95
         },
         {
           "ticker": "INTC",
           "weight": 15,
-          "change_pct": 4.04
+          "change_pct": -28.58
         },
         {
           "ticker": "AVGO",
-          "weight": 18,
-          "change_pct": 2.33
+          "weight": 15,
+          "change_pct": -5.48
         }
       ]
     },
@@ -74,23 +79,28 @@
       "stocks": [
         {
           "ticker": "AAPL",
-          "weight": 30,
-          "change_pct": -1.1
+          "weight": 28,
+          "change_pct": -1.23
+        },
+        {
+          "ticker": "MSFT",
+          "weight": 25,
+          "change_pct": -1.55
         },
         {
           "ticker": "META",
           "weight": 20,
-          "change_pct": -1.88
+          "change_pct": -1.53
         },
         {
           "ticker": "GOOGL",
-          "weight": 22,
-          "change_pct": -1.06
+          "weight": 20,
+          "change_pct": -1.4
         },
         {
           "ticker": "AMZN",
-          "weight": 25,
-          "change_pct": 0.44
+          "weight": 15,
+          "change_pct": -1.41
         }
       ]
     },
@@ -100,17 +110,22 @@
         {
           "ticker": "TSLA",
           "weight": 40,
-          "change_pct": 5.21
+          "change_pct": -0.87
         },
         {
           "ticker": "GM",
-          "weight": 20,
-          "change_pct": 0.51
+          "weight": 22,
+          "change_pct": 1.96
         },
         {
           "ticker": "F",
-          "weight": 15,
-          "change_pct": -0.17
+          "weight": 20,
+          "change_pct": -0.89
+        },
+        {
+          "ticker": "RIVN",
+          "weight": 18,
+          "change_pct": 6.2
         }
       ]
     },
@@ -118,19 +133,24 @@
       "sector": "2차전지",
       "stocks": [
         {
-          "ticker": "QS",
-          "weight": 10,
-          "change_pct": -3.23
-        },
-        {
           "ticker": "ALB",
-          "weight": 25,
-          "change_pct": -0.27
+          "weight": 30,
+          "change_pct": -2.43
         },
         {
-          "ticker": "MP",
-          "weight": 15,
-          "change_pct": -2.17
+          "ticker": "SQM",
+          "weight": 25,
+          "change_pct": -3.05
+        },
+        {
+          "ticker": "ALTM",
+          "weight": 25,
+          "change_pct": -2.3
+        },
+        {
+          "ticker": "QS",
+          "weight": 20,
+          "change_pct": -3.33
         }
       ]
     },
@@ -138,212 +158,232 @@
       "sector": "소프트웨어",
       "stocks": [
         {
-          "ticker": "MSFT",
-          "weight": 40,
-          "change_pct": 1.54
+          "ticker": "NOW",
+          "weight": 28,
+          "change_pct": -4.15
         },
         {
           "ticker": "ORCL",
-          "weight": 20,
-          "change_pct": -0.08
+          "weight": 25,
+          "change_pct": -6.37
         },
         {
           "ticker": "CRM",
-          "weight": 15,
-          "change_pct": -0.39
+          "weight": 25,
+          "change_pct": -0.75
+        },
+        {
+          "ticker": "ADBE",
+          "weight": 22,
+          "change_pct": 0.85
         }
       ]
     }
   ],
   "movers_up": [
     {
-      "name_kr": "테슬라",
-      "ticker": "TSLA",
-      "change_pct": 5.21,
-      "reason": "바클레이즈 '비중확대' 상향 — 스페이스X M&A 기회·로보택시 성장·핵심 사업 강점 부각"
+      "name_kr": "그리드 다이나믹스",
+      "ticker": "GDYN",
+      "change_pct": 40.78,
+      "reason": "AI 전환 프로젝트 대규모 수주 발표로 장중 폭등"
     },
     {
-      "name_kr": "인텔",
-      "ticker": "INTC",
-      "change_pct": 4.04,
-      "reason": "New Street 애널리스트, 서버 CPU 공급 부족 지적하며 매수의견 상향·목표주가 $125 제시"
+      "name_kr": "페덱스 프레이트",
+      "ticker": "FDXF",
+      "change_pct": 14.91,
+      "reason": "물류 분사 부문 독립 상장 이후 운영 효율화 기대감 재부각"
     },
     {
-      "name_kr": "AMD",
-      "ticker": "AMD",
-      "change_pct": 2.8,
-      "reason": "인텔 서버 CPU 업그레이드 여파로 반도체 섹터 동반 강세, 데이터센터 수요 증가 기대"
-    },
-    {
-      "name_kr": "엔비디아",
-      "ticker": "NVDA",
-      "change_pct": 2.39,
-      "reason": "지난주 AI 자금조달 우려 매도세 이후 반등, 빅테크 실적 주간 개막으로 기술주 전반 회복"
+      "name_kr": "월마트",
+      "ticker": "WMT",
+      "change_pct": 1.86,
+      "reason": "아마존 실적 쇼크의 반사 수혜, 방어주 선호 매수세 집중"
     }
   ],
   "movers_down": [
     {
-      "name_kr": "퀀텀스케이프",
-      "ticker": "QS",
-      "change_pct": -3.23,
-      "reason": "3분기 최초 고객 청구 기록에도 적자 지속·대규모 생산 전환 불확실성 해소 미흡"
+      "name_kr": "인텔",
+      "ticker": "INTC",
+      "change_pct": -28.58,
+      "reason": "Q4 가이던스 대폭 하향 ($15~16B), 이스라엘 팹 폭발로 약 6억달러 추가 손실"
+    },
+    {
+      "name_kr": "AMD",
+      "ticker": "AMD",
+      "change_pct": -10.88,
+      "reason": "인텔 쇼크 동반 하락, AI 설비투자 지속가능성 의구심 확산"
+    },
+    {
+      "name_kr": "대만반도체",
+      "ticker": "TSM",
+      "change_pct": -5.95,
+      "reason": "반도체 섹터 전반 투자심리 급랭 및 AI 수요 지속가능성 재평가"
     },
     {
       "name_kr": "메타",
       "ticker": "META",
-      "change_pct": -1.88,
-      "reason": "$950억 AI 투자 계획 발표에도 지출 확대 우려로 차익실현 매물 출회"
+      "change_pct": -1.53,
+      "reason": "빅테크 AI 설비투자 수익성 재검토 분위기 속 동반 약세"
     },
     {
-      "name_kr": "애플",
-      "ticker": "AAPL",
-      "change_pct": -1.1,
-      "reason": "반도체·성장주로 자금 이동, 이번 주 실적 발표 앞두고 하드웨어 대형주 상대적 부진"
+      "name_kr": "아마존",
+      "ticker": "AMZN",
+      "change_pct": -1.41,
+      "reason": "Q3 매출·EPS 예상 하회, AI 투자 급증으로 잉여현금흐름 마이너스 전환"
     },
     {
-      "name_kr": "포드",
-      "ticker": "F",
-      "change_pct": -0.17,
-      "reason": "전기차 모델e 부문 수익성 악화 우려 및 사업 재편 비용 부담 지속"
+      "name_kr": "알파벳",
+      "ticker": "GOOGL",
+      "change_pct": -1.4,
+      "reason": "AI 인프라 투자 비용 급증에 광고 매출 성장 둔화 전망 중첩"
     }
   ],
   "themes": [
     {
       "name": "반도체",
-      "tag": "강세",
-      "comment": "인텔 서버 CPU 업그레이드 촉발 섹터 동반 급등; SOX 추정 +3.2%, 3주만에 최대 일일 상승"
+      "tag": "약세",
+      "comment": "인텔 -30% 쇼크로 SOX -7.22% 급락, AMD·TSM 동반 하락; AI 설비투자 ROI 논란 재점화"
     },
     {
       "name": "자동차",
       "tag": "혼조",
-      "comment": "테슬라 +6% 압도적 강세 vs 포드 -2.85%; 바클레이즈 상향 효과 테슬라에 집중, 전통 완성차 약세"
+      "comment": "테슬라 10월 M7 최강 퍼포먼스 유지 중이나 당일 소폭 조정, 전통 완성차는 경기둔화 우려"
     },
     {
       "name": "2차전지",
       "tag": "약세",
-      "comment": "퀀텀스케이프 -3.23%, 알베말 등 리튬 관련주 동반 약세; 상업 생산 전환 속도 실망 지속"
+      "comment": "EV 수요 불확실성 지속, 리튬 관련주 조정; 전반적 투자심리 냉각"
     },
     {
       "name": "대형기술주",
-      "tag": "혼조",
-      "comment": "메타·애플 하락 vs 아마존 소폭 상승; 수요일 마이크로소프트·알파벳 실적 발표 앞두고 관망"
+      "tag": "약세",
+      "comment": "아마존 실적 쇼크·알파벳 부진으로 M7 전반 약세, AI 설비투자 수익성 재검토 본격화"
     },
     {
       "name": "소프트웨어",
-      "tag": "중립",
-      "comment": "마이크로소프트 +1.06% 선방; 이번 주 실적 발표 전 포지션 조정 국면으로 방향성 불명확"
+      "tag": "혼조",
+      "comment": "클라우드 수요는 견조하나 AI 도입 비용 부담 우려, ServiceNow 등 기업 IT 지출 전망 엇갈려"
     },
     {
       "name": "양자컴퓨터",
       "tag": "고변동",
-      "comment": "10월 파트너십·계약 소식 재료로 IonQ $43.77 등 개별 종목 단기 급등락 반복"
+      "comment": "반도체 매도세 속 관련 소형주 변동성 극심, 개별 종목 10%대 등락 빈발"
     },
     {
       "name": "비트코인",
-      "tag": "강세",
-      "comment": "$79,823 유지, 10/28 FOMC 결정이 단기 방향성 핵심 변수; ETF 자금 유입 회복 여부 주목"
+      "tag": "약세",
+      "comment": "바이낸스 해킹 여진에 기술주 동반 매도, BTC $76,870(-1.18%)으로 지지선 테스트"
     }
   ],
   "macro": [
     {
       "emoji": "🏦",
       "label": "미 10년물 국채금리",
-      "value": "4.99%",
-      "delta": "▼ -1bp",
-      "dir": "down",
-      "text": "전일 대비 소폭 하락, 5% 선 재돌파 없이 소강; FOMC 결정 대기 속 채권 시장 관망세"
+      "value": "4.91%",
+      "delta": "▲ +3bp",
+      "dir": "up",
+      "text": "WTI 급등 및 인플레이션 재우려에 장기금리 소폭 상승, 4.90%대 안착"
     },
     {
       "emoji": "🪙",
       "label": "연준 · FOMC",
-      "value": "3.75~4.00%",
-      "delta": "10/28 결정 예정",
+      "value": "동결",
+      "delta": "3.75~4.00%",
       "dir": "neu",
-      "text": "오늘·내일(10/27~28) FOMC 개최, 케빈 워시 의장 기자회견 10/28 14:30; 점도표상 연내 25bp 추가 인상 1회 잔존"
+      "text": "10/28 회의 찬반 분열 속 동결 결정; 다음 결정 11/9 — 고용·물가 지표 주시"
     },
     {
       "emoji": "💱",
       "label": "원/달러 환율",
-      "value": "1,322.87원",
-      "delta": "▼ 원화 강세",
+      "value": "1,337.55원",
+      "delta": "달러 강세",
       "dir": "down",
-      "text": "달러 약세 속 원화 전일比 -0.06% 소폭 강세; 최근 1개월 원화 +2.69% 강세 흐름 유지 중"
+      "text": "달러 인덱스 강세 지속, 반도체 쇼크로 원화 수급 불균형 가중 우려"
     },
     {
       "emoji": "🛢️",
       "label": "WTI 유가",
-      "value": "$101.63",
-      "delta": "▲ YTD +77.3%",
+      "value": "$104.33",
+      "delta": "▲ +2.29%",
       "dir": "up",
-      "text": "100달러대 안착 지속; 중동 리스크·산유국 감산 장기화로 고유가 국면 당분간 유지 전망"
+      "text": "OPEC+ 감산 유지 및 중동 지정학 리스크로 3개월 만에 $104 돌파"
     },
     {
       "emoji": "📉",
       "label": "코스피 동향",
-      "value": "5,469.47",
-      "delta": "▼ -1.46%",
+      "value": "EWY -6.42%",
+      "delta": "반도체 쇼크",
       "dir": "down",
-      "text": "전일(10/26) AI 투자 우려 매도세 재연으로 -80.83p 하락; 삼성전자 약세 vs SK하이닉스 강세 엇갈림"
+      "text": "EWY -6.42% 급락, 인텔·AMD 쇼크가 삼성전자·SK하이닉스 등 대형 반도체주 직격 전망"
     }
   ],
   "schedule": {
     "today": [
-      "내구재 주문 (미 동부시간 08:30)",
-      "S&P 케이스-실러 주택가격지수 (09:00)",
-      "소비자신뢰지수 · 신규주택판매 (10:00)",
-      "실적 발표: 코카콜라(KO) · 보잉(BA) 장전 / 비자(V) · 로빈후드(HOOD) 장후"
+      "미국 9월 PCE 물가지수·개인소득/소비지출 발표",
+      "미국 10월 시카고 PMI 발표",
+      "할로윈 데이 — 거래량 평소 대비 감소 가능"
     ],
     "this_week": [
-      "10/28 (수) FOMC 금리 결정 발표 14:00 + 케빈 워시 의장 기자회견 14:30",
-      "10/28 (수) 실적: 마이크로소프트(MSFT) · 알파벳(GOOGL) 장후",
-      "10/29 (목) 미국 3Q GDP 속보치(예상 +3.2%) · PCE 인플레이션 · 개인소득 및 지출 (08:30)",
-      "10/29 (목) 실적: 아마존(AMZN) · 코인베이스(COIN) · MicroStrategy(MSTR) 장후",
-      "10/30 (금) 고용비용지수(ECI) · 시카고 PMI"
+      "11/3 (화): JOLTS 9월 구인·구직 보고서",
+      "11/4 (수): ISM 제조업 PMI",
+      "11/7 (금): 미국 10월 비농업 고용·실업률 (Nonfarm Payrolls)"
     ],
     "this_month": [
-      "10월 28일 FOMC 결정 — 3.75~4.00% 유지 vs 25bp 추가 인상 분수령",
-      "10월 29일 미국 3Q GDP 속보치 및 PCE — 연내 통화정책 최종 방향 가늠자",
-      "빅테크 어닝 시즌 정점: 마이크로소프트·알파벳·아마존·메타 실적 릴레이",
-      "11월 초 비농업 고용지표(NFP) 발표 예정 — 고용 둔화 여부 연준 결정 변수"
+      "11/9 (월): FOMC 정책금리 결정 (현행 3.75~4.00% 동결 전망)",
+      "11/13 (목): 미국 10월 CPI 발표",
+      "11/18 (화): 10월 FOMC 의사록 공개",
+      "11/25 (화): Fed 베이지북 발간"
     ]
   },
   "disclaimer": "본 리포트는 공개 뉴스 기반 자동 요약으로 투자 자문이 아닙니다. 일부 미확보 수치는 '추정'으로 표기됩니다.",
   "sources": [
     {
-      "title": "Yahoo Finance — Stock Market Today Oct 26 2026",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-october-26-dow-sp-500-nasdaq-101153035.html"
+      "title": "Yahoo Finance – Stock Market Today Oct 30 2026 (Intel/AI sell-off)",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html"
     },
     {
-      "title": "24/7 Wall Street — Intel Rises 5% on Server CPU Upgrade",
-      "url": "https://247wallst.com/investing/2026/10/26/intel-rises-5-as-new-street-upgrade-cites-server-cpu-shortage-amd-and-nvidia-gain-3/"
+      "title": "247 Wall St – Nasdaq 2.86% drop, Amazon slides 7%",
+      "url": "https://247wallst.com/investing/2026/10/30/amazon-slides-7-as-earnings-miss-and-ai-spending-turn-free-cash-flow-negative-meta-falls-2-alphabet-dips-walmart-gains-2/"
     },
     {
-      "title": "TheStreet — Stock Market Today Oct 26 2026",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-26-2026"
+      "title": "TheStreet – Stock Market Today Oct 30 2026",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-30-2026"
     },
     {
-      "title": "Seoul Economic Daily — KOSPI Falls 1.46% Oct 26",
-      "url": "https://en.sedaily.com/finance/2026/10/26/kospi-falls-146-percent-to-close-at-546947"
+      "title": "StockTitan – Tech Stocks Fall as Intel Has Its Worst Day in Decades",
+      "url": "https://www.stocktitan.net/articles/stock-market-today-live-october-30-2026"
     },
     {
-      "title": "Trading Economics — US 10Y Treasury Yield",
-      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+      "title": "Motley Fool – Amazon Misses Revenue and Earnings Oct 30",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/10/30/stock-market-today-oct-30-amazon-misses-revenue-and-earnings-expectations/"
     },
     {
-      "title": "Forbes Advisor — Crude Oil Price Today Oct 26 2026",
-      "url": "https://www.forbes.com/advisor/investing/oil-prices-today/"
+      "title": "Motley Fool – Crypto Market Today Oct 30 (Binance hack, BTC)",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/10/30/crypto-market-today-oct-30-bitcoin-slides-on-binance-hack-shock-liquidations-spike/"
     },
     {
-      "title": "CME Group — FOMC Meeting Oct 27-28 2026",
-      "url": "https://www.cmelitegroup.com/knowledge-hub/fomc-meeting-fed-decision-day/"
+      "title": "Investing.com – SOX Philadelphia Semiconductor Historical",
+      "url": "https://www.investing.com/indices/phlx-semiconductor-historical-data"
     },
     {
-      "title": "Babypips — Fundies Cheat Sheet Oct 26-30 2026",
-      "url": "https://babypips.com/analysis/fundies-cheat-sheet-2026-10-26-fed-big-tech-oil-saudi"
+      "title": "TradingKey – TSM Stock Down 3.67% Oct 30",
+      "url": "https://www.tradingkey.com/news/market-movers/262260899-market-movers-tsm-20261030"
     },
     {
-      "title": "CryptoTimes — FOMC Decision & Earnings Week Ahead",
-      "url": "https://cryptotimes.io/2026/10/26/crypto-week-ahead-fomc-decision-coinbase-strategy-earnings-gdp-pce-data"
+      "title": "Fortune – Bitcoin Price Oct 30 2026",
+      "url": "https://fortune.com/article/price-of-bitcoin-10-30-2026/"
+    },
+    {
+      "title": "SmartCalendars – FOMC 2026 Meeting Schedule",
+      "url": "https://www.smartcalendars.ai/en/feeds/fed-fomc-meeting-calendar"
+    },
+    {
+      "title": "HeyGoTrade – EWY Oct 28 Close $165.91",
+      "url": "https://www.heygotrade.com/en/us-stock/ewy/"
+    },
+    {
+      "title": "GuruFocus – Intel Record Stock Drop Weak Revenue Outlook",
+      "url": "https://www.gurufocus.com/news/9160049/intel-faces-record-stock-drop-following-weak-revenue-outlook-intc"
     },
     {
       "title": "Finnhub (정규장 종가)",
