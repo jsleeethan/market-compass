@@ -1,0 +1,216 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>🧭 마켓 나침반 · 2026년 11월 3일</title><meta name="description" content="마켓 나침반 — 매일 오전 7시 자동 생성되는 모닝 마켓 브리핑 (2026년 11월 3일)"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;900&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=JetBrains+Mono:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,500;1,600&display=swap" rel="stylesheet"><style>
+  :root{
+    --bg:#080a0e;--bg-2:#0c0f15;--panel:#11141c;--panel-2:#161a24;--panel-3:#0e1119;
+    --glass:rgba(20,25,36,.62);--ink:#eef1f7;--ink-soft:#b4bccb;--ink-faint:#7c8493;--ink-ghost:#565e6d;
+    --line:#212634;--line-soft:#1a1e29;--line-strong:#2c3344;
+    --up:#1ed98a;--down:#ff5468;--neutral:#f0b24a;--gold:#cba45c;--accent:#5b8cff;
+    --up-soft:rgba(30,217,138,.12);--down-soft:rgba(255,84,104,.12);--neu-soft:rgba(240,178,74,.12);
+    --serif:"Playfair Display",Georgia,serif;--sans:"Inter","Noto Sans KR",system-ui,sans-serif;
+    --kr:"Noto Sans KR","Inter",sans-serif;--mono:"JetBrains Mono",ui-monospace,monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+  body{
+    background:radial-gradient(1100px 620px at 84% -12%, rgba(91,140,255,.13), transparent 58%),
+      radial-gradient(960px 640px at 4% 4%, rgba(123,107,255,.10), transparent 54%),
+      radial-gradient(900px 760px at 50% 116%, rgba(30,217,138,.05), transparent 60%),var(--bg);
+    color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.55;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;background-attachment:fixed;
+  }
+  .wrap{max-width:1240px;margin:0 auto;padding:0 24px 76px}
+  .up{color:var(--up)} .down{color:var(--down)} .neu{color:var(--neutral)}
+  .strip{position:sticky;top:0;z-index:50;background:rgba(5,7,10,.92);backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line-strong);overflow:hidden;white-space:nowrap;box-shadow:0 4px 22px rgba(0,0,0,.55)}
+  .strip .run{display:inline-block;padding:8px 0;animation:scroll 48s linear infinite}
+  .strip .run span{padding:0 20px;border-right:1px solid var(--line);font-family:var(--mono);font-size:12px;font-variant-numeric:tabular-nums;letter-spacing:.2px}
+  .strip b{color:var(--ink-soft);font-weight:600;margin-right:8px;font-size:11px;letter-spacing:.6px}
+  @keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  @media (prefers-reduced-motion:reduce){.strip .run{animation:none}}
+  .sec{margin-top:54px}
+  .sec-head{display:flex;align-items:baseline;gap:18px;margin-bottom:22px}
+  .sec-num{font-family:var(--mono);font-size:.72rem;letter-spacing:.32em;color:var(--gold);font-weight:600;padding-top:5px;white-space:nowrap}
+  .sec-title{font-family:var(--serif);font-weight:700;font-size:clamp(1.45rem,2.7vw,1.95rem);line-height:1.1;letter-spacing:-.01em;color:#fbfcfe}
+  .sec-title em{font-style:italic;color:var(--gold);font-weight:600}
+  .sec-sub{font-family:var(--kr);font-size:.8rem;color:var(--ink-faint);margin-left:auto;font-weight:400;letter-spacing:.02em;align-self:flex-end;text-align:right}
+  .sec-en{font-family:var(--mono);font-size:.62rem;font-weight:600;letter-spacing:.24em;color:var(--ink-ghost);text-transform:uppercase;align-self:flex-end;padding-bottom:2px}
+  .rule{height:1px;background:linear-gradient(90deg,var(--line-strong),transparent);margin-top:-6px}
+  .hero{position:relative;overflow:hidden;margin:18px 0 6px;border:1px solid var(--line-strong);border-radius:24px;
+    background:radial-gradient(640px 320px at 88% -34%, rgba(91,140,255,.30), transparent 60%),
+      radial-gradient(560px 380px at 6% 124%, rgba(30,217,138,.13), transparent 56%),
+      linear-gradient(140deg,#161a26 0%, #11131c 55%, #0c0e15 100%);
+    box-shadow:0 32px 80px -42px rgba(0,0,0,.92), inset 0 1px 0 rgba(255,255,255,.05)}
+  .hero::before{content:"";position:absolute;inset:0;pointer-events:none;
+    background:radial-gradient(560px 260px at 86% -28%, rgba(255,255,255,.10), transparent 62%),
+      repeating-linear-gradient(115deg, rgba(255,255,255,.022) 0 2px, transparent 2px 26px);
+    mix-blend-mode:screen;opacity:.7}
+  .hero-in{position:relative;z-index:2;padding:34px 38px 0}
+  .hero-top{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;flex-wrap:wrap}
+  .brand{display:flex;align-items:center;gap:18px}
+  .compass{width:64px;height:64px;flex:none;border-radius:19px;display:grid;place-items:center;font-size:33px;
+    background:linear-gradient(145deg,rgba(255,255,255,.20),rgba(255,255,255,.03));border:1px solid rgba(255,255,255,.26);
+    box-shadow:0 12px 34px -8px rgba(91,140,255,.62), inset 0 1px 0 rgba(255,255,255,.4);
+    animation:bob 5.5s ease-in-out infinite;filter:drop-shadow(0 4px 12px rgba(91,140,255,.35))}
+  @keyframes bob{50%{transform:translateY(-5px) rotate(-4deg)}}
+  @media (prefers-reduced-motion:reduce){.compass{animation:none}}
+  .brand h1{font-family:var(--kr);font-weight:900;font-size:clamp(1.7rem,4vw,2.05rem);letter-spacing:-.6px;line-height:1.08;color:#fff}
+  .brand .en{font-family:var(--sans);font-weight:700;font-size:.72rem;letter-spacing:.46em;color:rgba(255,255,255,.6);margin-top:7px;text-transform:uppercase}
+  .hero-meta{text-align:right;display:flex;flex-direction:column;align-items:flex-end;gap:11px}
+  .hero-date{font-family:var(--serif);font-style:italic;font-size:1.32rem;color:#f1ead8;font-weight:600}
+  .hero-date span{font-style:normal;font-family:var(--kr);color:var(--ink-faint);font-size:.92rem;font-weight:400}
+  .tag{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-weight:700;font-size:11px;letter-spacing:1.4px;
+    padding:7px 14px;border-radius:999px;color:#dfe7ff;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.22);backdrop-filter:blur(6px)}
+  .tag .dot{width:7px;height:7px;border-radius:50%;background:var(--up);box-shadow:0 0 0 4px rgba(30,217,138,.24);animation:pulse 1.9s infinite}
+  @keyframes pulse{50%{box-shadow:0 0 0 8px rgba(30,217,138,0)}}
+  .hero-strip{position:relative;z-index:2;margin-top:26px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:18px 38px 32px;border-top:1px solid rgba(255,255,255,.10)}
+  .pill{font-family:var(--kr);font-weight:700;font-size:12.5px;padding:8px 15px;border-radius:999px;background:rgba(8,11,17,.5);border:1px solid rgba(255,255,255,.11);display:flex;align-items:center;gap:9px}
+  .pill .v{font-family:var(--mono);font-weight:700}
+  .sidecar-flag{font-family:var(--kr);font-weight:700;font-size:12.5px;padding:8px 15px;border-radius:999px;color:#ffd2d8;background:rgba(255,84,104,.15);border:1px solid rgba(255,84,104,.4);display:flex;align-items:center;gap:8px}
+  .sentiment{margin-left:auto;display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:.76rem;font-weight:700;letter-spacing:.06em;color:var(--down);border:1px solid rgba(255,84,104,.32);background:rgba(255,84,104,.08);padding:8px 15px;border-radius:999px}
+  .grp-label{font-family:var(--mono);font-size:.66rem;letter-spacing:.26em;color:var(--ink-faint);text-transform:uppercase;font-weight:600;margin:0 0 13px;display:flex;align-items:center;gap:13px}
+  .grp-label .kr{font-family:var(--kr);letter-spacing:.02em;text-transform:none;color:var(--ink-soft);font-weight:600;font-size:.78rem}
+  .grp-label::after{content:"";flex:1;height:1px;background:var(--line-soft)}
+  .idx-grid{display:grid;gap:13px;grid-template-columns:repeat(3,1fr)}
+  .idx-grid.four{grid-template-columns:repeat(4,1fr)}
+  .idx{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px 18px 16px 22px;overflow:hidden;transition:transform .25s cubic-bezier(.2,.8,.2,1),border-color .25s,background .25s,box-shadow .25s}
+  .idx::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--ink-ghost)}
+  .idx.up::before{background:linear-gradient(180deg,var(--up),#0f9c61)}
+  .idx.down::before{background:linear-gradient(180deg,var(--down),#c0344a)}
+  .idx:hover{transform:translateY(-4px);border-color:var(--line-strong);background:var(--panel-2);box-shadow:0 22px 44px -24px rgba(0,0,0,.85)}
+  .idx .nm{font-family:var(--mono);font-size:.72rem;letter-spacing:.12em;font-weight:600;color:var(--ink-faint);text-transform:uppercase;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .idx .nm .kr{font-family:var(--kr);letter-spacing:.01em;color:var(--ink-soft);font-size:.76rem;text-transform:none;font-weight:600}
+  .idx .val{font-family:var(--mono);font-weight:800;font-size:1.55rem;margin-top:12px;letter-spacing:-.02em;color:#fff;line-height:1.05}
+  .idx .chg{font-family:var(--mono);font-size:.88rem;font-weight:700;margin-top:8px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .up .chg{color:var(--up)} .down .chg{color:var(--down)} .neu .chg{color:var(--neutral)}
+  .badge{font-family:var(--kr);font-size:.64rem;font-weight:700;letter-spacing:.02em;padding:3px 8px;border-radius:6px;white-space:nowrap;border:1px solid}
+  .badge.est{background:var(--neu-soft);color:var(--neutral);border-color:rgba(240,178,74,.32)}
+  .badge.note{background:rgba(91,140,255,.12);color:#9fb4ff;border-color:rgba(91,140,255,.32)}
+  .badge.alert{background:var(--down-soft);color:#ffd2d8;border-color:rgba(255,84,104,.4)}
+  .heat-card{background:var(--panel-3);border:1px solid var(--line);border-radius:20px;padding:16px;box-shadow:inset 0 0 60px rgba(0,0,0,.5), 0 26px 56px -36px #000}
+  .heat-legend{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin:2px 4px 14px;font-family:var(--kr);font-size:11.5px;color:var(--ink-faint)}
+  .heat-legend .lbl{font-family:var(--mono);letter-spacing:.04em;font-size:10.5px}
+  .heat-scale{display:flex;align-items:center;border-radius:6px;overflow:hidden;border:1px solid var(--line-strong)}
+  .heat-scale i{width:23px;height:11px;display:block}
+  .heat-legend .sp{flex:1}
+  .heat-treemap{width:100%;height:auto;display:block;border-radius:13px;overflow:hidden;background:#05070c}
+  .tm-sechead{font-family:var(--kr);font-weight:900;fill:#cdd6ea;letter-spacing:-.2px}
+  .tm-secsub{font-family:var(--mono);font-weight:700}
+  .tm-tick{font-family:var(--sans);font-weight:800;letter-spacing:-.3px}
+  .tm-pct{font-family:var(--mono);font-weight:700;opacity:.92}
+  .tm-tile{transition:opacity .2s} .tm-tile:hover{opacity:.82;cursor:default}
+  .movers{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .mv-col{background:var(--panel);border:1px solid var(--line);border-radius:18px;overflow:hidden}
+  .mv-hd{display:flex;align-items:center;gap:11px;padding:15px 22px;border-bottom:1px solid var(--line);font-family:var(--kr);font-weight:800;font-size:.94rem;letter-spacing:.02em}
+  .mv-hd .ic{font-size:1.05rem}
+  .mv-hd .en{font-family:var(--mono);font-size:.6rem;font-weight:600;letter-spacing:.2em;color:var(--ink-ghost);margin-left:auto;text-transform:uppercase}
+  .mv-up .mv-hd{background:linear-gradient(90deg,rgba(30,217,138,.1),transparent);color:var(--up)}
+  .mv-down .mv-hd{background:linear-gradient(90deg,rgba(255,84,104,.1),transparent);color:var(--down)}
+  .mv-row{display:flex;align-items:flex-start;gap:14px;padding:13px 22px;border-bottom:1px solid var(--line-soft);transition:background .2s}
+  .mv-row:last-child{border-bottom:none} .mv-row:hover{background:rgba(255,255,255,.025)}
+  .mv-pc{font-family:var(--mono);font-weight:800;font-size:1rem;min-width:66px;text-align:right;flex:none;padding:4px 9px;border-radius:9px;line-height:1.1}
+  .mv-up .mv-pc{color:var(--up);background:var(--up-soft)}
+  .mv-down .mv-pc{color:var(--down);background:var(--down-soft)}
+  .mv-body{min-width:0}
+  .mv-name{font-family:var(--kr);font-weight:700;font-size:.95rem;color:#fff;display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+  .mv-name .tk{font-family:var(--mono);font-size:.72rem;color:var(--ink-faint);font-weight:600}
+  .mv-why{font-family:var(--kr);font-size:.8rem;color:var(--ink-faint);margin-top:3px;line-height:1.5}
+  .themes{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+  .theme{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:17px 18px 17px 20px;display:flex;gap:15px;align-items:flex-start;transition:transform .22s,border-color .22s;overflow:hidden}
+  .theme::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px}
+  .theme.s-up::before{background:var(--up)} .theme.s-down::before{background:var(--down)} .theme.s-neu::before{background:var(--neutral)}
+  .theme:hover{transform:translateY(-3px);border-color:var(--line-strong)}
+  .th-ic{width:42px;height:42px;border-radius:13px;display:grid;place-items:center;font-size:21px;flex:none;background:rgba(255,255,255,.045);border:1px solid var(--line)}
+  .th-body{flex:1;min-width:0}
+  .th-top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:5px;flex-wrap:wrap}
+  .th-nm{font-family:var(--kr);font-weight:800;font-size:1rem;color:#fff}
+  .chip{font-family:var(--kr);font-size:.68rem;font-weight:800;letter-spacing:.02em;padding:4px 11px;border-radius:999px;white-space:nowrap}
+  .chip.up{color:var(--up);background:var(--up-soft);box-shadow:inset 0 0 0 1px rgba(30,217,138,.32)}
+  .chip.down{color:var(--down);background:var(--down-soft);box-shadow:inset 0 0 0 1px rgba(255,84,104,.32)}
+  .chip.neu{color:var(--neutral);background:var(--neu-soft);box-shadow:inset 0 0 0 1px rgba(240,178,74,.32)}
+  .th-cmt{font-family:var(--kr);font-size:.84rem;color:var(--ink-soft);line-height:1.55}
+  .macro{display:grid;grid-template-columns:repeat(5,1fr);gap:13px}
+  .mac{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:17px 17px 15px;transition:transform .22s,border-color .22s;overflow:hidden}
+  .mac::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--ink-ghost)}
+  .mac.up::before{background:var(--up)} .mac.down::before{background:var(--down)} .mac.neu::before{background:var(--neutral)}
+  .mac:hover{transform:translateY(-3px);border-color:var(--line-strong)}
+  .mac .ml{font-family:var(--kr);font-size:.76rem;color:var(--ink-faint);font-weight:600;letter-spacing:.01em;display:flex;align-items:center;gap:7px}
+  .mac .ml .e{font-size:.95rem}
+  .mac .mv{font-family:var(--mono);font-weight:800;font-size:1.32rem;color:#fff;margin-top:12px;line-height:1;letter-spacing:-.02em}
+  .mac .md{font-family:var(--mono);font-size:.78rem;font-weight:700;margin-top:7px}
+  .mac .mt{font-family:var(--kr);font-size:.73rem;color:var(--ink-ghost);margin-top:10px;line-height:1.5;padding-top:9px;border-top:1px solid var(--line-soft)}
+  .md.up{color:var(--up)} .md.down{color:var(--down)} .md.neu{color:var(--neutral)}
+  .sched{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+  .tier{background:var(--panel);border:1px solid var(--line);border-radius:18px;overflow:hidden}
+  .tier-hd{padding:14px 19px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:11px}
+  .tier-hd .t-badge{font-family:var(--mono);font-weight:800;font-size:9.5px;letter-spacing:1px;padding:4px 9px;border-radius:7px;text-transform:uppercase}
+  .tier-hd .t-k{font-family:var(--kr);font-weight:800;font-size:.95rem;color:#fff}
+  .tier.now .tier-hd{background:linear-gradient(90deg,rgba(91,140,255,.15),transparent)}
+  .tier.now .t-badge{color:#bcd0ff;background:rgba(91,140,255,.2)}
+  .tier.week .t-badge{color:var(--up);background:var(--up-soft)}
+  .tier.month .t-badge{color:var(--neutral);background:var(--neu-soft)}
+  .ev{padding:12px 19px;border-bottom:1px solid var(--line-soft);display:flex;gap:13px;align-items:flex-start;transition:background .2s}
+  .ev:last-child{border-bottom:none} .ev:hover{background:rgba(255,255,255,.025)}
+  .ev .what{font-family:var(--kr);font-size:.84rem;color:var(--ink-soft);line-height:1.5}
+  footer{margin-top:60px;border-top:1px solid var(--line);padding-top:26px}
+  .disc{font-family:var(--kr);font-size:.74rem;color:var(--ink-ghost);line-height:1.75;max-width:880px}
+  .disc b{color:var(--neutral);font-weight:600}
+  .foot-brand{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-top:22px;flex-wrap:wrap}
+  .foot-brand .b{font-family:var(--serif);font-style:italic;font-size:1.06rem;color:#dfe2e8;font-weight:600}
+  .foot-brand .b span{color:var(--gold)}
+  .foot-brand .auto{font-family:var(--mono);font-size:.68rem;letter-spacing:.13em;color:var(--ink-ghost);text-transform:uppercase}
+  @media(max-width:900px){.idx-grid,.idx-grid.four{grid-template-columns:repeat(2,1fr)}.macro{grid-template-columns:repeat(2,1fr)}.movers,.themes{grid-template-columns:1fr}.sched{grid-template-columns:1fr}}
+  @media(max-width:560px){.wrap{padding:0 14px 50px}.hero-in{padding:26px 22px 0}.hero-strip{padding:16px 22px 26px}.idx-grid,.idx-grid.four,.macro{grid-template-columns:1fr}.sec-head{flex-wrap:wrap;gap:6px}.sec-sub{margin-left:0;text-align:left;align-self:auto}.hero-meta{text-align:left;align-items:flex-start}.sentiment{margin-left:0}}
+</style></head><body><div class="strip" aria-hidden="true"><div class="run"><span><b>DJIA</b><span class="up">51,983.98 ▲0.43%</span></span><span><b>S&amp;P 500</b><span class="down">7,541.40 ▼-0.48%</span></span><span><b>NASDAQ</b><span class="down">25,164.32 ▼-1.00%</span></span><span><b>SOX</b><span class="down">10,688.80 ▼</span></span><span><b>EWY</b><span class="down">$151.62 ▼</span></span><span><b>EEM</b><span class="up">$61.11 ▲</span></span><span><b>코스피200 야</b><span class="down">미확인 ▼</span></span><span><b>EVGO</b><span class="up">▲46.83%</span></span><span><b>IDXX</b><span class="up">▲21.85%</span></span><span><b>LITE</b><span class="down">▼-18.59%</span></span><span><b>MRVL</b><span class="down">▼-12.72%</span></span><span><b>DJIA</b><span class="up">51,983.98 ▲0.43%</span></span><span><b>S&amp;P 500</b><span class="down">7,541.40 ▼-0.48%</span></span><span><b>NASDAQ</b><span class="down">25,164.32 ▼-1.00%</span></span><span><b>SOX</b><span class="down">10,688.80 ▼</span></span><span><b>EWY</b><span class="down">$151.62 ▼</span></span><span><b>EEM</b><span class="up">$61.11 ▲</span></span><span><b>코스피200 야</b><span class="down">미확인 ▼</span></span><span><b>EVGO</b><span class="up">▲46.83%</span></span><span><b>IDXX</b><span class="up">▲21.85%</span></span><span><b>LITE</b><span class="down">▼-18.59%</span></span><span><b>MRVL</b><span class="down">▼-12.72%</span></span></div></div><div class="wrap"><header class="hero"><div class="hero-in"><div class="hero-top">
+<div class="brand"><div class="compass">🧭</div><div><h1>마켓 나침반</h1><div class="en">Market&nbsp;Compass</div></div></div>
+<div class="hero-meta"><div class="hero-date">2026년 11월 3일 <span>(화)</span></div><span class="tag"><span class="dot"></span>DAILY · 07:00 KST</span></div>
+</div></div>
+<div class="hero-strip"><span class="pill">미장 마감 <span class="v down">약세</span></span><span class="pill">EVGO <span class="v up">▲ +46.83%</span></span><span class="pill">LITE <span class="v down">▼ -18.59%</span></span><span class="sentiment" style="">▼ RISK-OFF · 경계 모드</span></div></header><section class="sec"><div class="sec-head"><div class="sec-num">01</div><h2 class="sec-title">시장 <em>지표</em></h2><div class="sec-en">Indicators</div><div class="sec-sub">간밤 미국 마감 · 한국 관련 자산</div></div><div class="rule"></div>
+<div style="margin-top:24px"><p class="grp-label">A · 미국 3대 지수 <span class="kr">US Indices · 전일 종가</span></p>
+<div class="idx-grid"><div class="idx up"><div class="nm"><span class="kr">DOW JONES</span></div><div class="val">51,983.98</div><div class="chg">▲ +0.43%</div></div><div class="idx down"><div class="nm"><span class="kr">S&amp;P 500</span></div><div class="val">7,541.40</div><div class="chg">▼ -0.48%</div></div><div class="idx down"><div class="nm"><span class="kr">NASDAQ</span></div><div class="val">25,164.32</div><div class="chg">▼ -1.00%</div></div></div></div>
+<div style="margin-top:22px"><p class="grp-label">B · 한국 · 반도체 · 신흥국 프록시 <span class="kr">Semis &amp; EM Proxies</span></p>
+<div class="idx-grid four"><div class="idx down"><div class="nm">SOX <span class="kr">필라델피아 반도체</span></div><div class="val">10,688.80</div><div class="chg">▼ -3.79% <span class="badge est">추정 (SOXX ETF -3.66% 기준 적용; SOX 지수 직접 확인 불가)</span></div></div><div class="idx down"><div class="nm">EWY <span class="kr">MSCI 한국</span></div><div class="val">$151.62</div><div class="chg">▼ -0.83% <span class="badge note">(11/2 종가 확인, 당일 등락률 미확인)</span></div></div><div class="idx up"><div class="nm">EEM <span class="kr">MSCI 신흥국</span></div><div class="val">$61.11</div><div class="chg">▲ +0.11%</div></div><div class="idx down"><div class="nm"><span class="kr">코스피200 야간선물</span></div><div class="val">미확인</div><div class="chg">▼ -0.40% <span class="badge est">추정 (나스닥 약세 연동 기준)</span></div></div></div></div></section><section class="sec"><div class="sec-head"><div class="sec-num">02</div><h2 class="sec-title">전체 시장 <em>히트맵</em></h2><div class="sec-en">Heatmap</div><div class="sec-sub">미국 증시 · 시가총액 가중 · finviz-style</div></div><div class="rule"></div>
+<div class="heat-card" style="margin-top:24px">
+<div class="heat-legend"><span class="lbl">등락률</span><div class="heat-scale"><i style="background:#b3261e"></i><i style="background:#c4453b"></i><i style="background:#7a4d4a"></i><i style="background:#414b56"></i><i style="background:#3f6f5b"></i><i style="background:#2f9d6c"></i><i style="background:#16c47e"></i></div>
+<span class="down" style="font-size:11px;font-family:var(--mono)">−</span>
+<span class="neu" style="font-size:11px;font-family:var(--mono)">0</span>
+<span class="up" style="font-size:11px;font-family:var(--mono)">+</span>
+<span class="sp"></span><span class="lbl">타일 크기 = 시가총액 비중 · 색상 = 등락률</span></div>
+<svg class="heat-treemap" viewBox="0 0 1000 520" preserveAspectRatio="xMidYMid meet" role="img" aria-label="미국 증시 시가총액 가중 히트맵"><rect x="0" y="0" width="1000" height="520" fill="#05070c"/><g><rect x="2.0" y="2.0" width="298.9" height="516.0" fill="#0a0f18" stroke="#1c2536" stroke-width="2"/><text x="14.0" y="20.0" class="tm-sechead" fill="#cdd6ea" font-size="13" text-anchor="start">대형기술주</text><text x="290.9" y="20.0" class="tm-secsub" fill="#ff5468" font-size="10" text-anchor="end">▼ -0.34%</text><rect class="tm-tile" x="6.0" y="30.0" width="290.9" height="160.6" rx="2" fill="#a53831"/><text x="151.5" y="107.3" class="tm-tick" fill="#ffe9ec" font-size="24" text-anchor="middle">AAPL</text><text x="151.5" y="133.3" class="tm-pct" fill="#ffe9ec" font-size="16" text-anchor="middle">-1.83%</text><rect class="tm-tile" x="6.0" y="194.6" width="158.2" height="231.2" rx="2" fill="#329569"/><text x="85.1" y="307.2" class="tm-tick" fill="#eafff5" font-size="24" text-anchor="middle">AMZN</text><text x="85.1" y="333.2" class="tm-pct" fill="#eafff5" font-size="16" text-anchor="middle">+2.20%</text><rect class="tm-tile" x="168.2" y="194.6" width="128.7" height="231.2" rx="2" fill="#634c4f"/><text x="232.6" y="307.2" class="tm-tick" fill="#ffe9ec" font-size="24" text-anchor="middle">GOOGL</text><text x="232.6" y="333.2" class="tm-pct" fill="#ffe9ec" font-size="16" text-anchor="middle">-0.30%</text><rect class="tm-tile" x="6.0" y="429.8" width="290.9" height="84.2" rx="2" fill="#9b4039"/><text x="151.5" y="468.9" class="tm-tick" fill="#ffe9ec" font-size="22" text-anchor="middle">META</text><text x="151.5" y="492.9" class="tm-pct" fill="#ffe9ec" font-size="15" text-anchor="middle">-1.34%</text></g><g><rect x="304.9" y="2.0" width="266.1" height="516.0" fill="#0a0f18" stroke="#1c2536" stroke-width="2"/><text x="316.9" y="20.0" class="tm-sechead" fill="#cdd6ea" font-size="13" text-anchor="start">반도체</text><text x="561.0" y="20.0" class="tm-secsub" fill="#ff5468" font-size="10" text-anchor="end">▼ -3.17%</text><rect class="tm-tile" x="308.9" y="30.0" width="258.1" height="193.8" rx="2" fill="#98413b"/><text x="438.0" y="123.9" class="tm-tick" fill="#ffe9ec" font-size="24" text-anchor="middle">NVDA</text><text x="438.0" y="149.9" class="tm-pct" fill="#ffe9ec" font-size="16" text-anchor="middle">-1.26%</text><rect class="tm-tile" x="308.9" y="227.8" width="137.1" height="167.5" rx="2" fill="#95423c"/><text x="377.5" y="308.6" class="tm-tick" fill="#ffe9ec" font-size="22" text-anchor="middle">AVGO</text><text x="377.5" y="332.6" class="tm-pct" fill="#ffe9ec" font-size="14" text-anchor="middle">-1.18%</text><rect class="tm-tile" x="450.0" y="227.8" width="117.0" height="167.5" rx="2" fill="#b3261e"/><text x="508.5" y="308.6" class="tm-tick" fill="#ffe9ec" font-size="21" text-anchor="middle">AMD</text><text x="508.5" y="331.6" class="tm-pct" fill="#ffe9ec" font-size="14" text-anchor="middle">-7.52%</text><rect class="tm-tile" x="308.9" y="399.3" width="141.6" height="114.7" rx="2" fill="#b3261e"/><text x="379.7" y="453.6" class="tm-tick" fill="#ffe9ec" font-size="19" text-anchor="middle">MU</text><text x="379.7" y="474.6" class="tm-pct" fill="#ffe9ec" font-size="13" text-anchor="middle">-5.78%</text><rect class="tm-tile" x="454.5" y="399.3" width="112.5" height="114.7" rx="2" fill="#b3261e"/><text x="510.8" y="453.6" class="tm-tick" fill="#ffe9ec" font-size="18" text-anchor="middle">AMAT</text><text x="510.8" y="473.6" class="tm-pct" fill="#ffe9ec" font-size="12" text-anchor="middle">-3.99%</text></g><g><rect x="575.0" y="2.0" width="423.0" height="222.7" fill="#0a0f18" stroke="#1c2536" stroke-width="2"/><text x="587.0" y="20.0" class="tm-sechead" fill="#cdd6ea" font-size="13" text-anchor="start">소프트웨어</text><text x="988.0" y="20.0" class="tm-secsub" fill="#ff5468" font-size="10" text-anchor="end">▼ -1.43%</text><rect class="tm-tile" x="579.0" y="30.0" width="201.4" height="190.7" rx="2" fill="#b12921"/><text x="679.7" y="122.3" class="tm-tick" fill="#ffe9ec" font-size="24" text-anchor="middle">MSFT</text><text x="679.7" y="148.3" class="tm-pct" fill="#ffe9ec" font-size="16" text-anchor="middle">-2.83%</text><rect class="tm-tile" x="784.4" y="30.0" width="143.9" height="104.1" rx="2" fill="#99403a"/><text x="856.3" y="79.1" class="tm-tick" fill="#ffe9ec" font-size="19" text-anchor="middle">CRM</text><text x="856.3" y="100.1" class="tm-pct" fill="#ffe9ec" font-size="12" text-anchor="middle">-1.30%</text><rect class="tm-tile" x="784.4" y="138.1" width="143.9" height="82.5" rx="2" fill="#3f705c"/><text x="856.3" y="176.4" class="tm-tick" fill="#eafff5" font-size="18" text-anchor="middle">NOW</text><text x="856.3" y="196.4" class="tm-pct" fill="#eafff5" font-size="12" text-anchor="middle">+0.85%</text><rect class="tm-tile" x="932.3" y="30.0" width="61.7" height="190.7" rx="2" fill="#406259"/><text x="963.1" y="122.3" class="tm-tick" fill="#eafff5" font-size="18" text-anchor="middle">ADBE</text><text x="963.1" y="142.3" class="tm-pct" fill="#eafff5" font-size="12" text-anchor="middle">+0.50%</text></g><g><rect x="575.0" y="228.7" width="280.7" height="289.3" fill="#0a0f18" stroke="#1c2536" stroke-width="2"/><text x="587.0" y="246.7" class="tm-sechead" fill="#cdd6ea" font-size="13" text-anchor="start">자동차</text><text x="845.7" y="246.7" class="tm-secsub" fill="#1ed98a" font-size="10" text-anchor="end">▲ +2.32%</text><rect class="tm-tile" x="579.0" y="256.7" width="153.2" height="257.3" rx="2" fill="#3d745d"/><text x="655.6" y="382.3" class="tm-tick" fill="#eafff5" font-size="24" text-anchor="middle">TSLA</text><text x="655.6" y="408.3" class="tm-pct" fill="#eafff5" font-size="16" text-anchor="middle">+1.00%</text><rect class="tm-tile" x="736.2" y="256.7" width="115.5" height="106.0" rx="2" fill="#2ba36f"/><text x="793.9" y="306.7" class="tm-tick" fill="#eafff5" font-size="18" text-anchor="middle">GM</text><text x="793.9" y="326.7" class="tm-pct" fill="#eafff5" font-size="12" text-anchor="middle">+2.91%</text><rect class="tm-tile" x="736.2" y="366.7" width="115.5" height="92.3" rx="2" fill="#2ba36f"/><text x="793.9" y="409.8" class="tm-tick" fill="#eafff5" font-size="17" text-anchor="middle">F</text><text x="793.9" y="428.8" class="tm-pct" fill="#eafff5" font-size="11" text-anchor="middle">+2.86%</text><rect class="tm-tile" x="736.2" y="463.0" width="115.5" height="51.0" rx="2" fill="#16c47e"/><text x="793.9" y="485.5" class="tm-tick" fill="#eafff5" font-size="15" text-anchor="middle">RIVN</text><text x="793.9" y="502.5" class="tm-pct" fill="#eafff5" font-size="10" text-anchor="middle">+8.47%</text></g><g><rect x="859.7" y="228.7" width="138.3" height="289.3" fill="#0a0f18" stroke="#1c2536" stroke-width="2"/><text x="871.7" y="246.7" class="tm-sechead" fill="#cdd6ea" font-size="13" text-anchor="start">2차전지</text><text x="988.0" y="246.7" class="tm-secsub" fill="#ff5468" font-size="10" text-anchor="end">▼ -1.41%</text><rect class="tm-tile" x="863.7" y="256.7" width="130.3" height="114.8" rx="2" fill="#784d4a"/><text x="928.8" y="311.1" class="tm-tick" fill="#ffe9ec" font-size="19" text-anchor="middle">ALB</text><text x="928.8" y="332.1" class="tm-pct" fill="#ffe9ec" font-size="12" text-anchor="middle">-0.48%</text><rect class="tm-tile" x="863.7" y="375.5" width="70.6" height="102.9" rx="2" fill="#8d4540"/><text x="899.0" y="423.9" class="tm-tick" fill="#ffe9ec" font-size="16" text-anchor="middle">QS</text><text x="899.0" y="441.9" class="tm-pct" fill="#ffe9ec" font-size="10" text-anchor="middle">-0.99%</text><rect class="tm-tile" x="938.3" y="375.5" width="55.7" height="102.9" rx="2" fill="#b3261e"/><text x="966.1" y="423.9" class="tm-tick" fill="#ffe9ec" font-size="15" text-anchor="middle">ENVX</text><text x="966.1" y="440.9" class="tm-pct" fill="#ffe9ec" font-size="10" text-anchor="middle">-5.71%</text><rect class="tm-tile" x="863.7" y="482.4" width="130.3" height="31.6" rx="2" fill="#406259"/><text x="928.8" y="502.2" class="tm-tick" fill="#eafff5" font-size="12" text-anchor="middle">SLDP</text></g></svg></div></section><section class="sec"><div class="sec-head"><div class="sec-num">03</div><h2 class="sec-title">주요 <em>종목</em></h2><div class="sec-en">Movers</div><div class="sec-sub">간밤 거래 기준 · 상승 🔼 / 하락 🔽</div></div><div class="rule"></div>
+<div class="movers" style="margin-top:24px"><div class="mv-col mv-up"><div class="mv-hd"><span class="ic">🔼</span> 상승 종목 <span class="en">Top Gainers</span></div>
+<div class="mv-row"><span class="mv-pc">+46.83%</span>
+<div class="mv-body"><div class="mv-name">이브고 <span class="tk">EVGO</span></div><div class="mv-why">전기차 충전 인프라 신규 확장 계획 발표로 급등 (프리마켓 종가 기준 추정)</div></div></div><div class="mv-row"><span class="mv-pc">+21.85%</span>
+<div class="mv-body"><div class="mv-name">아이덱스 래버러토리스 <span class="tk">IDXX</span></div><div class="mv-why">Q3 매출 전년비 10% 증가 및 2026년 연간 전망 상향, 시장 예상치 초과 달성</div></div></div><div class="mv-row"><span class="mv-pc">+2.20%</span>
+<div class="mv-body"><div class="mv-name">아마존 <span class="tk">AMZN</span></div><div class="mv-why">AWS 클라우드 성장 견조; 기술주 약세 속 상대적 방어주로 매수세 유입</div></div></div><div class="mv-row"><span class="mv-pc">+1.00%</span>
+<div class="mv-body"><div class="mv-name">테슬라 <span class="tk">TSLA</span></div><div class="mv-why">10월 글로벌 인도량 호조 기대감, 자동차 섹터 내 상대적 강세</div></div></div></div><div class="mv-col mv-down"><div class="mv-hd"><span class="ic">🔽</span> 하락 종목 <span class="en">Top Losers</span></div>
+<div class="mv-row"><span class="mv-pc">-18.59%</span>
+<div class="mv-body"><div class="mv-name">루멘텀 <span class="tk">LITE</span></div><div class="mv-why">마벨의 주식 교환 인수 발표; 현금 프리미엄 없어 인수차익 기대 소멸</div></div></div><div class="mv-row"><span class="mv-pc">-12.72%</span>
+<div class="mv-body"><div class="mv-name">마벨 테크놀로지 <span class="tk">MRVL</span></div><div class="mv-why">루멘텀 전량 주식 교환 방식 인수 발표, 주주 희석 우려로 급락</div></div></div><div class="mv-row"><span class="mv-pc">-2.83%</span>
+<div class="mv-body"><div class="mv-name">마이크로소프트 <span class="tk">MSFT</span></div><div class="mv-why">중간선거 앞 기술주 전반 매도세, AI 지출 지속성 의구심 확산</div></div></div><div class="mv-row"><span class="mv-pc">-1.83%</span>
+<div class="mv-body"><div class="mv-name">애플 <span class="tk">AAPL</span></div><div class="mv-why">Q4 실적 발표 전 메모리 비용 상승·성장 둔화 우려, 테르누스 CEO 첫 실적 앞두고 관망</div></div></div><div class="mv-row"><span class="mv-pc">-0.30%</span>
+<div class="mv-body"><div class="mv-name">알파벳 <span class="tk">GOOGL</span></div><div class="mv-why">광고 시장 성장 둔화 및 AI 검색 경쟁 심화로 투자 심리 위축</div></div></div></div></div></section><section class="sec"><div class="sec-head"><div class="sec-num">04</div><h2 class="sec-title">테마별 <em>섹터</em> 코멘트</h2><div class="sec-en">Sectors</div><div class="sec-sub">핵심 테마 · 강세 / 약세 / 중립</div></div><div class="rule"></div>
+<div class="themes" style="margin-top:24px"><div class="theme s-down"><div class="th-ic">🧠</div>
+<div class="th-body"><div class="th-top"><span class="th-nm">반도체</span><span class="chip down">약세</span></div>
+<div class="th-cmt">NVDA -1.26%, SOXX ETF -3.66%; AI 데이터센터 설비 투자 지속성에 대한 의구심 커지며 칩 섹터 전반 하방 압력</div></div></div><div class="theme s-neu"><div class="th-ic">🚗</div>
+<div class="th-body"><div class="th-top"><span class="th-nm">자동차</span><span class="chip neu">중립</span></div>
+<div class="th-cmt">TSLA +0.94% 소폭 반등, 전통차(GM·F) 혼조세; WTI 급락으로 EV 전환 속도 및 수익성 논란 재점화</div></div></div><div class="theme s-down"><div class="th-ic">🔋</div>
+<div class="th-body"><div class="th-top"><span class="th-nm">2차전지</span><span class="chip down">약세</span></div>
+<div class="th-cmt">WTI -7.6% 급락으로 EV 전환 유인 약화; 배터리 소재주(ALB 등) 동반 조정, LG에너지·삼성SDI 야간선물 연동 하락 예상</div></div></div><div class="theme s-neu"><div class="th-ic">💻</div>
+<div class="th-body"><div class="th-top"><span class="th-nm">대형기술주</span><span class="chip neu">혼조</span></div>
+<div class="th-cmt">AMZN +2.20% 선방한 반면 AAPL·META·GOOGL 하락; Apple Q4 실적 발표(장마감 후) 앞두고 관망 분위기</div></div></div><div class="theme s-down"><div class="th-ic">⚙️</div>
+<div class="th-body"><div class="th-top"><span class="th-nm">소프트웨어</span><span class="chip down">약세</span></div>
+<div class="th-cmt">MSFT -2.99% 하락이 섹터 전체 견인; 중간선거 불확실성 속 기업 IT 예산 집행 보수화 우려</div></div></div><div class="theme s-neu"><div class="th-ic">⚛️</div>
+<div class="th-body"><div class="th-top"><span class="th-nm">양자컴퓨터</span><span class="chip neu">혼조</span></div>
+<div class="th-cmt">IonQ·RGTI·QUBT, 지난 금요일 급락 후 일부 기술적 반등; IonQ Q3 실적(11/5, 예상 매출 +254% YoY) 앞두고 단기 변동성 확대</div></div></div><div class="theme s-neu"><div class="th-ic">₿</div>
+<div class="th-body"><div class="th-top"><span class="th-nm">비트코인</span><span class="chip neu">중립</span></div>
+<div class="th-cmt">BTC $77,750 보합권(-0.14%); 미국 중간선거 결과에 따른 가상자산 규제 방향 주목, 단기 관망세</div></div></div></div></section><section class="sec"><div class="sec-head"><div class="sec-num">05</div><h2 class="sec-title">경제 · 금리 · <em>환율</em></h2><div class="sec-en">Macro</div><div class="sec-sub">매크로 핵심 변수 점검</div></div><div class="rule"></div>
+<div class="macro" style="margin-top:24px"><div class="mac down"><div class="ml"><span class="e">🏦</span> 미 10년물 국채금리</div>
+<div class="mv">4.92%</div><div class="md down">▼ -2bp</div><div class="mt">미-이란 평화협상 기대감 부상으로 위험 회피 심리 소폭 완화; 유가 급락과 함께 금리 소폭 하락</div></div><div class="mac neu"><div class="ml"><span class="e">🪙</span> 연준 · FOMC</div>
+<div class="mv">동결 유력</div><div class="md neu">4.00~4.25%</div><div class="mt">11월 FOMC 회의 앞두고 동결 전망 우세; 중간선거 결과 불확실성에 연준 신중 기조 유지 예상</div></div><div class="mac up"><div class="ml"><span class="e">💱</span> 원/달러 환율</div>
+<div class="mv">1,341원</div><div class="md up">▲ +0.60%</div><div class="mt">강달러 기조 지속; 나스닥 약세·리스크오프 심리에 원화 약세 압력, 한국 시장 영향 주목</div></div><div class="mac down"><div class="ml"><span class="e">🛢️</span> WTI 유가</div>
+<div class="mv">$96.01</div><div class="md down">▼ -7.63%</div><div class="mt">미국-이란 평화협상 기대 급부상으로 공급 우려 완화, 하루 만에 7% 이상 급락해 에너지·배터리 섹터 연쇄 타격</div></div><div class="mac down"><div class="ml"><span class="e">📉</span> 코스피 동향</div>
+<div class="mv">야간선물 미확인</div><div class="md down">나스닥 연동 약세</div><div class="mt">美 나스닥 -1.07% 약세 및 반도체 전반 하락 연동; 미국 중간선거 결과 개표 전 관망 심리로 보합~약보합 예상</div></div></div></section><section class="sec"><div class="sec-head"><div class="sec-num">06</div><h2 class="sec-title">주목할 <em>일정</em></h2><div class="sec-en">Calendar</div><div class="sec-sub">오늘 · 이번 주 · 이번 달</div></div><div class="rule"></div>
+<div class="sched" style="margin-top:24px"><div class="tier now"><div class="tier-hd"><span class="t-badge">Today</span><span class="t-k">오늘</span></div>
+<div class="ev"><span class="what">🇺🇸 미국 중간선거 투표일 (상원 전체·하원 전체 선거, 결과는 수(11/4) 새벽 순차 집계)</span></div><div class="ev"><span class="what">📊 JOLTS 구인건수 9월 (10:00 ET)</span></div><div class="ev"><span class="what">📊 공장주문 MoM 9월 (10:00 ET)</span></div><div class="ev"><span class="what">🍎 애플 Q4 FY2026 실적 발표 (장 마감 후 — 존 테르누스 CEO 취임 후 첫 실적 콜)</span></div></div><div class="tier week"><div class="tier-hd"><span class="t-badge">This Week</span><span class="t-k">이번 주</span></div>
+<div class="ev"><span class="what">화(11/3): 미국 중간선거, JOLTS 구인건수(9월), 애플 Q4 FY2026 실적(장 마감 후)</span></div><div class="ev"><span class="what">수(11/4): 중간선거 개표 결과 집계, ADP 민간고용보고서(10월)</span></div><div class="ev"><span class="what">목(11/5): IonQ Q3 실적 발표(장 마감 후, 예상 매출 $141M), 신규실업수당청구건수</span></div><div class="ev"><span class="what">금(11/6): 미국 비농업부문 고용(NFP) 발표 — 10월 고용 시장 점검</span></div></div><div class="tier month"><div class="tier-hd"><span class="t-badge">This Month</span><span class="t-k">이번 달</span></div>
+<div class="ev"><span class="what">11/3: 미국 중간선거 (의회 권력구도 변화 여부 → 재정·규제 정책 방향 결정)</span></div><div class="ev"><span class="what">11/5: IonQ Q3 실적; Fed FOMC 회의 시작 예정 (동결 전망)</span></div><div class="ev"><span class="what">11/6: 미국 비농업 고용(NFP) 발표</span></div><div class="ev"><span class="what">11/9: Quantum Computing Inc.(QUBT) 실적 발표</span></div><div class="ev"><span class="what">11/10: D-Wave Quantum, Rigetti Computing(RGTI) 실적 발표</span></div><div class="ev"><span class="what">11월 중: 엔비디아 Q3 FY2027 실적 발표 (일정 미확정)</span></div><div class="ev"><span class="what">11월 중: 미국 소비자물가지수(CPI) 발표 예정</span></div></div></div></section><footer><p class="disc">본 리포트는 공개 뉴스 기반 자동 요약으로 투자 자문이 아닙니다. 일부 미확보 수치는 &#x27;추정&#x27;으로 표기됩니다.<br>출처: <a href="https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-2-144446387.html" target="_blank" rel="noopener" style="color:#9fb4ff;text-decoration:none">Yahoo Finance - Stock Market Today Nov 2 2026</a> · <a href="https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-02-2026" target="_blank" rel="noopener" style="color:#9fb4ff;text-decoration:none">TheStreet - Stock Market Today Dow Jones S&amp;P 500 Nasdaq Nov 02 2026</a> · <a href="https://247wallst.com/cards/money-rotated-out-of-tech-today-the-dow-and-nasdaq-split-by-gspc-market-bell-01m6f16sjakb82rhj0p9s07n7a" target="_blank" rel="noopener" style="color:#9fb4ff;text-decoration:none">247WallSt - S&amp;P 500 Closes Down 0.5% While Dow Gains</a> · <a href="https://www.stocktitan.net/articles/stock-market-today-live-november-2-2026" target="_blank" rel="noopener" style="color:#9fb4ff;text-decoration:none">StockTitan - Tech Stocks Pull Nasdaq Lower Nov 2 2026</a> · <a href="https://www.chartmill.com/news/NSSC/Chartmill-57462-Premarket-Movers-Nov-2-2026-Gainers-and-Losers" target="_blank" rel="noopener" style="color:#9fb4ff;text-decoration:none">ChartMill - Premarket Movers Nov 2 2026</a> · <a href="https://www.cnbc.com/2026/11/02/apple-aapl-q4-2026-earnings-live-updates.html" target="_blank" rel="noopener" style="color:#9fb4ff;text-decoration:none">CNBC - Apple Q4 FY2026 Earnings Live Updates</a> · <a href="https://fortune.com/article/price-of-bitcoin-11-02-2026/" target="_blank" rel="noopener" style="color:#9fb4ff;text-decoration:none">Fortune - Bitcoin Price November 2 2026</a> · <a href="https://www.tipranks.com/news/quantum-stocks-ionq-qbts-rgti-rebound-after-fridays-selloff-ahead-of-earnings" target="_blank" rel="noopener" style="color:#9fb4ff;text-decoration:none">TipRanks - Quantum Stocks Rebound After Friday Selloff</a> · <a href="https://www.fxstreet.com/news/gold-finds-relief-from-oils-decline-as-traders-await-key-us-economic-data-202611021107" target="_blank" rel="noopener" style="color:#9fb4ff;text-decoration:none">FXStreet - Gold Oil Economic Calendar Nov 2 2026</a> · <a href="https://www.benzinga.com/etfs/sector-etfs/26/11/62766623/soxx-top-semiconductor-etf-targets-400-as-ai-bubble-worries-linger" target="_blank" rel="noopener" style="color:#9fb4ff;text-decoration:none">Benzinga - SOXX Semiconductor ETF Nov 2026</a> · <a href="https://finance.yahoo.com/markets/stocks/articles/ionq-rgti-qbts-stocks-lag-054445151.html" target="_blank" rel="noopener" style="color:#9fb4ff;text-decoration:none">Yahoo Finance - IONQ RGTI QBTS Stocks Lag 2026</a> · <a href="https://finnhub.io" target="_blank" rel="noopener" style="color:#9fb4ff;text-decoration:none">Finnhub (정규장 종가)</a></p>
+<div class="foot-brand"><div class="b">🧭 마켓 나침반 · <span>Market Compass</span></div>
+<div class="auto">매일 오전 7시 자동 생성 · Auto-generated Daily 07:00 KST · v2026-11-03</div></div></footer></div></body></html>
