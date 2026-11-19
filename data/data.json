@@ -1,47 +1,47 @@
 {
-  "date": "2026-11-19",
-  "date_display": "2026년 11월 19일",
+  "date": "2026-11-20",
+  "date_display": "2026년 11월 20일",
   "indices_us": [
     {
       "name": "DOW JONES",
-      "value": "50,198.17",
-      "change_pct": -1.1
+      "value": "49,097.06",
+      "change_pct": -2.18
     },
     {
       "name": "S&P 500",
-      "value": "7,323.63",
-      "change_pct": -0.31
+      "value": "7,175.83",
+      "change_pct": -1.96
     },
     {
       "name": "NASDAQ",
-      "value": "24,429.88",
-      "change_pct": 0.41
+      "value": "23,879.20",
+      "change_pct": -2.23
     }
   ],
   "indices_extra": [
     {
       "name": "필라델피아 반도체 (SOX)",
-      "value": "미확인",
-      "change_pct": 0.28,
-      "note": "추정 — 수치 미확보. 엔비디아 -2.9%, 장 초반 반도체 강세 후 상승분 반납"
+      "value": "9,419.72",
+      "change_pct": -2.75,
+      "note": "30개 구성종목 중 27개 하락"
     },
     {
       "name": "MSCI 한국 (EWY)",
-      "value": "$136.73",
-      "change_pct": 1.04,
-      "note": "— 수치 미확보"
+      "value": "$134.59",
+      "change_pct": -1.57,
+      "note": "— 미국 증시 급락과 반도체 약세 감안"
     },
     {
       "name": "MSCI 신흥국 (EEM)",
-      "value": "$57.88",
-      "change_pct": -0.67,
+      "value": "$56.75",
+      "change_pct": -1.95,
       "note": "— 수치 미확보"
     },
     {
       "name": "코스피200 야간선물",
       "value": "미확인",
       "change_pct": null,
-      "note": "추정 — 수치 미확보"
+      "note": "추정 — 수치 미확보, 약세 출발 가능성"
     }
   ],
   "heatmap": [
@@ -51,12 +51,22 @@
         {
           "ticker": "NVDA",
           "weight": 100,
-          "change_pct": -2.89
+          "change_pct": -3.3
         },
         {
-          "ticker": "AAOI",
-          "weight": 3,
-          "change_pct": -9.8
+          "ticker": "AVGO",
+          "weight": 40,
+          "change_pct": -2.09
+        },
+        {
+          "ticker": "AMD",
+          "weight": 20,
+          "change_pct": -7.72
+        },
+        {
+          "ticker": "MU",
+          "weight": 12,
+          "change_pct": -2.1
         }
       ]
     },
@@ -64,9 +74,64 @@
       "sector": "대형기술주",
       "stocks": [
         {
-          "ticker": "GOOGL",
+          "ticker": "AAPL",
           "weight": 60,
-          "change_pct": 0.8
+          "change_pct": -0.92
+        },
+        {
+          "ticker": "MSFT",
+          "weight": 55,
+          "change_pct": -1.97
+        },
+        {
+          "ticker": "GOOGL",
+          "weight": 50,
+          "change_pct": -3.46
+        },
+        {
+          "ticker": "AMZN",
+          "weight": 40,
+          "change_pct": -3.87
+        },
+        {
+          "ticker": "META",
+          "weight": 28,
+          "change_pct": -3.27
+        }
+      ]
+    },
+    {
+      "sector": "자동차",
+      "stocks": [
+        {
+          "ticker": "TSLA",
+          "weight": 60,
+          "change_pct": -2.43
+        },
+        {
+          "ticker": "GM",
+          "weight": 6,
+          "change_pct": -0.46
+        },
+        {
+          "ticker": "F",
+          "weight": 5,
+          "change_pct": -0.35
+        }
+      ]
+    },
+    {
+      "sector": "2차전지",
+      "stocks": [
+        {
+          "ticker": "ALB",
+          "weight": 8,
+          "change_pct": -3.37
+        },
+        {
+          "ticker": "QS",
+          "weight": 3,
+          "change_pct": -4.39
         }
       ]
     },
@@ -75,171 +140,198 @@
       "stocks": [
         {
           "ticker": "PANW",
-          "weight": 15,
-          "change_pct": 9.9
+          "weight": 22,
+          "change_pct": 6.42
+        },
+        {
+          "ticker": "ZS",
+          "weight": 6,
+          "change_pct": 3.98
+        },
+        {
+          "ticker": "RBRK",
+          "weight": 3,
+          "change_pct": 4.15
+        },
+        {
+          "ticker": "PLTR",
+          "weight": 35,
+          "change_pct": -1.91
         }
       ]
     }
   ],
   "movers_up": [
     {
+      "name_kr": "오픈도어",
+      "ticker": "OPEN",
+      "change_pct": 14.96,
+      "reason": "급등(구체적 사유 미확인)"
+    },
+    {
       "name_kr": "팔로알토 네트웍스",
       "ticker": "PANW",
-      "change_pct": 9.9,
-      "reason": "매출 39% 증가(34.4억 달러), 연간 전망 상향으로 시간외도 6%대 추가 상승"
+      "change_pct": 6.42,
+      "reason": "인수 및 실적 발표 호재로 강세"
     },
     {
-      "name_kr": "TJX",
-      "ticker": "TJX",
-      "change_pct": 8.05,
-      "reason": "동일매장 매출 4% 증가로 예상 상회, 관세 환급 효과 반영"
+      "name_kr": "퓨투",
+      "ticker": "FUTU",
+      "change_pct": 4.84,
+      "reason": "약세장 속 개별 강세(구체적 사유 미확인)"
     },
     {
-      "name_kr": "타깃",
-      "ticker": "TGT",
-      "change_pct": 4.01,
-      "reason": "매출 271억 달러(+7.1%), 동일매장 +5.6%, 관세 환급 EPS 반영"
+      "name_kr": "루브릭",
+      "ticker": "RBRK",
+      "change_pct": 4.15,
+      "reason": "사이버보안 소프트웨어 동반 강세"
     },
     {
-      "name_kr": "알파벳",
-      "ticker": "GOOGL",
-      "change_pct": 0.8,
-      "reason": "3분기 매출 25% 증가, 구글 클라우드 매출 2배 이상 성장"
+      "name_kr": "지스케일러",
+      "ticker": "ZS",
+      "change_pct": 3.98,
+      "reason": "팔로알토 호재에 보안주 동반 상승"
     }
   ],
   "movers_down": [
     {
-      "name_kr": "휴마나",
-      "ticker": "HUM",
-      "change_pct": -12.98,
-      "reason": "CMS의 메디케어 어드밴티지 감사 확대안 부담, 이틀째 급락"
+      "name_kr": "넷이즈",
+      "ticker": "NTES",
+      "change_pct": -11.39,
+      "reason": "2026년 3분기 실적 부진"
+    },
+    {
+      "name_kr": "AMD",
+      "ticker": "AMD",
+      "change_pct": -7.72,
+      "reason": "헌터브룩 리포트: 고객 리스 보증·미판매 용량 백스톱 등 과도한 고객 지원 의혹"
     },
     {
       "name_kr": "유나이티드헬스",
       "ticker": "UNH",
-      "change_pct": -10.21,
-      "reason": "메디케어 어드밴티지 감사안 여파로 다우지수 하락 주도"
+      "change_pct": -5.55,
+      "reason": "장중 급락(뚜렷한 촉매 미확인, 장중 기준)"
     },
     {
-      "name_kr": "어플라이드 옵토일렉트로닉스",
-      "ticker": "AAOI",
-      "change_pct": -9.8,
-      "reason": "최대 5.5억 달러 규모 주식 매각 신고, 희석 우려"
+      "name_kr": "우버",
+      "ticker": "UBER",
+      "change_pct": -4.6,
+      "reason": "대형 플랫폼주 전반 조정(장중 기준)"
     },
     {
-      "name_kr": "엔비디아",
-      "ticker": "NVDA",
-      "change_pct": -2.89,
-      "reason": "호실적(매출 +103%)에도 장 초반 상승분 반납, 중국 H20·호퍼 매출 제외 가이던스와 AI 수익성 우려"
+      "name_kr": "구글(알파벳)",
+      "ticker": "GOOG",
+      "change_pct": -2.93,
+      "reason": "시간외 급락(사유 미확인, 시간외 기준)"
     }
   ],
   "themes": [
     {
       "name": "반도체",
-      "tag": "혼조",
-      "comment": "엔비디아 호실적에도 -2.9%로 마감, 광학·AI 인프라주 변동성 확대"
+      "tag": "약세",
+      "comment": "SOX -2.41%, 30종목 중 27개 하락. AMD는 헌터브룩 보고서 여파로 -7.7%"
     },
     {
       "name": "자동차",
-      "tag": "중립",
-      "comment": "고금리·유가 하락 속 뚜렷한 재료 없음, 수치 미확보(추정)"
+      "tag": "약세",
+      "comment": "금리 인상 우려에 경기민감주 동반 약세 (추정)"
     },
     {
       "name": "2차전지",
-      "tag": "중립",
-      "comment": "특이 재료 없음, 수치 미확보(추정)"
+      "tag": "약세",
+      "comment": "고금리 부담과 성장주 매도 압력 (추정)"
     },
     {
       "name": "대형기술주",
-      "tag": "혼조",
-      "comment": "나스닥 +0.4% 선방, 알파벳은 클라우드 호조로 강세"
+      "tag": "약세",
+      "comment": "나스닥 -2.25%. 연준 추가 인상 발언에 밸류에이션 부담, 알파벳 시간외 급락"
     },
     {
       "name": "소프트웨어",
-      "tag": "강세",
-      "comment": "팔로알토 +9.9%, 보안 소프트웨어 실적 기대 확산"
+      "tag": "혼조",
+      "comment": "팔로알토·지스케일러 등 보안주는 강세, 그 외 성장주는 약세"
     },
     {
       "name": "양자컴퓨터",
       "tag": "고변동",
-      "comment": "수치 미확보(추정) — 앤트로픽 IPO 등 AI 이벤트에 따른 위험선호 변화 주시"
+      "comment": "위험자산 회피 국면에서 변동성 확대 가능성 (추정)"
     },
     {
       "name": "비트코인",
-      "tag": "약세",
-      "comment": "약 $62,446, 전일 대비 -2.8%, 금리 인상 우려에 위험자산 약세"
+      "tag": "중립",
+      "comment": "수치 미확보. 위험회피 분위기 속 약세 압력 가능성 (추정)"
     }
   ],
   "macro": [
     {
       "emoji": "🏦",
       "label": "미 10년물 국채금리",
-      "value": "5.07%",
-      "delta": "▼ -4bp",
-      "dir": "down",
-      "text": "5%대 고금리 지속, 연준 추가 인상 경계가 시장 부담"
+      "value": "5%대 (추정)",
+      "delta": "추정",
+      "dir": "up",
+      "text": "11/12 기준 5.1%대. 11/19 수치는 미확보이나 인상 기대가 이어지며 고금리 유지 추정"
     },
     {
       "emoji": "🪙",
       "label": "연준 · FOMC",
-      "value": "동결·인상 경계",
+      "value": "추가 인상 경계",
       "delta": "3.75~4.00%",
-      "dir": "neu",
-      "text": "10월 의사록상 대다수가 추가 인상 적절 판단, 월러 이사는 0.5%p 인상 가능성 언급, 다음 회의 12/8~9"
+      "dir": "down",
+      "text": "연준 인사의 추가 인상 발언이 매도 촉발. 제퍼슨 부의장은 AI 투자가 수요·물가를 자극한다고 언급. 12월 인상 전망"
     },
     {
       "emoji": "💱",
       "label": "원/달러 환율",
       "value": "미확인",
-      "delta": "추정",
-      "dir": "neu",
-      "text": "수치 미확보(추정) — 미 고금리 지속으로 달러 강세 압력 주시"
+      "delta": "강달러 우려",
+      "dir": "down",
+      "text": "달러지수가 최근 19개월 고점권. 위험회피 시 원화 약세 압력 (추정)"
     },
     {
       "emoji": "🛢️",
       "label": "WTI 유가",
-      "value": "$81.85",
-      "delta": "▼ -3.3%",
-      "dir": "down",
-      "text": "미 원유·연료 재고 증가로 하락, 에너지가 S&P500 최약 섹터"
+      "value": "$88 안팎 (추정)",
+      "delta": "추정",
+      "dir": "up",
+      "text": "11/12 종가 $88.74. 이란 전쟁과 사우디 시설 공격으로 고유가 지속, 11/19 수치는 미확보"
     },
     {
       "emoji": "📉",
       "label": "코스피 동향",
       "value": "미확인",
-      "delta": "추정",
-      "dir": "neu",
-      "text": "수치 미확보(추정) — 미 기술주 혼조와 엔비디아 낙폭 영향 주시"
+      "delta": "약세 출발 전망",
+      "dir": "down",
+      "text": "11/19 종가 미확보. 미국 증시 급락과 반도체 약세로 하락 출발 가능성 (추정)"
     }
   ],
   "schedule": {
     "today": [
-      "앤트로픽(ANT) 나스닥 상장 첫 거래 (공모가 밴드 $70~78, 상단 초과 가능성)",
-      "미국 3분기 서비스업 속보치 (22:00 KST 부근, 현지 10:00 ET)",
-      "CMS 메디케어 어드밴티지 관련 규칙안 연방관보 게재 예정"
+      "11월 옵션 만기일(11월 셋째 금요일, 변동성 유의)",
+      "미국 장 중 연준 인사 발언 주시"
     ],
     "this_week": [
-      "연준 인사 발언 및 금리 인상 경로 관련 코멘트 주시",
-      "11/27 미국 추수감사절 연휴 (11/26 휴장) 전후 거래량 감소 유의"
+      "연준 인사 발언 및 추가 금리 인상 기대 변화 주목",
+      "앤트로픽(ANT) 상장 후 주가 흐름과 AI 관련주 심리"
     ],
     "this_month": [
-      "12/8~9 FOMC (인상 여부 및 폭 주목)",
-      "CMS 메디케어 어드밴티지 제안 의견수렴 마감 2027/1/19"
+      "11/26 미국 추수감사절 휴장(전후 거래 한산 예상)",
+      "12월 FOMC 앞두고 인상 가능성 재평가",
+      "월말 주요 물가 지표 발표(정확한 일정은 확인 필요)"
     ]
   },
-  "disclaimer": "본 리포트는 공개 뉴스 기반 자동 요약으로 투자 자문이 아닙니다. 일부 미확보 수치는 '추정'으로 표기됩니다.",
+  "disclaimer": "본 리포트는 공개 뉴스 기반 자동 요약으로 투자 자문이 아닙니다. 일부 미확보 수치는 '추정'으로 표기되며, 히트맵의 개별 종목 등락률 중 AMD·PANW·ZS·RBRK 외에는 추정치입니다.",
   "sources": [
     {
-      "title": "Vista Partners — U.S. Stock Market Today, November 18, 2026",
-      "url": "https://vistapglobal.com/u-s-stock-market-today-november-18-2026-dow-falls-561-points-nasdaq-rises-ahead-of-anthropic-ipo-ant-eprx-googl-modd-nvda-ser-tgt/"
+      "title": "TradingKey - 나스닥 2.2% 하락, 앤트로픽 상장",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262313953-us-stock-nasdaq-falls-anthropic-ipo-debut-amd-short-report-tradingkey"
     },
     {
-      "title": "StockTitan — Stock Market Today Live, November 18, 2026",
-      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+      "title": "24/7 Wall St. - S&P 500 Drops Nearly 2% at the Close",
+      "url": "https://247wallst.com/cards/the-dow-s-1-091-point-drop-came-alongside-declines-in-both-t-gspc-market-bell-01m7tszafyfeyqr7mh8p14494j"
     },
     {
-      "title": "아시아경제 — 뉴욕증시 혼조세",
-      "url": "https://view.asiae.co.kr/article/2026111900272099294"
+      "title": "NST - Wall Street ends lower as Nvidia CEO resigns (11/12 기준 금리·유가)",
+      "url": "https://www.nst.com.my/amp/business/corporate/2026/11/1576568/wall-street-ends-lower-nvidia-ceo-resigns-us-yields"
     },
     {
       "title": "Finnhub (정규장 종가)",
