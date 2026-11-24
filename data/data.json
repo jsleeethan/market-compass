@@ -1,46 +1,46 @@
 {
-  "date": "2026-11-24",
-  "date_display": "2026년 11월 24일",
+  "date": "2026-11-25",
+  "date_display": "2026년 11월 25일",
   "indices_us": [
     {
       "name": "DOW JONES",
-      "value": "49,595.31",
-      "change_pct": 3.06
+      "value": "50,018.70",
+      "change_pct": 0.79
     },
     {
       "name": "S&P 500",
-      "value": "7,237.20",
-      "change_pct": 4.71
+      "value": "7,200.82",
+      "change_pct": -0.49
     },
     {
       "name": "NASDAQ",
-      "value": "24,089.56",
-      "change_pct": 6.18
+      "value": "23,733.54",
+      "change_pct": -1.43
     }
   ],
   "indices_extra": [
     {
       "name": "필라델피아 반도체 (SOX)",
-      "value": "9,588.05",
-      "change_pct": 13.63,
-      "note": ""
+      "value": "미확인",
+      "change_pct": -8.27,
+      "note": "추정 (NVDA -5.9%, AMD -8.9%, 3배 인버스 SOXS +24% 기반)"
     },
     {
       "name": "MSCI 한국 (EWY)",
-      "value": "$135.72",
-      "change_pct": 10.11,
-      "note": "(SK하이닉스 ADR +20%, 미 반도체 급등 감안)"
+      "value": "$130.70",
+      "change_pct": -3.7,
+      "note": ""
     },
     {
       "name": "MSCI 신흥국 (EEM)",
-      "value": "$57.83",
-      "change_pct": 7.41,
+      "value": "$56.69",
+      "change_pct": -1.97,
       "note": ""
     },
     {
       "name": "코스피200 야간선물",
       "value": "미확인",
-      "change_pct": 4.0,
+      "change_pct": -1.5,
       "note": "추정"
     }
   ],
@@ -51,32 +51,12 @@
         {
           "ticker": "NVDA",
           "weight": 30,
-          "change_pct": 31.48
-        },
-        {
-          "ticker": "AVGO",
-          "weight": 12,
-          "change_pct": 3.0
+          "change_pct": -5.86
         },
         {
           "ticker": "AMD",
           "weight": 6,
-          "change_pct": 6.85
-        },
-        {
-          "ticker": "MU",
-          "weight": 4,
-          "change_pct": 19.04
-        },
-        {
-          "ticker": "TSM",
-          "weight": 10,
-          "change_pct": 14.08
-        },
-        {
-          "ticker": "MRVL",
-          "weight": 2,
-          "change_pct": 18.37
+          "change_pct": -8.86
         }
       ]
     },
@@ -86,27 +66,27 @@
         {
           "ticker": "AAPL",
           "weight": 28,
-          "change_pct": 1.9
+          "change_pct": 1.43
         },
         {
           "ticker": "MSFT",
-          "weight": 26,
-          "change_pct": 1.65
+          "weight": 20,
+          "change_pct": 0.74
         },
         {
           "ticker": "GOOGL",
-          "weight": 20,
-          "change_pct": 6.34
+          "weight": 18,
+          "change_pct": -1.08
         },
         {
           "ticker": "AMZN",
-          "weight": 14,
-          "change_pct": 3.47
+          "weight": 15,
+          "change_pct": -1.21
         },
         {
           "ticker": "META",
-          "weight": 9,
-          "change_pct": 6.55
+          "weight": 8,
+          "change_pct": -1.3
         }
       ]
     },
@@ -115,151 +95,113 @@
       "stocks": [
         {
           "ticker": "TSLA",
-          "weight": 60,
-          "change_pct": 11.46
+          "weight": 14,
+          "change_pct": -0.2
         }
       ]
     },
     {
       "sector": "2차전지",
-      "stocks": [
-        {
-          "ticker": "ALB",
-          "weight": 4,
-          "change_pct": 3.61
-        },
-        {
-          "ticker": "QS",
-          "weight": 2,
-          "change_pct": 5.02
-        }
-      ]
+      "stocks": []
     },
     {
       "sector": "소프트웨어",
       "stocks": [
         {
-          "ticker": "ORCL",
-          "weight": 12,
-          "change_pct": 12.34
-        },
-        {
-          "ticker": "PLTR",
-          "weight": 10,
-          "change_pct": 11.06
-        },
-        {
           "ticker": "MSFT",
           "weight": 20,
-          "change_pct": 1.65
-        },
-        {
-          "ticker": "PANW",
-          "weight": 4,
-          "change_pct": 2.94
+          "change_pct": 0.74
         }
       ]
     }
   ],
   "movers_up": [
     {
-      "name_kr": "엔비디아",
-      "ticker": "NVDA",
-      "change_pct": 31.48,
-      "reason": "이사회가 장 시작 전 젠슨 황 CEO 즉각 복귀 발표, 전주 SEC 조사 낙폭 만회"
+      "name_kr": "디렉시온 반도체 인버스 3X (SOXS)",
+      "ticker": "SOXS",
+      "change_pct": 24.13,
+      "reason": "반도체 급락으로 인버스 ETF 급등"
     },
     {
-      "name_kr": "SK하이닉스 ADR",
-      "ticker": "HXSCL",
-      "change_pct": 20.0,
-      "reason": "엔비디아 반등과 AI 반도체 투매 되돌림"
+      "name_kr": "애플",
+      "ticker": "AAPL",
+      "change_pct": 1.43,
+      "reason": "반도체·AI 주도주 급락 속 방어적 대형주로 자금 유입, 52주 고점 부근 유지(추정)"
     },
     {
-      "name_kr": "마이크론",
-      "ticker": "MU",
-      "change_pct": 19.04,
-      "reason": "반도체 전반 급반등, 매수세 집중"
-    },
-    {
-      "name_kr": "마벨 테크놀로지",
-      "ticker": "MRVL",
-      "change_pct": 18.37,
-      "reason": "AI 반도체주 동반 급등"
-    },
-    {
-      "name_kr": "TSMC ADR",
-      "ticker": "TSM",
-      "change_pct": 14.08,
-      "reason": "엔비디아 복귀 소식에 파운드리 수요 기대 회복"
-    },
-    {
-      "name_kr": "오라클",
-      "ticker": "ORCL",
-      "change_pct": 12.34,
-      "reason": "AI 인프라·데이터센터 관련주 반등"
+      "name_kr": "마이크로소프트",
+      "ticker": "MSFT",
+      "change_pct": 0.74,
+      "reason": "나스닥 약세 속에서도 소프트웨어·대형주 상대 강세(추정)"
     }
   ],
   "movers_down": [
     {
-      "name_kr": "엑슨모빌",
-      "ticker": "XOM",
-      "change_pct": -1.93,
-      "reason": "유가 하락 보도 속 에너지 섹터 약세"
+      "name_kr": "AMD",
+      "ticker": "AMD",
+      "change_pct": -8.86,
+      "reason": "AI 반도체주 동반 투매로 급락(구체적 원인 미확인)"
     },
     {
-      "name_kr": "코카콜라",
-      "ticker": "KO",
-      "change_pct": -1.14,
-      "reason": "위험선호 회복에 필수소비재 자금 이탈"
+      "name_kr": "엔비디아",
+      "ticker": "NVDA",
+      "change_pct": -5.86,
+      "reason": "AI 반도체 차익실현·매도세 확산, 50일선 대비 큰 폭 하회"
     },
     {
-      "name_kr": "유나이티드헬스",
-      "ticker": "UNH",
-      "change_pct": -1.11,
-      "reason": "방어주에서 기술주로 자금 이동"
+      "name_kr": "메타",
+      "ticker": "META",
+      "change_pct": -1.3,
+      "reason": "나스닥 약세에 동조 하락(추정)"
     },
     {
-      "name_kr": "쉐브론",
-      "ticker": "CVX",
-      "change_pct": -1.06,
-      "reason": "에너지 섹터 약세, 유가 하락"
+      "name_kr": "아마존",
+      "ticker": "AMZN",
+      "change_pct": -1.21,
+      "reason": "기술주 전반 약세에 동조(추정)"
+    },
+    {
+      "name_kr": "알파벳",
+      "ticker": "GOOGL",
+      "change_pct": -1.08,
+      "reason": "기술주 약세 및 50일선 하회 지속(추정)"
     }
   ],
   "themes": [
     {
       "name": "반도체",
-      "tag": "강세",
-      "comment": "SOX +14.03% 폭등, 엔비디아 +31.5%. 전주 급락분 일부 되돌림"
+      "tag": "약세",
+      "comment": "NVDA -5.9%, AMD -8.9% 급락, 인버스 ETF 급등. SOX 낙폭 큰 것으로 추정."
     },
     {
       "name": "자동차",
-      "tag": "강세",
-      "comment": "테슬라 +11.46%, 위험선호 회복에 급반등"
+      "tag": "중립",
+      "comment": "테슬라(TSLA) -0.2%로 보합권."
     },
     {
       "name": "2차전지",
       "tag": "중립",
-      "comment": "개별 수치 미확인, 성장주 반등 흐름 동참 예상 (추정)"
+      "comment": "관련 수치 미확보로 방향성 판단 유보(추정)."
     },
     {
       "name": "대형기술주",
-      "tag": "강세",
-      "comment": "알파벳 +6.3%, 메타 +6.6%, 아마존 +3.5%, 애플 +1.9%, 마이크로소프트 +1.7%"
+      "tag": "혼조",
+      "comment": "애플 +1.4%, 마이크로소프트 +0.7% vs 알파벳·아마존·메타 -1%대."
     },
     {
       "name": "소프트웨어",
-      "tag": "강세",
-      "comment": "오라클 +12.4%, 팔란티어 +11.1%, 팔로알토 +2.9%"
+      "tag": "중립",
+      "comment": "마이크로소프트 +0.7%로 상대적 안정. 업종 전체 수치는 미확보(추정)."
     },
     {
       "name": "양자컴퓨터",
       "tag": "고변동",
-      "comment": "개별 수치 미확인. 고베타 성장주 특성상 큰 반등폭 예상 (추정)"
+      "comment": "수치 미확보. 위험자산 회피 국면에서 변동성 확대 가능성(추정)."
     },
     {
       "name": "비트코인",
       "tag": "약세",
-      "comment": "6만 달러 부근에서 등락, 현물 ETF 자금 유출 지속 (당일 수치 미확인)"
+      "comment": "약 $59,800로 -2.3%, 6만 달러 하회."
     }
   ],
   "macro": [
@@ -267,71 +209,59 @@
       "emoji": "🏦",
       "label": "미 10년물 국채금리",
       "value": "미확인",
-      "delta": "추정",
+      "delta": "—",
       "dir": "neu",
-      "text": "당일 수치 미확보. 인플레이션 우려와 금리 인상 경계가 이어지는 구도"
+      "text": "수치 미확보. 주식 약세 속 금리 방향은 추후 확인 필요(추정)."
     },
     {
       "emoji": "🪙",
       "label": "연준 · FOMC",
-      "value": "12월 인상 경계",
-      "delta": "PCE 대기",
+      "value": "미확인",
+      "delta": "—",
       "dir": "neu",
-      "text": "연준 10월 회의록에 추가 인상 지지 분위기, 25일 PCE 발표가 변수"
+      "text": "최신 FOMC 전망 미확보. 공식 일정 확인 필요."
     },
     {
       "emoji": "💱",
       "label": "원/달러 환율",
-      "value": "1,336원대",
-      "delta": "20일 종가",
+      "value": "미확인",
+      "delta": "—",
       "dir": "neu",
-      "text": "20일 서울 종가 1,336.2원, 이후 수치 미확보 (위험선호 회복 시 하락 압력 추정)"
+      "text": "위험회피 심리 확산 시 원화 약세 압력 가능(추정)."
     },
     {
       "emoji": "🛢️",
       "label": "WTI 유가",
       "value": "미확인",
-      "delta": "▼ 약 -3% (추정)",
-      "dir": "down",
-      "text": "공급 증가로 유가 약 3% 하락했다는 보도, 에너지주 약세"
+      "delta": "—",
+      "dir": "neu",
+      "text": "수치 미확보."
     },
     {
       "emoji": "📉",
       "label": "코스피 동향",
-      "value": "4,869.96",
-      "delta": "20일 종가",
-      "dir": "neu",
-      "text": "23일 장 초반 3% 넘게 하락해 4,700선 거래 보도, 종가 미확인 (24일 미 반도체 급등 반영 기대)"
+      "value": "약세 예상",
+      "delta": "추정",
+      "dir": "down",
+      "text": "미 반도체 급락과 EWY·야간선물 약세 추정으로 반도체 대형주 중심 부담 예상."
     }
   ],
   "schedule": {
     "today": [
-      "미 반도체 급반등 여파 속 한국장 흐름 주시",
-      "엔비디아 CEO 복귀 및 SEC 조사 후속 보도"
+      "미국 주요 경제지표 및 기업 실적 일정은 공식 캘린더 확인 필요"
     ],
     "this_week": [
-      "11/25(수) 미국 PCE 물가지표 발표",
-      "11/26(목) 미국 추수감사절, 증시 휴장",
-      "11/27(금) 미국 증시 오후 1시 조기 마감"
+      "미국 추수감사절(11월 26일 목) 휴장, 27일 조기 마감"
     ],
     "this_month": [
-      "12월 FOMC (금리 인상 경계감 지속)",
-      "11월 고용·물가 지표 발표 일정 (추정)"
+      "12월 FOMC 회의 및 11월 고용보고서 발표 전 경계감(일정 확인 필요)"
     ]
   },
   "disclaimer": "본 리포트는 공개 뉴스 기반 자동 요약으로 투자 자문이 아닙니다. 일부 미확보 수치는 '추정'으로 표기됩니다.",
   "sources": [
     {
-      "title": "뉴스핌 - 뉴욕증시, 젠슨 황 복귀에 폭등 마감",
-      "url": "https://www.newspim.com/news/view/20261124000018"
-    },
-    {
-      "title": "서울신문 - 미국 증시 기술주·반도체 급등 랠리",
-      "url": "https://www.seoul.co.kr/news/economy/securities/2026/11/24/20261124500006"
-    },
-    {
-      "title": "이투데이 - 뉴욕증시 나스닥 6.51% 급등",
-      "url": "https://www.etoday.co.kr/news/view/2651913"
+      "title": "Financial Modeling Prep (시세 데이터)",
+      "url": "https://financialmodelingprep.com"
     },
     {
       "title": "Finnhub (정규장 종가)",
