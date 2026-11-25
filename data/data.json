@@ -1,46 +1,46 @@
 {
-  "date": "2026-11-25",
-  "date_display": "2026년 11월 25일",
+  "date": "2026-11-26",
+  "date_display": "2026년 11월 26일",
   "indices_us": [
     {
       "name": "DOW JONES",
-      "value": "50,018.70",
-      "change_pct": 0.79
+      "value": "50,182.95",
+      "change_pct": 0.31
     },
     {
       "name": "S&P 500",
-      "value": "7,200.82",
-      "change_pct": -0.49
+      "value": "7,182.78",
+      "change_pct": -0.29
     },
     {
       "name": "NASDAQ",
-      "value": "23,733.54",
-      "change_pct": -1.43
+      "value": "23,585.80",
+      "change_pct": -0.66
     }
   ],
   "indices_extra": [
     {
       "name": "필라델피아 반도체 (SOX)",
       "value": "미확인",
-      "change_pct": -8.27,
-      "note": "추정 (NVDA -5.9%, AMD -8.9%, 3배 인버스 SOXS +24% 기반)"
+      "change_pct": -0.5,
+      "note": "추정 (엔비디아 -3.9%, 마이크론 -4.5% 기반; 전일 -7.88%)"
     },
     {
       "name": "MSCI 한국 (EWY)",
-      "value": "$130.70",
-      "change_pct": -3.7,
-      "note": ""
+      "value": "$129.19",
+      "change_pct": -1.16,
+      "note": "(반도체 약세 반영)"
     },
     {
       "name": "MSCI 신흥국 (EEM)",
-      "value": "$56.69",
-      "change_pct": -1.97,
+      "value": "$56.40",
+      "change_pct": -0.51,
       "note": ""
     },
     {
       "name": "코스피200 야간선물",
       "value": "미확인",
-      "change_pct": -1.5,
+      "change_pct": -1.0,
       "note": "추정"
     }
   ],
@@ -51,12 +51,22 @@
         {
           "ticker": "NVDA",
           "weight": 30,
-          "change_pct": -5.86
+          "change_pct": -3.91
+        },
+        {
+          "ticker": "MU",
+          "weight": 5,
+          "change_pct": -4.53
         },
         {
           "ticker": "AMD",
           "weight": 6,
-          "change_pct": -8.86
+          "change_pct": -1.75
+        },
+        {
+          "ticker": "AVGO",
+          "weight": 15,
+          "change_pct": -0.07
         }
       ]
     },
@@ -66,27 +76,22 @@
         {
           "ticker": "AAPL",
           "weight": 28,
-          "change_pct": 1.43
+          "change_pct": 0.43
         },
         {
           "ticker": "MSFT",
-          "weight": 20,
-          "change_pct": 0.74
+          "weight": 24,
+          "change_pct": -1.25
         },
         {
           "ticker": "GOOGL",
-          "weight": 18,
-          "change_pct": -1.08
+          "weight": 20,
+          "change_pct": -2.13
         },
         {
-          "ticker": "AMZN",
-          "weight": 15,
-          "change_pct": -1.21
-        },
-        {
-          "ticker": "META",
-          "weight": 8,
-          "change_pct": -1.3
+          "ticker": "ORCL",
+          "weight": 5,
+          "change_pct": -5.13
         }
       ]
     },
@@ -95,113 +100,144 @@
       "stocks": [
         {
           "ticker": "TSLA",
-          "weight": 14,
-          "change_pct": -0.2
+          "weight": 40,
+          "change_pct": -1.18
+        },
+        {
+          "ticker": "GM",
+          "weight": 4,
+          "change_pct": 2.03
+        },
+        {
+          "ticker": "F",
+          "weight": 3,
+          "change_pct": 1.84
         }
       ]
     },
     {
       "sector": "2차전지",
-      "stocks": []
+      "stocks": [
+        {
+          "ticker": "ALB",
+          "weight": 3,
+          "change_pct": 1.08
+        },
+        {
+          "ticker": "QS",
+          "weight": 2,
+          "change_pct": 5.76
+        }
+      ]
     },
     {
       "sector": "소프트웨어",
       "stocks": [
         {
-          "ticker": "MSFT",
-          "weight": 20,
-          "change_pct": 0.74
+          "ticker": "CRM",
+          "weight": 10,
+          "change_pct": 2.04
+        },
+        {
+          "ticker": "IBM",
+          "weight": 8,
+          "change_pct": 3.33
+        },
+        {
+          "ticker": "ORCL",
+          "weight": 8,
+          "change_pct": -5.13
         }
       ]
     }
   ],
   "movers_up": [
     {
-      "name_kr": "디렉시온 반도체 인버스 3X (SOXS)",
-      "ticker": "SOXS",
-      "change_pct": 24.13,
-      "reason": "반도체 급락으로 인버스 ETF 급등"
+      "name_kr": "IBM",
+      "ticker": "IBM",
+      "change_pct": 3.33,
+      "reason": "다우 반등을 이끈 종목 중 하나 (등락률 추정)"
     },
     {
-      "name_kr": "애플",
-      "ticker": "AAPL",
-      "change_pct": 1.43,
-      "reason": "반도체·AI 주도주 급락 속 방어적 대형주로 자금 유입, 52주 고점 부근 유지(추정)"
+      "name_kr": "셔윈윌리엄스",
+      "ticker": "SHW",
+      "change_pct": 2.4,
+      "reason": "다우 구성 종목으로 반등 주도 (등락률 추정)"
     },
     {
-      "name_kr": "마이크로소프트",
-      "ticker": "MSFT",
-      "change_pct": 0.74,
-      "reason": "나스닥 약세 속에서도 소프트웨어·대형주 상대 강세(추정)"
+      "name_kr": "세일즈포스",
+      "ticker": "CRM",
+      "change_pct": 2.04,
+      "reason": "기술주 급락 속 상승해 다우 반등 견인 (등락률 추정)"
     }
   ],
   "movers_down": [
     {
-      "name_kr": "AMD",
-      "ticker": "AMD",
-      "change_pct": -8.86,
-      "reason": "AI 반도체주 동반 투매로 급락(구체적 원인 미확인)"
+      "name_kr": "암바렐라",
+      "ticker": "AMBA",
+      "change_pct": -19.77,
+      "reason": "실적·전망이 시장 기대에 못 미쳐 19% 넘게 폭락"
+    },
+    {
+      "name_kr": "오라클",
+      "ticker": "ORCL",
+      "change_pct": -5.13,
+      "reason": "AI 투자 수익성 우려로 약세"
+    },
+    {
+      "name_kr": "마이크론",
+      "ticker": "MU",
+      "change_pct": -4.53,
+      "reason": "반도체주 차익 실현·고평가 우려"
     },
     {
       "name_kr": "엔비디아",
       "ticker": "NVDA",
-      "change_pct": -5.86,
-      "reason": "AI 반도체 차익실현·매도세 확산, 50일선 대비 큰 폭 하회"
-    },
-    {
-      "name_kr": "메타",
-      "ticker": "META",
-      "change_pct": -1.3,
-      "reason": "나스닥 약세에 동조 하락(추정)"
-    },
-    {
-      "name_kr": "아마존",
-      "ticker": "AMZN",
-      "change_pct": -1.21,
-      "reason": "기술주 전반 약세에 동조(추정)"
+      "change_pct": -3.91,
+      "reason": "장중 9% 넘게 급락 후 낙폭 축소, 3.91% 하락 마감"
     },
     {
       "name_kr": "알파벳",
       "ticker": "GOOGL",
-      "change_pct": -1.08,
-      "reason": "기술주 약세 및 50일선 하회 지속(추정)"
+      "change_pct": -2.13,
+      "reason": "AI 수익성 우려로 2% 넘게 하락"
     }
   ],
   "themes": [
     {
       "name": "반도체",
       "tag": "약세",
-      "comment": "NVDA -5.9%, AMD -8.9% 급락, 인버스 ETF 급등. SOX 낙폭 큰 것으로 추정."
+      "comment": "AI 수익성 우려에 엔비디아·마이크론 하락, 전일 SOX -7.9% 급락 후 약세 지속"
     },
     {
       "name": "자동차",
       "tag": "중립",
-      "comment": "테슬라(TSLA) -0.2%로 보합권."
+      "comment": "뚜렷한 재료 없이 보합권 (확인된 데이터 제한)"
     },
     {
       "name": "2차전지",
       "tag": "중립",
-      "comment": "관련 수치 미확보로 방향성 판단 유보(추정)."
+      "comment": "특이 재료 미확인, 보합권 추정"
     },
     {
       "name": "대형기술주",
-      "tag": "혼조",
-      "comment": "애플 +1.4%, 마이크로소프트 +0.7% vs 알파벳·아마존·메타 -1%대."
+      "tag": "약세",
+      "comment": "알파벳·오라클 하락, 나스닥 장중 -4.6%까지 밀렸다가 낙폭 회복"
     },
     {
       "name": "소프트웨어",
-      "tag": "중립",
-      "comment": "마이크로소프트 +0.7%로 상대적 안정. 업종 전체 수치는 미확보(추정)."
+      "tag": "혼조",
+      "comment": "세일즈포스·IBM 상승, 오라클 하락으로 엇갈림"
     },
     {
       "name": "양자컴퓨터",
       "tag": "고변동",
-      "comment": "수치 미확보. 위험자산 회피 국면에서 변동성 확대 가능성(추정)."
+      "comment": "위험자산 변동성 확대로 등락 큼 (구체 수치 미확인)"
     },
     {
       "name": "비트코인",
-      "tag": "약세",
-      "comment": "약 $59,800로 -2.3%, 6만 달러 하회."
+      "tag": "중립",
+      "comment": "약 6만 3백 달러 부근, 약 +1% 반등 (추정)"
     }
   ],
   "macro": [
@@ -209,9 +245,9 @@
       "emoji": "🏦",
       "label": "미 10년물 국채금리",
       "value": "미확인",
-      "delta": "—",
-      "dir": "neu",
-      "text": "수치 미확보. 주식 약세 속 금리 방향은 추후 확인 필요(추정)."
+      "delta": "▼ 하락",
+      "dir": "down",
+      "text": "근원 물가가 강했음에도 국채금리는 하락 (구체 수치 미확인)"
     },
     {
       "emoji": "🪙",
@@ -219,7 +255,7 @@
       "value": "미확인",
       "delta": "—",
       "dir": "neu",
-      "text": "최신 FOMC 전망 미확보. 공식 일정 확인 필요."
+      "text": "추수감사절 연휴로 시장 휴장, 12월 FOMC 기대 주목"
     },
     {
       "emoji": "💱",
@@ -227,41 +263,51 @@
       "value": "미확인",
       "delta": "—",
       "dir": "neu",
-      "text": "위험회피 심리 확산 시 원화 약세 압력 가능(추정)."
+      "text": "위험회피 심리 확대 시 원화 약세 압력 가능 (수치 미확인)"
     },
     {
       "emoji": "🛢️",
       "label": "WTI 유가",
-      "value": "미확인",
-      "delta": "—",
-      "dir": "neu",
-      "text": "수치 미확보."
+      "value": "$84.14",
+      "delta": "▲ +2.55%",
+      "dir": "up",
+      "text": "호르무즈 해협 인근 선박 공격 보도로 공급 우려, 장중 80.13달러에서 반등"
     },
     {
       "emoji": "📉",
       "label": "코스피 동향",
-      "value": "약세 예상",
-      "delta": "추정",
+      "value": "미확인",
+      "delta": "약세 예상",
       "dir": "down",
-      "text": "미 반도체 급락과 EWY·야간선물 약세 추정으로 반도체 대형주 중심 부담 예상."
+      "text": "미 반도체 약세로 삼성전자·SK하이닉스 부담 예상 (추정)"
     }
   ],
   "schedule": {
     "today": [
-      "미국 주요 경제지표 및 기업 실적 일정은 공식 캘린더 확인 필요"
+      "미국 증시 추수감사절 휴장 (11/26)",
+      "한국 장 개장, 미국 반도체 약세 영향 주목"
     ],
     "this_week": [
-      "미국 추수감사절(11월 26일 목) 휴장, 27일 조기 마감"
+      "11/27(금) 미국 블랙프라이데이, 오후 1시 조기 폐장"
     ],
     "this_month": [
-      "12월 FOMC 회의 및 11월 고용보고서 발표 전 경계감(일정 확인 필요)"
+      "12월 초 미 고용지표 발표 예정 (추정)",
+      "12월 FOMC 회의 (추정)"
     ]
   },
   "disclaimer": "본 리포트는 공개 뉴스 기반 자동 요약으로 투자 자문이 아닙니다. 일부 미확보 수치는 '추정'으로 표기됩니다.",
   "sources": [
     {
-      "title": "Financial Modeling Prep (시세 데이터)",
-      "url": "https://financialmodelingprep.com"
+      "title": "MTN 뉴욕마감",
+      "url": "https://news.mtn.co.kr/article/2026112606370361719"
+    },
+    {
+      "title": "서울신문 서울데이터랩 (11/24 마감, SOX)",
+      "url": "https://seoul.co.kr/news/economy/2026/11/25/20261125500004"
+    },
+    {
+      "title": "investingLive FX wrap 25 Nov",
+      "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-25-nov-it-s-a-wrap-s-p-500-and-nasdaq-pare-steep-losses/"
     },
     {
       "title": "Finnhub (정규장 종가)",
