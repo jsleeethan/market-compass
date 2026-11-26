@@ -1,21 +1,24 @@
 {
-  "date": "2026-11-26",
-  "date_display": "2026년 11월 26일",
+  "date": "2026-11-27",
+  "date_display": "2026년 11월 27일",
   "indices_us": [
     {
       "name": "DOW JONES",
       "value": "50,182.95",
-      "change_pct": 0.31
+      "change_pct": 0.31,
+      "note": "11/25 종가 (11/26 추수감사절 휴장)"
     },
     {
       "name": "S&P 500",
       "value": "7,182.78",
-      "change_pct": -0.29
+      "change_pct": -0.29,
+      "note": "11/25 종가 (11/26 추수감사절 휴장)"
     },
     {
       "name": "NASDAQ",
       "value": "23,585.80",
-      "change_pct": -0.66
+      "change_pct": -0.66,
+      "note": "11/25 종가 (11/26 추수감사절 휴장)"
     }
   ],
   "indices_extra": [
@@ -23,25 +26,25 @@
       "name": "필라델피아 반도체 (SOX)",
       "value": "미확인",
       "change_pct": -0.5,
-      "note": "추정 (엔비디아 -3.9%, 마이크론 -4.5% 기반; 전일 -7.88%)"
+      "note": "추정 (11/25 기준, 11/26 휴장)"
     },
     {
       "name": "MSCI 한국 (EWY)",
       "value": "$129.19",
       "change_pct": -1.16,
-      "note": "(반도체 약세 반영)"
+      "note": "11/25 종가 기준 (11/26 휴장)"
     },
     {
       "name": "MSCI 신흥국 (EEM)",
       "value": "$56.40",
       "change_pct": -0.51,
-      "note": ""
+      "note": "11/25 종가 기준 (11/26 휴장)"
     },
     {
       "name": "코스피200 야간선물",
       "value": "미확인",
-      "change_pct": -1.0,
-      "note": "추정"
+      "change_pct": 0.5,
+      "note": "추정 (미 선물 +0.7% 반등 감안, 수치 미확인)"
     }
   ],
   "heatmap": [
@@ -237,25 +240,25 @@
     {
       "name": "비트코인",
       "tag": "중립",
-      "comment": "약 6만 3백 달러 부근, 약 +1% 반등 (추정)"
+      "comment": "약 6만 500달러 부근에서 보합 (추정)"
     }
   ],
   "macro": [
     {
       "emoji": "🏦",
       "label": "미 10년물 국채금리",
-      "value": "미확인",
-      "delta": "▼ 하락",
-      "dir": "down",
-      "text": "근원 물가가 강했음에도 국채금리는 하락 (구체 수치 미확인)"
+      "value": "4.85%",
+      "delta": "— 11/25 종가",
+      "dir": "neu",
+      "text": "11/25 마감 기준 약 4.85%, 11/26 채권시장 휴장"
     },
     {
       "emoji": "🪙",
       "label": "연준 · FOMC",
-      "value": "미확인",
-      "delta": "—",
-      "dir": "neu",
-      "text": "추수감사절 연휴로 시장 휴장, 12월 FOMC 기대 주목"
+      "value": "인상 우려",
+      "delta": "12/9~10 FOMC",
+      "dir": "up",
+      "text": "CME FedWatch 기준 12월 금리 인상 확률 약 97%로 반영"
     },
     {
       "emoji": "💱",
@@ -268,46 +271,50 @@
     {
       "emoji": "🛢️",
       "label": "WTI 유가",
-      "value": "$84.14",
-      "delta": "▲ +2.55%",
+      "value": "$84.59",
+      "delta": "▲ +1.1%",
       "dir": "up",
-      "text": "호르무즈 해협 인근 선박 공격 보도로 공급 우려, 장중 80.13달러에서 반등"
+      "text": "호르무즈 해협 인근 공급 우려로 80달러 중반 유지 (11/26 시간외 기준 추정)"
     },
     {
       "emoji": "📉",
       "label": "코스피 동향",
       "value": "미확인",
-      "delta": "약세 예상",
-      "dir": "down",
-      "text": "미 반도체 약세로 삼성전자·SK하이닉스 부담 예상 (추정)"
+      "delta": "변동성 주의",
+      "dir": "neu",
+      "text": "11/26 마감 수치 미확인. 미 선물 반등(+0.7%)과 반도체 약세가 엇갈릴 전망 (추정)"
     }
   ],
   "schedule": {
     "today": [
-      "미국 증시 추수감사절 휴장 (11/26)",
-      "한국 장 개장, 미국 반도체 약세 영향 주목"
+      "미국 증시 단축장 (11/27 블랙프라이데이, 주식 오후 1시·채권 오후 2시 마감)"
     ],
     "this_week": [
-      "11/27(금) 미국 블랙프라이데이, 오후 1시 조기 폐장"
+      "11/27(금) 블랙프라이데이 소비 동향 주목"
     ],
     "this_month": [
-      "12월 초 미 고용지표 발표 예정 (추정)",
-      "12월 FOMC 회의 (추정)"
+      "12/1 ISM 제조업 PMI·JOLTS 구인건수",
+      "12/4 11월 고용보고서 (비농업 신규고용 예상 9만 명, 실업률 4.1%)",
+      "12/9~10 FOMC 및 소비자물가지수(CPI) 발표"
     ]
   },
   "disclaimer": "본 리포트는 공개 뉴스 기반 자동 요약으로 투자 자문이 아닙니다. 일부 미확보 수치는 '추정'으로 표기됩니다.",
   "sources": [
     {
-      "title": "MTN 뉴욕마감",
-      "url": "https://news.mtn.co.kr/article/2026112606370361719"
+      "title": "The Company Chronicle - Before the bell (11/26)",
+      "url": "https://thecompanychronicle.com/story/before-the-bell-thanksgiving-november-26-2026"
     },
     {
-      "title": "서울신문 서울데이터랩 (11/24 마감, SOX)",
-      "url": "https://seoul.co.kr/news/economy/2026/11/25/20261125500004"
+      "title": "Yahoo Finance - Stock market today (11/25)",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
     },
     {
       "title": "investingLive FX wrap 25 Nov",
       "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-25-nov-it-s-a-wrap-s-p-500-and-nasdaq-pare-steep-losses/"
+    },
+    {
+      "title": "MTN 뉴욕마감",
+      "url": "https://news.mtn.co.kr/article/2026112606370361719"
     },
     {
       "title": "Finnhub (정규장 종가)",
