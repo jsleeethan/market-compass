@@ -1,50 +1,50 @@
 {
-  "date": "2026-11-27",
-  "date_display": "2026년 11월 27일",
+  "date": "2026-11-28",
+  "date_display": "2026년 11월 28일",
   "indices_us": [
     {
       "name": "DOW JONES",
-      "value": "50,182.95",
-      "change_pct": 0.31,
-      "note": "11/25 종가 (11/26 추수감사절 휴장)"
+      "value": "50,774.94",
+      "change_pct": 1.26,
+      "note": "11/27 종가 (블랙프라이데이 단축장, 11/25 대비)"
     },
     {
       "name": "S&P 500",
-      "value": "7,182.78",
-      "change_pct": -0.29,
-      "note": "11/25 종가 (11/26 추수감사절 휴장)"
+      "value": "7,297.49",
+      "change_pct": 1.62,
+      "note": "11/27 종가 (단축장, 11/25 대비)"
     },
     {
       "name": "NASDAQ",
-      "value": "23,585.80",
-      "change_pct": -0.66,
-      "note": "11/25 종가 (11/26 추수감사절 휴장)"
+      "value": "24,129.50",
+      "change_pct": 2.32,
+      "note": "11/27 종가 (단축장, 11/25 대비)"
     }
   ],
   "indices_extra": [
     {
       "name": "필라델피아 반도체 (SOX)",
-      "value": "미확인",
-      "change_pct": -0.5,
-      "note": "추정 (11/25 기준, 11/26 휴장)"
+      "value": "9,186.71",
+      "change_pct": 4.76,
+      "note": "30개 구성종목 전부 상승. 종가 직후 시세로 최종치와 다소 차이 가능"
     },
     {
       "name": "MSCI 한국 (EWY)",
-      "value": "$129.19",
-      "change_pct": -1.16,
-      "note": "11/25 종가 기준 (11/26 휴장)"
+      "value": "$135.86",
+      "change_pct": 5.16,
+      "note": "(SK하이닉스 ADR +7.5% 등 메모리 강세 감안, 수치 미확인)"
     },
     {
       "name": "MSCI 신흥국 (EEM)",
-      "value": "$56.40",
-      "change_pct": -0.51,
-      "note": "11/25 종가 기준 (11/26 휴장)"
+      "value": "$58.10",
+      "change_pct": 3.01,
+      "note": "(위험자산 선호 회복 감안, 수치 미확인)"
     },
     {
       "name": "코스피200 야간선물",
       "value": "미확인",
-      "change_pct": 0.5,
-      "note": "추정 (미 선물 +0.7% 반등 감안, 수치 미확인)"
+      "change_pct": 1.5,
+      "note": "추정 (미 반도체 급반등 감안, 수치 미확인)"
     }
   ],
   "heatmap": [
@@ -54,22 +54,27 @@
         {
           "ticker": "NVDA",
           "weight": 30,
-          "change_pct": -3.91
-        },
-        {
-          "ticker": "MU",
-          "weight": 5,
-          "change_pct": -4.53
-        },
-        {
-          "ticker": "AMD",
-          "weight": 6,
-          "change_pct": -1.75
+          "change_pct": 0.8
         },
         {
           "ticker": "AVGO",
           "weight": 15,
-          "change_pct": -0.07
+          "change_pct": 3.82
+        },
+        {
+          "ticker": "AMD",
+          "weight": 6,
+          "change_pct": 4.56
+        },
+        {
+          "ticker": "MU",
+          "weight": 5,
+          "change_pct": 7.6
+        },
+        {
+          "ticker": "SNDK",
+          "weight": 2,
+          "change_pct": 15.96
         }
       ]
     },
@@ -79,22 +84,22 @@
         {
           "ticker": "AAPL",
           "weight": 28,
-          "change_pct": 0.43
+          "change_pct": 0.83
         },
         {
           "ticker": "MSFT",
           "weight": 24,
-          "change_pct": -1.25
+          "change_pct": 0.6
         },
         {
           "ticker": "GOOGL",
           "weight": 20,
-          "change_pct": -2.13
+          "change_pct": 0.68
         },
         {
-          "ticker": "ORCL",
-          "weight": 5,
-          "change_pct": -5.13
+          "ticker": "AMZN",
+          "weight": 18,
+          "change_pct": 3.96
         }
       ]
     },
@@ -104,17 +109,17 @@
         {
           "ticker": "TSLA",
           "weight": 40,
-          "change_pct": -1.18
+          "change_pct": 5.22
         },
         {
           "ticker": "GM",
           "weight": 4,
-          "change_pct": 2.03
+          "change_pct": 1.44
         },
         {
           "ticker": "F",
           "weight": 3,
-          "change_pct": 1.84
+          "change_pct": 1.31
         }
       ]
     },
@@ -124,12 +129,12 @@
         {
           "ticker": "ALB",
           "weight": 3,
-          "change_pct": 1.08
+          "change_pct": 1.75
         },
         {
           "ticker": "QS",
           "weight": 2,
-          "change_pct": 5.76
+          "change_pct": 2.04
         }
       ]
     },
@@ -139,118 +144,111 @@
         {
           "ticker": "CRM",
           "weight": 10,
-          "change_pct": 2.04
-        },
-        {
-          "ticker": "IBM",
-          "weight": 8,
-          "change_pct": 3.33
+          "change_pct": 0.51
         },
         {
           "ticker": "ORCL",
           "weight": 8,
-          "change_pct": -5.13
+          "change_pct": 3.13
+        },
+        {
+          "ticker": "IBM",
+          "weight": 8,
+          "change_pct": 1.89
         }
       ]
     }
   ],
   "movers_up": [
     {
-      "name_kr": "IBM",
-      "ticker": "IBM",
-      "change_pct": 3.33,
-      "reason": "다우 반등을 이끈 종목 중 하나 (등락률 추정)"
+      "name_kr": "샌디스크",
+      "ticker": "SNDK",
+      "change_pct": 15.96,
+      "reason": "메모리·저장장치 랠리 속 반도체 반등을 주도"
     },
     {
-      "name_kr": "셔윈윌리엄스",
-      "ticker": "SHW",
-      "change_pct": 2.4,
-      "reason": "다우 구성 종목으로 반등 주도 (등락률 추정)"
-    },
-    {
-      "name_kr": "세일즈포스",
-      "ticker": "CRM",
-      "change_pct": 2.04,
-      "reason": "기술주 급락 속 상승해 다우 반등 견인 (등락률 추정)"
-    }
-  ],
-  "movers_down": [
-    {
-      "name_kr": "암바렐라",
-      "ticker": "AMBA",
-      "change_pct": -19.77,
-      "reason": "실적·전망이 시장 기대에 못 미쳐 19% 넘게 폭락"
-    },
-    {
-      "name_kr": "오라클",
-      "ticker": "ORCL",
-      "change_pct": -5.13,
-      "reason": "AI 투자 수익성 우려로 약세"
+      "name_kr": "시게이트",
+      "ticker": "STX",
+      "change_pct": 7.9,
+      "reason": "골드만삭스의 DRAM 공급 부족 전망으로 메모리·스토리지주 동반 강세"
     },
     {
       "name_kr": "마이크론",
       "ticker": "MU",
-      "change_pct": -4.53,
-      "reason": "반도체주 차익 실현·고평가 우려"
+      "change_pct": 7.6,
+      "reason": "골드만삭스 DRAM 공급 부족 전망에 메모리 랠리"
+    },
+    {
+      "name_kr": "SK하이닉스",
+      "ticker": "SKHY",
+      "change_pct": 7.52,
+      "reason": "메모리 업황 개선 기대에 동반 상승"
+    },
+    {
+      "name_kr": "웨스턴디지털",
+      "ticker": "WDC",
+      "change_pct": 7.22,
+      "reason": "스토리지·메모리 업종 강세 동참"
+    },
+    {
+      "name_kr": "테슬라",
+      "ticker": "TSLA",
+      "change_pct": 5.22,
+      "reason": ""
     },
     {
       "name_kr": "엔비디아",
       "ticker": "NVDA",
-      "change_pct": -3.91,
-      "reason": "장중 9% 넘게 급락 후 낙폭 축소, 3.91% 하락 마감"
-    },
-    {
-      "name_kr": "알파벳",
-      "ticker": "GOOGL",
-      "change_pct": -2.13,
-      "reason": "AI 수익성 우려로 2% 넘게 하락"
+      "change_pct": 0.8,
+      "reason": ""
     }
   ],
+  "movers_down": [],
   "themes": [
     {
       "name": "반도체",
-      "tag": "약세",
-      "comment": "AI 수익성 우려에 엔비디아·마이크론 하락, 전일 SOX -7.9% 급락 후 약세 지속"
+      "tag": "강세",
+      "comment": "SOX +4.69%, 30개 종목 전부 상승. 메모리주가 반등 주도"
     },
     {
       "name": "자동차",
       "tag": "중립",
-      "comment": "뚜렷한 재료 없이 보합권 (확인된 데이터 제한)"
+      "comment": "테슬라 등 개별 수치 미확인, 기술주 반등에 동조했을 것으로 추정"
     },
     {
       "name": "2차전지",
       "tag": "중립",
-      "comment": "특이 재료 미확인, 보합권 추정"
+      "comment": "특이 재료 미확인, 시장 반등에 동조 추정"
     },
     {
       "name": "대형기술주",
-      "tag": "약세",
-      "comment": "알파벳·오라클 하락, 나스닥 장중 -4.6%까지 밀렸다가 낙폭 회복"
+      "tag": "강세",
+      "comment": "나스닥100 +2.61%로 이달 급락 후 기술주 매수세 유입"
     },
     {
       "name": "소프트웨어",
-      "tag": "혼조",
-      "comment": "세일즈포스·IBM 상승, 오라클 하락으로 엇갈림"
+      "tag": "중립",
+      "comment": "개별 수치 미확인, 나스닥 반등에 동조 추정"
     },
     {
       "name": "양자컴퓨터",
       "tag": "고변동",
-      "comment": "위험자산 변동성 확대로 등락 큼 (구체 수치 미확인)"
+      "comment": "구체 수치 미확인, 위험선호 회복 시 변동성 확대 추정"
     },
     {
       "name": "비트코인",
       "tag": "중립",
-      "comment": "약 6만 500달러 부근에서 보합 (추정)"
+      "comment": "11/27 시세 미확인 (직전 약 6만 달러 부근, 추정)"
     }
   ],
   "macro": [
     {
       "emoji": "🏦",
       "label": "미 10년물 국채금리",
-      "value": "4.85%",
-      "delta": "— 11/25 종가",
+      "value": "약 4.85%",
+      "delta": "— 11/25 기준",
       "dir": "neu",
-      "text": "11/25 마감 기준 약 4.85%, 11/26 채권시장 휴장"
+      "text": "11/27 종가는 미확인. 11/25 마감 약 4.85% (추정)"
     },
     {
       "emoji": "🪙",
@@ -258,7 +256,7 @@
       "value": "인상 우려",
       "delta": "12/9~10 FOMC",
       "dir": "up",
-      "text": "CME FedWatch 기준 12월 금리 인상 확률 약 97%로 반영"
+      "text": "CME FedWatch에서 12월 금리 인상 가능성이 크게 반영된 상태"
     },
     {
       "emoji": "💱",
@@ -266,55 +264,51 @@
       "value": "미확인",
       "delta": "—",
       "dir": "neu",
-      "text": "위험회피 심리 확대 시 원화 약세 압력 가능 (수치 미확인)"
+      "text": "수치 미확인. 시티는 달러가 주요 통화 대비 강세였다고 언급"
     },
     {
       "emoji": "🛢️",
       "label": "WTI 유가",
-      "value": "$84.59",
-      "delta": "▲ +1.1%",
-      "dir": "up",
-      "text": "호르무즈 해협 인근 공급 우려로 80달러 중반 유지 (11/26 시간외 기준 추정)"
+      "value": "약 $84",
+      "delta": "— 추정",
+      "dir": "neu",
+      "text": "호르무즈 해협 공급 우려로 80달러 중반 유지 (11/26 기준 추정)"
     },
     {
       "emoji": "📉",
       "label": "코스피 동향",
       "value": "미확인",
-      "delta": "변동성 주의",
+      "delta": "반등 기대",
       "dir": "neu",
-      "text": "11/26 마감 수치 미확인. 미 선물 반등(+0.7%)과 반도체 약세가 엇갈릴 전망 (추정)"
+      "text": "11/27 종가 미확인. 미 반도체 급반등으로 월요일 반등 기대 (추정)"
     }
   ],
   "schedule": {
     "today": [
-      "미국 증시 단축장 (11/27 블랙프라이데이, 주식 오후 1시·채권 오후 2시 마감)"
+      "미국 증시 휴장 (토요일). 다음 정규장은 11/30(월)"
     ],
     "this_week": [
-      "11/27(금) 블랙프라이데이 소비 동향 주목"
+      "11/30(월) 미국 증시 정규장 재개",
+      "12/1(화) ISM 제조업 PMI · JOLTS 구인건수"
     ],
     "this_month": [
-      "12/1 ISM 제조업 PMI·JOLTS 구인건수",
       "12/4 11월 고용보고서 (비농업 신규고용 예상 9만 명, 실업률 4.1%)",
       "12/9~10 FOMC 및 소비자물가지수(CPI) 발표"
     ]
   },
-  "disclaimer": "본 리포트는 공개 뉴스 기반 자동 요약으로 투자 자문이 아닙니다. 일부 미확보 수치는 '추정'으로 표기됩니다.",
+  "disclaimer": "본 리포트는 공개 뉴스 기반 자동 요약으로 투자 자문이 아닙니다. 일부 미확보 수치는 '추정'으로 표기됩니다. 히트맵의 MU·SNDK 외 종목 등락률은 SOX 전 종목 상승 사실에 근거한 추정치입니다.",
   "sources": [
+    {
+      "title": "TradingKey - Dow Gains Nearly 600 Points in Half-Day Session",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262325775-nasdaq-leads-black-friday-rally-dow-posts-best-week-since-2022-tradingkey"
+    },
+    {
+      "title": "JBizNews - U.S. Stocks Close Sharply Higher in Shortened Black Friday Session",
+      "url": "https://jbiznews.com/u-s-stocks-close-sharply-higher-in-shortened-black-friday-session-and-post-big-weekly-gains-dow-jones-industrial-average-up-1-18-sp-500-up-1-60-nasdaq-composite-up-2-31/"
+    },
     {
       "title": "The Company Chronicle - Before the bell (11/26)",
       "url": "https://thecompanychronicle.com/story/before-the-bell-thanksgiving-november-26-2026"
-    },
-    {
-      "title": "Yahoo Finance - Stock market today (11/25)",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
-    },
-    {
-      "title": "investingLive FX wrap 25 Nov",
-      "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-25-nov-it-s-a-wrap-s-p-500-and-nasdaq-pare-steep-losses/"
-    },
-    {
-      "title": "MTN 뉴욕마감",
-      "url": "https://news.mtn.co.kr/article/2026112606370361719"
     },
     {
       "title": "Finnhub (정규장 종가)",
